@@ -1,0 +1,700 @@
+
+============================================================
+Solver: 2017GARR05 | BIC: hybrid | Consensus: hybrid | R²=0.4126 MAE=0.94s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 2684.118535 2646.476984   0.000000    0.000000      0.000000        best 7684.736612   0.412590 0.411693  6                False
+  power_law 2737.494384 2718.669019  53.375849   72.192035     53.375849 very strong 7839.076281   0.400793 0.400335  3                 True
+exponential 2743.607823 2724.782458  59.489288   78.305474     59.489288 very strong 7851.270785   0.399861 0.399402  3                 True
+
+Params (±SE):
+  power_law       a=18.85±0.39  b=0.188±0.016  c=2±0.53
+  exponential     a=5.535±0.13  b=0.002266±9.2e-05  c=6.269±0.03
+  hybrid          w=0.9203±4.9e+04  a=10.86±5.8e+05  b=0.1932±0.061  d=35.43±2.2e+07  g=0.00227±0.00031  c=4.071±1.2  [NOT IDENT]
+
+
+============================================================
+Solver: 2013WALL03 | BIC: hybrid | Consensus: hybrid | R²=0.3581 MAE=1.18s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 3865.833208 3828.873528   0.000000    0.000000      0.000000        best 10412.301491   0.358137 0.357038  6                False
+  power_law 3898.625921 3880.140940  32.792714   51.267413     32.792714 very strong 10583.530110   0.347582 0.347024  3                 True
+exponential 3930.972893 3912.487912  65.139686   83.614384     65.139686 very strong 10681.459089   0.341545 0.340982  3                 True
+
+Params (±SE):
+  power_law       a=20.62±0.49  b=0.1902±0.019  c=3.609±0.68
+  exponential     a=7.049±0.22  b=0.003797±0.00018  c=8.465±0.035
+  hybrid          w=0.8192±1e+05  a=16.1±2e+06  b=0.1211±0.053  d=20.54±1.2e+07  g=0.005703±0.00091  c=3.225±2.7  [NOT IDENT]
+
+
+============================================================
+Solver: 2009LIUE01 | BIC: hybrid | Consensus: hybrid | R²=0.6437 MAE=1.30s
+============================================================
+      model         bic        aicc   delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 4003.103676 3966.157734    0.000000    0.000000      0.000000        best 10830.519091   0.643732 0.643120  6                False
+  power_law 4027.804616 4009.326492   24.700940   43.168758     24.700940 very strong 10983.619965   0.638695 0.638386  3                 True
+exponential 5093.297658 5074.819534 1090.193982 1108.661800   1090.193982 very strong 14886.937242   0.510296 0.509877  3                 True
+
+Params (±SE):
+  power_law       a=48.2±1  b=0.3569±0.0086  c=6.34±0.17
+  exponential     a=14.95±0.34  b=0.00653±0.00022  c=9.746±0.038
+  hybrid          w=0.7022±2.6e+05  a=48.93±1.8e+07  b=0.2439±0.024  d=55.8±4.9e+07  g=0.1246±0.015  c=4.162±0.74  [NOT IDENT]
+
+
+============================================================
+Solver: 2012MAHV01 | BIC: power_law | Consensus: hybrid | R²=0.6421 MAE=1.08s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+  power_law 2939.912856 2921.461452   0.000000    0.000000      0.000000        best 8040.422565   0.642113 0.641804  3                 True
+     hybrid 2964.371184 2927.478775  24.458329    6.017323     24.458329 very strong 8040.422580   0.642113 0.641494  6                False
+exponential 3144.836098 3126.384695 204.923243  204.923243    204.923243 very strong 8529.121072   0.620361 0.620033  3                 True
+
+Params (±SE):
+  power_law       a=46.94±0.96  b=0.4192±0.0082  c=6.359±0.11
+  exponential     a=21.24±0.39  b=0.01534±0.00041  c=8.598±0.028
+  hybrid          w=1±1.7e+05  a=46.94±7.8e+06  b=0.4192±0.013  d=18.98±9.7e+06  g=1e-08±36  c=6.358±3.2e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2014ZAKR01 | BIC: power_law | Consensus: power_law | R²=0.2436 MAE=1.17s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+  power_law 3259.679849 3241.437280   0.000000    0.000000      0.000000        best 8794.818962   0.243596 0.242895  3                 True
+     hybrid 3283.931177 3247.457187  24.251328    6.019908     24.251328 very strong 8794.822605   0.243596 0.242192  6                False
+exponential 3354.677593 3336.435023  94.997743   94.997743     94.997743 very strong 9056.503197   0.221090 0.220368  3                 True
+
+Params (±SE):
+  power_law       a=16.91±0.81  b=0.3003±0.022  c=7.311±0.25
+  exponential     a=5.418±0.24  b=0.004977±0.00033  c=9.104±0.034
+  hybrid          w=0.6836±4e+05  a=24.74±1.4e+07  b=0.3003±0.037  d=2.822±1.5e+06  g=1e-08±0.013  c=6.418±1.1e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2012PARK03 | BIC: hybrid | Consensus: hybrid | R²=0.7502 MAE=0.65s
+============================================================
+      model        bic       aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 202.145905 165.924525   0.000000    0.000000      0.000000        best 3264.772606   0.750184 0.749700  6                False
+exponential 532.659356 514.542851 330.513451  348.618327    330.513451 very strong 3659.518678   0.719978 0.719708  3                 True
+  power_law 665.799574 647.683070 463.653669  481.758545    463.653669 very strong 3819.743698   0.707718 0.707436  3                 True
+
+Params (±SE):
+  power_law       a=28.97±0.48  b=0.2667±0.0087  c=2±0.22
+  exponential     a=11.3±0.17  b=0.006028±0.00014  c=6.009±0.022
+  hybrid          w=0.7917±9.2e+04  a=17.15±2e+06  b=0.1645±0.028  d=35.1±1.5e+07  g=0.008231±0.00045  c=2±0.87  [NOT IDENT]
+
+
+============================================================
+Solver: 2015KUCA01 | BIC: hybrid | Consensus: hybrid | R²=0.5020 MAE=1.15s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 2995.464201 2959.374219   0.000000    0.000000      0.000000        best 8015.517884   0.502022 0.501037  6                False
+exponential 3025.230900 3007.179967  29.766699   47.805747     29.766699 very strong 8158.702649   0.493127 0.492626  3                 True
+  power_law 3115.011867 3096.960934 119.547667  137.586715    119.547667 very strong 8403.248693   0.477934 0.477418  3                 True
+
+Params (±SE):
+  power_law       a=24.91±0.48  b=0.1893±0.016  c=2±0.72
+  exponential     a=8.318±0.2  b=0.003535±0.00013  c=7.952±0.038
+  hybrid          w=0.8989±5.7e+04  a=13.32±8.4e+05  b=0.1103±0.064  d=52.89±3e+07  g=0.004165±0.00044  c=2.747±3.8  [NOT IDENT]
+
+
+============================================================
+Solver: 2014SEBA01 | BIC: hybrid | Consensus: hybrid | R²=0.6158 MAE=0.93s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 1723.611782 1687.674419   0.000000    0.000000      0.000000        best 5216.738354   0.615822 0.615042  6                False
+  power_law 1952.652302 1934.677525 229.040520  247.003106    229.040520 very strong 5681.628454   0.581586 0.581161  3                 True
+exponential 2693.588725 2675.613948 969.976943  987.939529    969.976943 very strong 7295.198861   0.462757 0.462212  3                 True
+
+Params (±SE):
+  power_law       a=29.64±0.71  b=0.3177±0.011  c=4.582±0.2
+  exponential     a=6.256±0.15  b=0.002124±9.3e-05  c=7.011±0.047
+  hybrid          w=0.6528±2.1e+05  a=52.85±1.7e+07  b=0.7271±0.034  d=11.15±6.7e+06  g=0.001092±9.7e-05  c=6.511±0.1  [NOT IDENT]
+
+
+============================================================
+Solver: 2013BURL01 | BIC: hybrid | Consensus: hybrid | R²=0.4845 MAE=1.18s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 5438.854651 5403.160102   0.000000    0.000000      0.000000        best 18913.649097   0.484482 0.483392  6                False
+  power_law 5493.876472 5476.022851  55.021821   72.862749     55.021821 very strong 19445.030924   0.469998 0.469439  3                 True
+exponential 5796.458919 5778.605298 357.604268  375.445196    357.604268 very strong 21625.490019   0.410567 0.409945  3                 True
+
+Params (±SE):
+  power_law       a=52.57±1.6  b=0.4165±0.013  c=5.634±0.21
+  exponential     a=24.61±0.77  b=0.01899±0.00085  c=8.442±0.054
+  hybrid          w=0.6057±4.6e+05  a=44.06±3.3e+07  b=0.2379±0.051  d=54.5±6.3e+07  g=0.0664±0.0066  c=3.513±1.3  [NOT IDENT]
+
+
+============================================================
+Solver: 2010WEYE02 | BIC: hybrid | Consensus: hybrid | R²=0.5526 MAE=0.86s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 1641.697862 1606.022405   0.000000    0.000000      0.000000        best 4976.665862   0.552570 0.551621  6                False
+  power_law 1649.396327 1631.552231   7.698465   25.529827      7.698465      strong 5032.301871   0.547568 0.547089  3                 True
+exponential 1878.874434 1861.030338 237.176571  255.007933    237.176571 very strong 5456.112833   0.509465 0.508945  3                 True
+
+Params (±SE):
+  power_law       a=23.48±0.49  b=0.2322±0.013  c=3.021±0.38
+  exponential     a=7.68±0.18  b=0.004341±0.00016  c=7.221±0.032
+  hybrid          w=0.8072±1.1e+05  a=22.35±3e+06  b=0.2595±0.03  d=11.49±6.5e+06  g=0.004547±0.00092  c=4.582±0.62  [NOT IDENT]
+
+
+============================================================
+Solver: 2010HULL01 | BIC: power_law | Consensus: power_law | R²=0.3286 MAE=1.08s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+  power_law 2717.891487 2699.482810   0.000000    0.000000      0.000000        best 7519.167490   0.328640 0.328051  3                 True
+     hybrid 2741.267262 2704.460456  23.375775    4.977647     23.375775 very strong 7516.884155   0.328843 0.327665  6                False
+exponential 3025.033695 3006.625019 307.142209  307.142209    307.142209 very strong 8224.834489   0.265633 0.264989  3                 True
+
+Params (±SE):
+  power_law       a=22.41±0.89  b=0.3888±0.016  c=8.026±0.12
+  exponential     a=14.07±0.57  b=0.03164±0.0018  c=9.44±0.027
+  hybrid          w=0.7656±19  a=29.44±7.2e+02  b=0.4067±0.034  d=13.68±4.8e+02  g=1.561e-05±0.0019  c=5.064±3.7e+02  [NOT IDENT]
+
+
+============================================================
+Solver: 2008BARA01 | BIC: hybrid | Consensus: hybrid | R²=0.4872 MAE=1.08s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 2366.603439 2330.591290   0.000000    0.000000      0.000000        best 6498.311965   0.487159 0.486131  6                False
+exponential 2395.182007 2377.169912  28.578568   46.578622     28.578568 very strong 6613.212179   0.478091 0.477568  3                 True
+  power_law 2472.742108 2454.730014 106.138669  124.138724    106.138669 very strong 6786.356811   0.464426 0.463890  3                 True
+
+Params (±SE):
+  power_law       a=22.87±0.88  b=0.1331±0.018  c=2±1.4
+  exponential     a=7.075±0.17  b=0.003282±0.00013  c=10.37±0.035
+  hybrid          w=0.6122±1.6e+05  a=22.42±5.7e+06  b=0.06525±0.073  d=11.89±4.8e+06  g=0.004052±0.00046  c=2±11  [NOT IDENT]
+
+
+============================================================
+Solver: 2010THOM03 | BIC: power_law | Consensus: hybrid | R²=0.3653 MAE=1.28s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 3673.760015 3655.905337   0.000000    0.000000      0.000000        best 10259.272346   0.365279 0.364609  3                 True
+     hybrid 3697.623133 3661.926466  23.863117    6.021129     23.863117 very strong 10259.272348   0.365279 0.363938  6                False
+exponential 3699.487881 3681.633203  25.727866   25.727866     25.727866 very strong 10352.371010   0.359519 0.358844  3                 True
+
+Params (±SE):
+  power_law       a=26.28±1  b=0.3275±0.018  c=6.788±0.26
+  exponential     a=9.758±0.33  b=0.007356±0.00037  c=9.204±0.04
+  hybrid          w=1±4.8e+05  a=26.28±1.3e+07  b=0.3275±0.029  d=5.695±9.6e+06  g=1e-08±2.7e+03  c=6.789±2.7e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2016KELL12 | BIC: hybrid | Consensus: hybrid | R²=0.5474 MAE=1.34s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 3455.861278 3420.323362   0.000000    0.000000      0.000000        best  9477.748388   0.547387 0.546405  6                False
+  power_law 3458.992216 3441.216744   3.130938   20.893381      3.130938    positive  9570.154972   0.542974 0.542479  3                 True
+exponential 3947.375864 3929.600392 491.514586  509.277029    491.514586 very strong 11412.473803   0.454993 0.454403  3                 True
+
+Params (±SE):
+  power_law       a=39.41±1.1  b=0.3696±0.012  c=6.397±0.2
+  exponential     a=11.2±0.31  b=0.005719±0.00024  c=9.016±0.045
+  hybrid          w=0.8939±7.1e+04  a=39.77±3.2e+06  b=0.4877±0.042  d=29.5±2e+07  g=0.003183±0.0004  c=7.932±0.29  [NOT IDENT]
+
+
+============================================================
+Solver: 2014PETE03 | BIC: hybrid | Consensus: hybrid | R²=0.3832 MAE=1.39s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 4043.138619 4007.607228   0.000000    0.000000      0.000000        best 11718.094981   0.383162 0.381823  6                False
+  power_law 4112.460918 4094.688701  69.322299   87.081473     69.322299 very strong 12118.501772   0.362085 0.361393  3                 True
+exponential 4497.566039 4479.793822 454.427420  472.186594    454.427420 very strong 13925.341423   0.266973 0.266179  3                 True
+
+Params (±SE):
+  power_law       a=34.44±1.4  b=0.4346±0.017  c=9.248±0.16
+  exponential     a=7.287±0.3  b=0.004347±0.00028  c=10.57±0.052
+  hybrid          w=0.7938±1.6e+05  a=51.47±1e+07  b=0.9869±0.07  d=21.13±1.6e+07  g=0.002346±0.00023  c=10.38±0.066  [NOT IDENT]
+
+
+============================================================
+Solver: 2011WELC01 | BIC: power_law | Consensus: hybrid | R²=0.3221 MAE=1.38s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 4368.328780 4350.729764   0.000000    7.324914      0.000000        best 13769.724999   0.322109 0.321330  3                 True
+     hybrid 4378.589064 4343.404850  10.260284    0.000000     10.260284 very strong 13699.645067   0.325559 0.324008  6                False
+exponential 4520.170693 4502.571676 151.841912  159.166826    151.841912 very strong 14592.619482   0.281597 0.280772  3                 True
+
+Params (±SE):
+  power_law       a=26.43±1.1  b=0.2848±0.021  c=7.508±0.44
+  exponential     a=7.524±0.3  b=0.003982±0.00026  c=10.71±0.059
+  hybrid          w=0.8588±1.2e+05  a=26.93±3.7e+06  b=0.5111±0.085  d=23.14±1.9e+07  g=0.002375±0.00034  c=10.07±0.32  [NOT IDENT]
+
+
+============================================================
+Solver: 2014GOSL01 | BIC: power_law | Consensus: power_law | R²=0.2307 MAE=1.17s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+  power_law 2367.280973 2349.927553   0.000000    0.000000      0.000000        best 6373.941998   0.230659 0.229700  3                 True
+     hybrid 2390.644832 2355.952992  23.363859    6.025439     23.363859 very strong 6373.943236   0.230659 0.228739  6                False
+exponential 2445.270176 2427.916756  77.989203   77.989203     77.989203 very strong 6583.492366   0.205366 0.204376  3                 True
+
+Params (±SE):
+  power_law       a=14.51±0.75  b=0.2812±0.028  c=9.23±0.34
+  exponential     a=4.57±0.24  b=0.005115±0.00042  c=11.11±0.041
+  hybrid          w=0.7608±4.5e+05  a=19.07±1.1e+07  b=0.2812±0.048  d=4.263±2.7e+06  g=1e-08±0.021  c=8.21±2.1e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2011GROG02 | BIC: power_law | Consensus: power_law | R²=0.2304 MAE=1.13s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+  power_law 2111.744080 2094.429614   0.000000    0.000000      0.000000        best 5723.541046   0.230421 0.229449  3                 True
+     hybrid 2135.068872 2100.455136  23.324792    6.025522     23.324792 very strong 5723.541587   0.230421 0.228475  6                False
+exponential 2230.938389 2213.623922 119.194309  119.194309    119.194309 very strong 6017.484532   0.190898 0.189876  3                 True
+
+Params (±SE):
+  power_law       a=13.79±0.72  b=0.2816±0.028  c=7.975±0.33
+  exponential     a=4.002±0.22  b=0.004587±0.0004  c=9.754±0.041
+  hybrid          w=0.7709±4.5e+05  a=17.89±1e+07  b=0.2816±0.049  d=4.111±2.5e+06  g=1e-08±0.021  c=7.033±2e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2006HALC01 | BIC: power_law | Consensus: power_law | R²=0.2278 MAE=1.32s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 4067.111880 4049.953158   0.000000    0.000000      0.000000        best 13527.435881   0.227769 0.226742  3                 True
+     hybrid 4088.212915 4053.911478  21.101035    3.958320     21.101035 very strong 13515.061394   0.228475 0.226421  6                False
+exponential 4130.451551 4113.292829  63.339671   63.339671     63.339671 very strong 13911.923995   0.205820 0.204764  3                 True
+
+Params (±SE):
+  power_law       a=21.45±2.2  b=0.1249±0.036  c=2±3.1
+  exponential     a=5.256±0.25  b=0.002454±0.00023  c=10.4±0.093
+  hybrid          w=0.9788±2.2e+04  a=19.95±4.4e+05  b=0.1277±0.13  d=59.19±6.1e+07  g=0.0002171±0.0026  c=2±20  [NOT IDENT]
+
+
+============================================================
+Solver: 2005AKKE01 | BIC: hybrid | Consensus: hybrid | R²=0.3179 MAE=1.56s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 5131.763493 5097.478106   0.000000    0.000000      0.000000        best 21518.032335   0.317937 0.316116  6                False
+  power_law 5147.934713 5130.783994  16.171220   33.305889     16.171220 very strong 21896.820252   0.305931 0.305005  3                 True
+exponential 5341.061055 5323.910337 209.297563  226.432232    209.297563 very strong 23855.696591   0.243840 0.242832  3                 True
+
+Params (±SE):
+  power_law       a=32.59±1.4  b=0.2661±0.025  c=5.638±0.77
+  exponential     a=7.788±0.33  b=0.002596±0.00022  c=9.992±0.12
+  hybrid          w=0.8398±1.7e+05  a=41.85±8.5e+06  b=0.5662±0.065  d=32.5±3.5e+07  g=0.0004994±0.00032  c=7.198±1.9  [NOT IDENT]
+
+
+============================================================
+Solver: 2009PROV01 | BIC: hybrid | Consensus: hybrid | R²=0.5410 MAE=1.39s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 5344.617170 5307.246507   0.000000    0.000000      0.000000        best 15374.699147   0.541045 0.540311  6                False
+  power_law 5378.066936 5359.376803  33.449766   52.130297     33.449766 very strong 15614.308172   0.533892 0.533520  3                 True
+exponential 6123.806136 6105.116003 779.188966  797.869497    779.188966 very strong 19039.629650   0.431642 0.431188  3                 True
+
+Params (±SE):
+  power_law       a=41.38±1  b=0.3047±0.011  c=7.956±0.27
+  exponential     a=13.36±0.34  b=0.005548±0.00021  c=12.15±0.041
+  hybrid          w=0.683±3e+05  a=42.64±1.9e+07  b=0.1396±0.037  d=41.96±4e+07  g=0.05043±0.0054  c=2±3  [NOT IDENT]
+
+
+============================================================
+Solver: 2012CANT02 | BIC: power_law | Consensus: hybrid | R²=0.5100 MAE=1.21s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+  power_law 2948.603553 2930.644038   0.000000    0.000000      0.000000        best 7950.257424   0.509962 0.509463  3                 True
+     hybrid 2972.571344 2936.664568  23.967791    6.020529     23.967791 very strong 7950.257766   0.509962 0.508962  6                False
+exponential 3104.012601 3086.053087 155.409048  155.409048    155.409048 very strong 8380.463355   0.483445 0.482919  3                 True
+
+Params (±SE):
+  power_law       a=28.21±0.72  b=0.2687±0.014  c=6.831±0.34
+  exponential     a=10.4±0.26  b=0.006092±0.00023  c=10.76±0.035
+  hybrid          w=0.9977±1.1e+05  a=28.28±3.1e+06  b=0.2687±0.023  d=34.29±2e+07  g=1e-08±0.48  c=6.754±3.8e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2010RONK01 | BIC: hybrid | Consensus: hybrid | R²=0.3333 MAE=1.48s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 7211.848544 7175.997219   0.000000    0.000000      0.000000        best 33919.934488   0.333307 0.331935  6                False
+  power_law 7248.463205 7230.531359  36.614661   54.534140     36.614661 very strong 34630.216390   0.319346 0.318646  3                 True
+exponential 7289.644353 7271.712507  77.795809   95.715289     77.795809 very strong 35121.732099   0.309686 0.308976  3                 True
+
+Params (±SE):
+  power_law       a=45.76±2  b=0.3586±0.019  c=7.952±0.38
+  exponential     a=16.53±0.62  b=0.007856±0.00044  c=11.3±0.071
+  hybrid          w=0.8213±1.8e+05  a=37.74±8.1e+06  b=0.5815±0.09  d=51.57±5.1e+07  g=0.005869±0.00059  c=10.78±0.29  [NOT IDENT]
+
+
+============================================================
+Solver: 2012ICKL01 | BIC: hybrid | Consensus: hybrid | R²=0.4460 MAE=1.17s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 2668.825726 2633.453110   0.000000    0.000000      0.000000        best 7128.765382   0.446049 0.444814  6                False
+  power_law 2680.095505 2662.402500  11.269779   28.949390     11.269779 very strong 7221.735785   0.438825 0.438200  3                 True
+exponential 2903.825587 2886.132583 234.999861  252.679472    234.999861 very strong 7845.883757   0.390324 0.389646  3                 True
+
+Params (±SE):
+  power_law       a=24.24±0.75  b=0.2811±0.016  c=7.374±0.32
+  exponential     a=9.025±0.29  b=0.007224±0.00035  c=10.56±0.037
+  hybrid          w=0.7766±1.7e+05  a=22.36±5e+06  b=0.1425±0.055  d=27.05±2.1e+07  g=0.02932±0.0046  c=4.384±2.7  [NOT IDENT]
+
+
+============================================================
+Solver: 2009HILD01 | BIC: power_law | Consensus: hybrid | R²=0.4283 MAE=1.41s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+  power_law 3263.476535 3245.882123   0.000000    0.000000      0.000000        best 9029.494170   0.428319 0.427661  3                 True
+     hybrid 3287.080787 3251.905804  23.604253    6.023682     23.604253 very strong 9029.496377   0.428318 0.427002  6                False
+exponential 3309.970615 3292.376203  46.494080   46.494080     46.494080 very strong 9191.659834   0.418051 0.417382  3                 True
+
+Params (±SE):
+  power_law       a=26.08±0.79  b=0.2609±0.017  c=8.229±0.44
+  exponential     a=9.526±0.29  b=0.005952±0.00028  c=12.14±0.043
+  hybrid          w=0.9738±1.7e+05  a=26.79±4.6e+06  b=0.2609±0.03  d=21.36±1.5e+07  g=1e-08±0.068  c=7.67±3.8e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2011SZAT01 | BIC: power_law | Consensus: power_law | R²=0.1129 MAE=1.66s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 7709.762073 7692.335885   0.000000    0.419933      0.000000        best 55483.800045   0.112862 0.111783  3                 True
+exponential 7719.754896 7702.328708   9.992823   10.412756      9.992823      strong 55708.724270   0.109266 0.108182  3                 True
+     hybrid 7726.753688 7691.915952  16.991615    0.000000     16.991615 very strong 55339.229787   0.115174 0.113018  6                False
+
+Params (±SE):
+  power_law       a=25.96±1.5  b=0.2078±0.046  c=5.583±1.9
+  exponential     a=9.147±0.68  b=0.005129±0.0006  c=11.32±0.12
+  hybrid          w=0.9346±9.9e+04  a=17.92±1.9e+06  b=0.2046±0.11  d=58.97±8.9e+07  g=0.00625±0.003  c=7.539±3.3  [NOT IDENT]
+
+
+============================================================
+Solver: 2010BENT01 | BIC: hybrid | Consensus: hybrid | R²=0.5884 MAE=1.41s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 4040.694798 4005.866842   0.000000    0.000000      0.000000        best 12455.427615   0.588370 0.587366  6                False
+  power_law 4104.258136 4086.836826  63.563338   80.969984     63.563338 very strong 12902.666737   0.573590 0.573070  3                 True
+exponential 4126.913214 4109.491904  86.218416  103.625062     86.218416 very strong 13021.749369   0.569654 0.569130  3                 True
+
+Params (±SE):
+  power_law       a=39.93±0.71  b=0.1872±0.015  c=2±1.2
+  exponential     a=12.45±0.27  b=0.003419±0.00013  c=11.89±0.064
+  hybrid          w=0.9281±5.4e+04  a=27.82±1.6e+06  b=0.1294±0.047  d=78.22±5.8e+07  g=0.003983±0.00061  c=2±5.1  [NOT IDENT]
+
+
+============================================================
+Solver: 2013TOKA01 | BIC: power_law | Consensus: power_law | R²=0.2175 MAE=1.42s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 3937.825966 3920.424248   0.000000    0.000000      0.000000        best 12107.295471   0.217484 0.216525  3                 True
+     hybrid 3961.237595 3926.448919  23.411629    6.024671     23.411629 very strong 12107.295960   0.217484 0.215563  6                False
+exponential 4038.089604 4020.687886 100.263639  100.263639    100.263639 very strong 12613.051820   0.184797 0.183797  3                 True
+
+Params (±SE):
+  power_law       a=28±1.6  b=0.5144±0.026  c=9.817±0.13
+  exponential     a=12.22±0.73  b=0.02461±0.0021  c=10.64±0.047
+  hybrid          w=0.9944±5.2e+05  a=28.16±1.5e+07  b=0.5144±0.039  d=18.62±1.7e+07  g=1e-08±0.93  c=9.714±9.6e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2007GOUL01 | BIC: hybrid | Consensus: hybrid | R²=0.3276 MAE=1.53s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 3895.015914 3860.296603    0.00000     0.00000       0.00000        best 11863.558110   0.327578 0.325908  6                False
+  power_law 3904.393004 3887.025882    9.37709    26.72928       9.37709      strong 12025.085769   0.318423 0.317577  3                 True
+exponential 3905.783244 3888.416123   10.76733    28.11952      10.76733 very strong 12031.990211   0.318031 0.317185  3                 True
+
+Params (±SE):
+  power_law       a=24.88±1.9  b=0.1242±0.027  c=2±2.8
+  exponential     a=7.514±0.28  b=0.003969±0.00024  c=12.01±0.059
+  hybrid          w=0.8437±1.2e+05  a=20.46±2.9e+06  b=0.0741±0.09  d=25.54±2e+07  g=0.004989±0.0011  c=2±14  [NOT IDENT]
+
+
+============================================================
+Solver: 2005REYN01 | BIC: power_law | Consensus: hybrid | R²=0.4611 MAE=1.51s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 4051.080264 4033.720609   0.000000    1.316638      0.000000        best 12797.016561   0.461150 0.460479  3                 True
+     hybrid 4067.108313 4032.403970  16.028048    0.000000     16.028048 very strong 12758.188982   0.462784 0.461446  6                False
+exponential 4211.067804 4193.708148 159.987540  161.304178    159.987540 very strong 13673.122857   0.424259 0.423543  3                 True
+
+Params (±SE):
+  power_law       a=32.48±0.72  b=0.1994±0.018  c=5.574±1
+  exponential     a=10±0.3  b=0.003894±0.00019  c=13.09±0.064
+  hybrid          w=0.941±3.7e+04  a=28.09±1.1e+06  b=0.2416±0.051  d=36.9±2.3e+07  g=0.003398±0.0012  c=8.585±1.9  [NOT IDENT]
+
+
+============================================================
+Solver: 2010ROSE03 | BIC: power_law | Consensus: power_law | R²=0.1686 MAE=1.59s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 6645.256673 6626.551386   0.000000    0.000000      0.000000        best 21788.664049   0.168645 0.167985  3                 True
+     hybrid 6669.968317 6632.567298  24.711644    6.015912     24.711644 very strong 21788.664049   0.168645 0.167323  6                False
+exponential 6702.263774 6683.558487  57.007101   57.007101     57.007101 very strong 22119.842828   0.156009 0.155338  3                 True
+
+Params (±SE):
+  power_law       a=18.17±0.81  b=0.2188±0.028  c=11.5±0.67
+  exponential     a=7.011±0.36  b=0.005391±0.00041  c=14.99±0.044
+  hybrid          w=1±5.5e+05  a=18.17±1e+07  b=0.2188±0.049  d=3.48±2e+06  g=1.001e-08±1.1e+04  c=11.5±1.9e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2013ROGA02 | BIC: power_law | Consensus: power_law | R²=0.3274 MAE=1.41s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 4320.064387 4301.919939   0.000000   17.358156      0.000000        best 12339.655350   0.327432 0.326788  3                 True
+     hybrid 4320.839158 4284.561784   0.774772    0.000000      0.774772  negligible 12248.011291   0.332427 0.331147  6                False
+exponential 4345.385715 4327.241268  25.321329   42.679484     25.321329 very strong 12439.694036   0.321979 0.321330  3                 True
+
+Params (±SE):
+  power_law       a=23.77±1.7  b=0.1158±0.024  c=2±2.5
+  exponential     a=6.196±0.19  b=0.002371±0.00013  c=11.75±0.052
+  hybrid          w=0.908±5.4e+04  a=19.91±1.2e+06  b=0.08005±0.069  d=27.67±1.6e+07  g=0.003003±0.00082  c=2±10  [NOT IDENT]
+
+
+============================================================
+Solver: 2008AURO01 | BIC: hybrid | Consensus: hybrid | R²=0.2110 MAE=1.89s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 7170.538458 7134.950750   0.000000    0.000000      0.000000        best 35700.909848   0.211038 0.209341  6                False
+  power_law 7171.611554 7153.811239   1.073096   18.860489      1.073096  negligible 36019.920609   0.203988 0.203133  3                 True
+exponential 7184.882718 7167.082403  14.344260   32.131653     14.344260 very strong 36191.233494   0.200202 0.199343  3                 True
+
+Params (±SE):
+  power_law       a=28.8±1.2  b=0.222±0.03  c=8.952±1.2
+  exponential     a=10.58±0.53  b=0.00532±0.00041  c=14.59±0.08
+  hybrid          w=0.8775±1.2e+05  a=22.59±3.1e+06  b=0.1025±0.1  d=53.55±5.3e+07  g=0.01069±0.0025  c=5.292±10  [NOT IDENT]
+
+
+============================================================
+Solver: 2014JIME05 | BIC: power_law | Consensus: power_law | R²=0.1075 MAE=1.59s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 4146.097572 4128.400112   0.000000    0.000000      0.000000        best 12422.126227   0.107465 0.106473  3                 True
+exponential 4157.282436 4139.584975  11.184864   11.184864     11.184864 very strong 12473.634791   0.103764 0.102768  3                 True
+     hybrid 4169.804506 4134.422958  23.706934    6.022846     23.706934 very strong 12422.128899   0.107465 0.105479  6                False
+
+Params (±SE):
+  power_law       a=11.93±0.84  b=0.2438±0.043  c=12.07±0.57
+  exponential     a=3.92±0.29  b=0.004408±0.00051  c=14.04±0.051
+  hybrid          w=0.7376±5.5e+05  a=16.17±1.2e+07  b=0.2438±0.076  d=4.775±3.3e+06  g=1e-08±0.021  c=10.82±2.7e+06  [NOT IDENT]
+
+
+============================================================
+Solver: 2010AMBR01 | BIC: power_law | Consensus: power_law | R²=0.2291 MAE=1.55s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 4159.847914 4142.503247   0.000000    0.000000      0.000000        best 13434.218673   0.229083 0.228119  3                 True
+     hybrid 4179.089359 4144.415067  19.241444    1.911820     19.241444 very strong 13411.252492   0.230401 0.228475  6                False
+exponential 4240.357847 4223.013179  80.509932   80.509932     80.509932 very strong 13891.749084   0.202828 0.201831  3                 True
+
+Params (±SE):
+  power_law       a=20.2±0.94  b=0.247±0.029  c=8.556±0.66
+  exponential     a=5.824±0.29  b=0.003709±0.00031  c=11.82±0.066
+  hybrid          w=0.8697±1.2e+05  a=19.44±2.6e+06  b=0.3777±0.11  d=14.25±1.3e+07  g=0.002258±0.00062  c=10.7±0.87  [NOT IDENT]
+
+
+============================================================
+Solver: 2009ZHEN11 | BIC: exponential | Consensus: exponential | R²=0.1904 MAE=1.96s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+exponential 4571.671916 4554.598316   0.000000    0.000000      0.000000        best 17417.156570   0.190381 0.189274  3                 True
+     hybrid 4594.756451 4560.625718  23.084534    6.027402     23.084534 very strong 17417.156492   0.190381 0.188163  6                False
+  power_law 4609.351886 4592.278286  37.679970   37.679970     37.679970 very strong 17718.448351   0.176376 0.175249  3                 True
+
+Params (±SE):
+  power_law       a=24.53±6.7  b=0.08729±0.046  c=2±7.9
+  exponential     a=5.679±0.28  b=0.002519±0.00025  c=14.71±0.11
+  hybrid          w=0.7772±1.8e+05  a=2.147e-05±6  b=0.642±1.7e+05  d=25.48±2.1e+07  g=0.002519±0.0003  c=14.71±0.22  [NOT IDENT]
+
+
+============================================================
+Solver: 2008VIRO01 | BIC: power_law | Consensus: power_law | R²=0.3012 MAE=1.45s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 4342.838180 4325.874850   0.000000    0.000000      0.000000        best 16282.124586   0.301211 0.300220  3                 True
+     hybrid 4360.412295 4326.502721  17.574115    0.627871     17.574115 very strong 16240.660609   0.302991 0.301010  6                False
+exponential 4504.694532 4487.731202 161.856352  161.856352    161.856352 very strong 17575.173059   0.245717 0.244647  3                 True
+
+Params (±SE):
+  power_law       a=27.41±1  b=0.2296±0.027  c=7.439±0.98
+  exponential     a=7.065±0.32  b=0.002969±0.00025  c=12.44±0.1
+  hybrid          w=0.924±7.7e+04  a=27.96±2.3e+06  b=0.3256±0.073  d=39.63±4e+07  g=0.0002628±0.001  c=8.097±8.9  [NOT IDENT]
+
+
+============================================================
+Solver: 2009ROTA01 | BIC: power_law | Consensus: hybrid | R²=0.2134 MAE=1.74s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 6462.084247 6445.171098   0.000000    0.000000      0.000000        best 45837.400140   0.213360 0.212225  3                 True
+     hybrid 6479.420244 6445.611320  17.335997    0.440222     17.335997 very strong 45714.583065   0.215468 0.213201  6                False
+exponential 6502.767632 6485.854483  40.683385   40.683385     40.683385 very strong 46741.457155   0.197845 0.196688  3                 True
+
+Params (±SE):
+  power_law       a=37.03±1.8  b=0.2444±0.034  c=5.814±1.5
+  exponential     a=12.22±0.69  b=0.005267±0.00048  c=12.26±0.13
+  hybrid          w=0.9205±1.2e+05  a=30.01±4e+06  b=0.3567±0.12  d=55.57±8.5e+07  g=0.004007±0.0013  c=10.04±2  [NOT IDENT]
+
+
+============================================================
+Solver: 2015SANC18 | BIC: exponential | Consensus: exponential | R²=0.2857 MAE=1.32s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+exponential 2543.661298 2526.768458   0.000000    0.000000      0.000000        best 6996.506109   0.285716 0.284678  3                 True
+     hybrid 2566.565760 2532.797573  22.904462    6.029115     22.904462 very strong 6996.506109   0.285716 0.283637  6                False
+  power_law 2636.016870 2619.124030  92.355572   92.355572     92.355572 very strong 7315.889888   0.253109 0.252024  3                 True
+
+Params (±SE):
+  power_law       a=18.6±3  b=0.1036±0.037  c=2±3.8
+  exponential     a=5.054±0.21  b=0.003163±0.00024  c=10.63±0.064
+  hybrid          w=0.6893±2.6e+05  a=2.402e-05±9.7e+05  b=2.113e-07±1.4e+04  d=16.27±1.4e+07  g=0.003163±0.00026  c=10.63±6.7e+05  [NOT IDENT]
+
+
+============================================================
+Solver: 2020DWOR01 | BIC: power_law | Consensus: power_law | R²=0.2635 MAE=1.65s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 3616.680490 3599.808098   0.000000    0.000000      0.000000        best 11811.597410   0.263546 0.262469  3                 True
+     hybrid 3633.862654 3600.135483  17.182164    0.327385     17.182164 very strong 11778.869651   0.265587 0.263435  6                False
+exponential 3772.858158 3755.985767 156.177669  156.177669    156.177669 very strong 12744.257089   0.205395 0.204233  3                 True
+
+Params (±SE):
+  power_law       a=23.77±1.3  b=0.3253±0.027  c=10.33±0.4
+  exponential     a=7.945±0.46  b=0.0084±0.00074  c=12.81±0.063
+  hybrid          w=0.4416±0.93  a=53.77±1.1e+02  b=0.405±0.065  d=17.75±4.4e+02  g=4.533e-05±0.0013  c=2±2.6e+02  [NOT IDENT]
+
+
+============================================================
+Solver: 2011EDUA01 | BIC: exponential | Consensus: hybrid | R²=0.5972 MAE=1.84s
+============================================================
+      model          bic         aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+exponential 12383.662244 12364.593989   0.000000    0.000000      0.000000        best 77367.229916   0.597187 0.596904  3                 True
+  power_law 12969.730092 12950.661837 586.067848  586.067848    586.067848 very strong 88766.458609   0.537837 0.537512  3                 True
+     hybrid 12994.805204 12956.677158 611.142960  592.083169    611.142960 very strong 88766.484054   0.537837 0.537186  6                False
+
+Params (±SE):
+  power_law       a=224.5±4  b=0.8293±0.012  c=12.69±0.088
+  exponential     a=264.2±5.4  b=0.2373±0.006  c=13.47±0.065
+  hybrid          w=0.9453±0.016  a=237.5±0.11  b=0.8293±0.014  d=39.11±0.039  g=1e-08±3.2e-05  c=10.55±0.71  [NOT IDENT]
+
+
+============================================================
+Solver: 2003BRUC01 | BIC: exponential | Consensus: exponential | R²=0.0405 MAE=2.12s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+exponential 7705.934568 7688.150432   0.000000    0.000000      0.000000        best 44015.588294   0.040531 0.039495  3                 True
+  power_law 7708.983723 7691.199587   3.049155    3.049155      3.049155    positive 44063.857140   0.039479 0.038441  3                 True
+     hybrid 7732.776788 7697.221506  26.842220    9.071075     26.842220 very strong 44063.861710   0.039479 0.037402  6                False
+
+Params (±SE):
+  power_law       a=14.9±2.2  b=0.3385±0.066  c=14.24±0.51
+  exponential     a=6.283±0.79  b=0.009735±0.0018  c=15.54±0.082
+  hybrid          w=0.9604±5.2e+05  a=15.51±8.4e+06  b=0.3384±0.11  d=25.1±3.3e+07  g=1e-08±0.14  c=13.25±1.4e+07  [NOT IDENT]
+
+
+============================================================
+Solver: 2010GRAC02 | BIC: hybrid | Consensus: hybrid | R²=0.5029 MAE=2.98s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 8155.018301 8119.674805   0.000000    0.000000      0.000000        best 54956.139053   0.502925 0.501811  6                 True
+  power_law 8248.789708 8231.111231  93.771407  111.436426     93.771407 very strong 57412.693207   0.480705 0.480124  3                 True
+exponential 8427.838717 8410.160241 272.820417  290.485435    272.820417 very strong 61370.269491   0.444909 0.444288  3                 True
+
+Params (±SE):
+  power_law       a=68.55±1.4  b=0.1853±0.017  c=2±2.3
+  exponential     a=17.27±0.41  b=0.001784±9.3e-05  c=17.88±0.19
+  hybrid          w=0.9116±0.0062  a=62.91±4  b=0.6205±0.066  d=139.9±0.18  g=0.001225±0.00012  c=16.75±0.43
+
+
+============================================================
+Solver: 2003DENN01 | BIC: exponential | Consensus: exponential | R²=0.0894 MAE=3.22s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+exponential 7443.303382 7426.007947   0.000000    0.000000      0.000000        best 54499.842013   0.089363 0.088205  3                 True
+     hybrid 7461.164566 7426.588989  17.861184    0.581042     17.861184 very strong 54374.523394   0.091457 0.089145  6                False
+  power_law 7486.297526 7469.002091  42.994144   42.994144     42.994144 very strong 55499.673887   0.072656 0.071478  3                 True
+
+Params (±SE):
+  power_law       a=39.39±3.9  b=0.6634±0.055  c=20.81±0.18
+  exponential     a=20.25±1.9  b=0.0361±0.0047  c=21.21±0.1
+  hybrid          w=0.4866±5.2e+05  a=28.28±3e+07  b=1.09±0.97  d=30.12±3e+07  g=0.02896±0.005  c=21.19±0.12  [NOT IDENT]
+
+
+============================================================
+Solver: 2015NICH04 | BIC: power_law | Consensus: hybrid | R²=0.3755 MAE=2.41s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 5332.592092 5315.638732   0.000000    0.000000      0.000000        best 26111.629353   0.375482 0.374593  3                 True
+     hybrid 5355.556844 5321.667266  22.964752    6.028534     22.964752 very strong 26111.629361   0.375482 0.373701  6                False
+exponential 5411.964853 5395.011493  79.372761   79.372761     79.372761 very strong 27112.107154   0.351554 0.350630  3                 True
+
+Params (±SE):
+  power_law       a=54.07±2.3  b=0.4347±0.02  c=16.95±0.31
+  exponential     a=24.14±0.99  b=0.01846±0.0011  c=19.74±0.082
+  hybrid          w=0.6695±5.7e+05  a=80.77±6.9e+07  b=0.4347±0.031  d=2.005e-06±7.3e+05  g=1.009e-08±3.7e+03  c=16.95±2.4e+05  [NOT IDENT]
+
+
+============================================================
+Solver: 2013DICK01 | BIC: exponential | Consensus: exponential | R²=0.1789 MAE=1.88s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+exponential 3799.421409 3782.703900   0.000000    1.724620      0.000000        best 13512.767922   0.178883 0.177619  3                 True
+     hybrid 3814.395751 3780.979280  14.974342    0.000000     14.974342 very strong 13459.186884   0.182139 0.179616  6                False
+  power_law 3848.875731 3832.158222  49.454322   51.178942     49.454322 very strong 13859.490276   0.157814 0.156517  3                 True
+
+Params (±SE):
+  power_law       a=22.64±1.8  b=0.446±0.037  c=14.31±0.24
+  exponential     a=10.4±0.7  b=0.01696±0.0016  c=15.37±0.064
+  hybrid          w=0.7671±2.7e+05  a=10.31±3.6e+06  b=0.7336±0.4  d=34.41±3.9e+07  g=0.01443±0.002  c=15.3±0.16  [NOT IDENT]
+
+
+============================================================
+Solver: 2013MART03 | BIC: hybrid | Consensus: hybrid | R²=0.7020 MAE=2.85s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 4897.184812 4864.021276   0.000000    0.000000      0.000000        best 24999.980017   0.701966 0.701007  6                False
+exponential 4904.017592 4887.426152   6.832780   23.404875      6.832780      strong 25396.210113   0.697242 0.696756  3                 True
+  power_law 5146.589208 5129.997768 249.404396  265.976492    249.404396 very strong 28909.747143   0.655356 0.654802  3                 True
+
+Params (±SE):
+  power_law       a=76.46±1.4  b=0.1897±0.015  c=2±2.3
+  exponential     a=24.67±0.45  b=0.003682±0.00012  c=20.96±0.13
+  hybrid          w=0.4581±3e+05  a=35.52±2.3e+07  b=0.5897±0.24  d=40.72±2.3e+07  g=0.003377±0.00014  c=20.6±0.43  [NOT IDENT]
+
+
+============================================================
+Solver: 2007OEYM01 | BIC: hybrid | Consensus: hybrid | R²=0.4675 MAE=3.84s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+     hybrid 6473.122598 6440.206282   0.000000    0.000000      0.000000        best 64282.034131   0.467522 0.465737  6                False
+  power_law 6494.641597 6478.173361  21.518999   37.967079     21.518999 very strong 65875.446432   0.454323 0.453410  3                 True
+exponential 6539.906201 6523.437964  66.783603   83.231682     66.783603 very strong 67555.857049   0.440403 0.439467  3                 True
+
+Params (±SE):
+  power_law       a=87.28±3.1  b=0.3172±0.02  c=15.72±1.2
+  exponential     a=35.61±1.3  b=0.01055±0.00057  c=25.67±0.16
+  hybrid          w=0.8036±2.1e+05  a=68.55±1.8e+07  b=0.3619±0.052  d=80.81±8.8e+07  g=0.01032±0.0018  c=20.98±1.6  [NOT IDENT]
+
+
+============================================================
+Solver: 2013PAPA01 | BIC: power_law | Consensus: power_law | R²=0.1516 MAE=1.90s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence          rss  r_squared   adj_r2  k  params_identifiable
+  power_law 3544.504315 3528.093643   0.000000    0.000000      0.000000        best 12997.972969   0.151636 0.150189  3                 True
+     hybrid 3561.757590 3528.956793  17.253275    0.863151     17.253275 very strong 12959.904575   0.154121 0.151231  6                False
+exponential 3627.679963 3611.269291  83.175648   83.175648     83.175648 very strong 13625.893183   0.110653 0.109136  3                 True
+
+Params (±SE):
+  power_law       a=16.9±1.1  b=0.2545±0.046  c=12.95±0.86
+  exponential     a=3.987±0.3  b=0.00282±0.00045  c=15.54±0.13
+  hybrid          w=0.8139±5.7  a=19.67±1.4e+02  b=0.3801±0.12  d=71.87±8.7  g=4.726e-05±0.0015  c=2±4.1e+02  [NOT IDENT]
+
+
+============================================================
+Solver: 2012REYE04 | BIC: power_law | Consensus: power_law | R²=0.0528 MAE=1.63s
+============================================================
+      model         bic        aicc  delta_bic  delta_aicc  approx_2lnBF    evidence         rss  r_squared   adj_r2  k  params_identifiable
+  power_law 2782.810728 2766.511502   0.000000    0.000000      0.000000        best 8626.316255   0.052847 0.051170  3                 True
+exponential 2795.581634 2779.282408  12.770907   12.770907     12.770907 very strong 8691.402165   0.045700 0.044011  3                 True
+     hybrid 2804.632221 2772.055096  21.821493    5.543594     21.821493 very strong 8623.819135   0.053121 0.049763  6                False
+
+Params (±SE):
+  power_law       a=7.779±0.93  b=0.2555±0.084  c=12.88±0.72
+  exponential     a=3.477±0.52  b=0.01304±0.0029  c=14.28±0.061
+  hybrid          w=0.4619±77  a=16.15±2.7e+03  b=0.3335±0.21  d=19.39±2.6e+03  g=1.75e-05±0.005  c=3.222±2.9e+03  [NOT IDENT]
+

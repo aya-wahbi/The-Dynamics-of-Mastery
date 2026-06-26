@@ -1,0 +1,200 @@
+2026-06-26 10:50:45,674  [INFO]  ============================================================
+2026-06-26 10:50:45,674  [INFO]  RQ3 - Fluctuation Analysis  |  The Dynamics of Mastery
+2026-06-26 10:50:45,675  [INFO]    v1.0  |  DFA order=1  |  min_phase=100
+2026-06-26 10:50:45,675  [INFO]  ============================================================
+2026-06-26 10:50:45,701  [INFO]  Loaded RQ1 results: 50 solvers
+2026-06-26 10:50:45,720  [INFO]  Found 50 residual files in output\rq1\residuals
+2026-06-26 10:50:45,721  [INFO]  Solvers with both residuals and preferred-model info: 50
+2026-06-26 10:50:45,755  [INFO]  [1/50]  2003BRUC01  (n=2782, model=exponential) ...
+2026-06-26 10:55:12,667  [INFO]    alpha_full=0.519  CI=[0.457, 0.556]  n.s.  beta=0.02
+2026-06-26 10:55:12,668  [INFO]    alpha_early=0.527  alpha_late=0.506  delta_alpha=-0.021
+2026-06-26 10:55:13,708  [INFO]  [2/50]  2003DENN01  (n=2365, model=exponential) ...
+2026-06-26 10:59:26,693  [INFO]    alpha_full=0.617  CI=[0.575, 0.835]  SIG  beta=0.05
+2026-06-26 10:59:26,694  [INFO]    alpha_early=0.514  alpha_late=0.575  delta_alpha=0.061
+2026-06-26 10:59:27,370  [INFO]  [3/50]  2005AKKE01  (n=2254, model=hybrid) ...
+2026-06-26 11:03:37,971  [INFO]    alpha_full=0.558  CI=[0.478, 0.614]  n.s.  beta=0.07
+2026-06-26 11:03:37,971  [INFO]    alpha_early=0.583  alpha_late=0.543  delta_alpha=-0.040
+2026-06-26 11:03:38,550  [INFO]  [4/50]  2005REYN01  (n=2416, model=power_law) ...
+2026-06-26 11:08:01,705  [INFO]    alpha_full=0.655  CI=[0.541, 0.709]  SIG  beta=0.06
+2026-06-26 11:08:01,706  [INFO]    alpha_early=0.616  alpha_late=0.566  delta_alpha=-0.051
+2026-06-26 11:08:02,324  [INFO]  [5/50]  2006HALC01  (n=2260, model=power_law) ...
+2026-06-26 11:12:04,022  [INFO]    alpha_full=0.596  CI=[0.494, 0.621]  SIG  beta=0.12
+2026-06-26 11:12:04,023  [INFO]    alpha_early=0.589  alpha_late=0.459  delta_alpha=-0.130
+2026-06-26 11:12:04,600  [INFO]  [6/50]  2007GOUL01  (n=2422, model=hybrid) ...
+2026-06-26 11:16:19,215  [INFO]    alpha_full=0.848  CI=[0.542, 0.932]  SIG  beta=0.27
+2026-06-26 11:16:19,216  [INFO]    alpha_early=0.602  alpha_late=0.877  delta_alpha=0.275
+2026-06-26 11:16:19,966  [INFO]  [7/50]  2007OEYM01  (n=1797, model=hybrid) ...
+2026-06-26 11:19:50,827  [INFO]    alpha_full=0.505  CI=[0.429, 0.555]  n.s.  beta=0.00
+2026-06-26 11:19:50,827  [INFO]    alpha_early=0.462  alpha_late=0.558  delta_alpha=0.096
+2026-06-26 11:19:51,447  [INFO]  [8/50]  2008AURO01  (n=2797, model=hybrid) ...
+2026-06-26 11:24:44,581  [INFO]    alpha_full=0.637  CI=[0.537, 0.774]  SIG  beta=-0.02
+2026-06-26 11:24:44,581  [INFO]    alpha_early=0.556  alpha_late=0.610  delta_alpha=0.054
+2026-06-26 11:24:45,322  [INFO]  [9/50]  2008BARA01  (n=3001, model=hybrid) ...
+2026-06-26 11:29:54,368  [INFO]    alpha_full=0.553  CI=[0.482, 0.615]  n.s.  beta=0.02
+2026-06-26 11:29:54,368  [INFO]    alpha_early=0.520  alpha_late=0.529  delta_alpha=0.009
+2026-06-26 11:29:55,025  [INFO]  [10/50]  2008VIRO01  (n=2118, model=power_law) ...
+2026-06-26 11:34:04,636  [INFO]    alpha_full=0.603  CI=[0.478, 0.641]  SIG  beta=-0.03
+2026-06-26 11:34:04,636  [INFO]    alpha_early=0.534  alpha_late=0.476  delta_alpha=-0.058
+2026-06-26 11:34:05,316  [INFO]  [11/50]  2009HILD01  (n=2612, model=power_law) ...
+2026-06-26 11:38:33,273  [INFO]    alpha_full=0.622  CI=[0.557, 0.703]  SIG  beta=0.06
+2026-06-26 11:38:33,273  [INFO]    alpha_early=0.563  alpha_late=0.606  delta_alpha=0.043
+2026-06-26 11:38:33,880  [INFO]  [12/50]  2009LIUE01  (n=3504, model=hybrid) ...
+2026-06-26 11:44:06,281  [INFO]    alpha_full=0.565  CI=[0.515, 0.623]  SIG  beta=0.07
+2026-06-26 11:44:06,281  [INFO]    alpha_early=0.600  alpha_late=0.575  delta_alpha=-0.025
+2026-06-26 11:44:06,932  [INFO]  [13/50]  2009PROV01  (n=3760, model=hybrid) ...
+2026-06-26 11:49:50,164  [INFO]    alpha_full=0.572  CI=[0.543, 0.628]  SIG  beta=0.01
+2026-06-26 11:49:50,165  [INFO]    alpha_early=0.556  alpha_late=0.558  delta_alpha=0.002
+2026-06-26 11:49:50,774  [INFO]  [14/50]  2009ROTA01  (n=2083, model=power_law) ...
+2026-06-26 11:53:17,310  [INFO]    alpha_full=0.467  CI=[0.440, 0.643]  n.s.  beta=-0.01
+2026-06-26 11:53:17,311  [INFO]    alpha_early=0.494  alpha_late=0.540  delta_alpha=0.047
+2026-06-26 11:53:17,922  [INFO]  [15/50]  2009ZHEN11  (n=2197, model=exponential) ...
+2026-06-26 11:56:51,105  [INFO]    alpha_full=0.593  CI=[0.545, 0.672]  SIG  beta=-0.03
+2026-06-26 11:56:51,106  [INFO]    alpha_early=0.634  alpha_late=0.558  delta_alpha=-0.076
+2026-06-26 11:56:51,653  [INFO]  [16/50]  2010AMBR01  (n=2404, model=power_law) ...
+2026-06-26 12:00:51,102  [INFO]    alpha_full=0.543  CI=[0.480, 0.619]  n.s.  beta=-0.01
+2026-06-26 12:00:51,103  [INFO]    alpha_early=0.470  alpha_late=0.559  delta_alpha=0.089
+2026-06-26 12:00:51,687  [INFO]  [17/50]  2010BENT01  (n=2466, model=hybrid) ...
+2026-06-26 12:04:54,861  [INFO]    alpha_full=0.652  CI=[0.517, 0.700]  SIG  beta=0.06
+2026-06-26 12:04:54,861  [INFO]    alpha_early=0.647  alpha_late=0.549  delta_alpha=-0.098
+2026-06-26 12:04:55,446  [INFO]  [18/50]  2010GRAC02  (n=2686, model=hybrid) ...
+2026-06-26 12:09:22,369  [INFO]    alpha_full=0.666  CI=[0.591, 0.746]  SIG  beta=0.21
+2026-06-26 12:09:22,370  [INFO]    alpha_early=0.658  alpha_late=0.587  delta_alpha=-0.070
+2026-06-26 12:09:22,952  [INFO]  [19/50]  2010HULL01  (n=3424, model=power_law) ...
+2026-06-26 12:14:34,298  [INFO]    alpha_full=0.519  CI=[0.471, 0.581]  n.s.  beta=0.00
+2026-06-26 12:14:34,298  [INFO]    alpha_early=0.525  alpha_late=0.489  delta_alpha=-0.036
+2026-06-26 12:14:34,924  [INFO]  [20/50]  2010RONK01  (n=2922, model=hybrid) ...
+2026-06-26 12:21:24,203  [INFO]    alpha_full=0.358  CI=[0.353, 0.559]  n.s.  beta=0.03
+2026-06-26 12:21:24,204  [INFO]    alpha_early=0.374  alpha_late=0.497  delta_alpha=0.123
+2026-06-26 12:21:25,418  [INFO]  [21/50]  2010ROSE03  (n=3779, model=power_law) ...
+2026-06-26 12:30:10,705  [INFO]    alpha_full=0.578  CI=[0.514, 0.614]  SIG  beta=0.00
+2026-06-26 12:30:10,706  [INFO]    alpha_early=0.566  alpha_late=0.532  delta_alpha=-0.034
+2026-06-26 12:30:11,819  [INFO]  [22/50]  2010THOM03  (n=2848, model=power_law) ...
+2026-06-26 12:36:49,409  [INFO]    alpha_full=0.604  CI=[0.540, 0.673]  SIG  beta=0.09
+2026-06-26 12:36:49,409  [INFO]    alpha_early=0.509  alpha_late=0.565  delta_alpha=0.056
+2026-06-26 12:36:50,534  [INFO]  [23/50]  2010WEYE02  (n=2838, model=hybrid) ...
+2026-06-26 12:43:36,926  [INFO]    alpha_full=0.546  CI=[0.463, 0.618]  n.s.  beta=0.01
+2026-06-26 12:43:36,926  [INFO]    alpha_early=0.600  alpha_late=0.509  delta_alpha=-0.091
+2026-06-26 12:43:37,779  [INFO]  [24/50]  2011EDUA01  (n=4264, model=exponential) ...
+2026-06-26 13:08:50,606  [INFO]    alpha_full=0.640  CI=[0.540, 0.853]  SIG  beta=0.08
+2026-06-26 13:08:50,607  [INFO]    alpha_early=0.578  alpha_late=0.492  delta_alpha=-0.085
+2026-06-26 13:08:51,710  [INFO]  [25/50]  2011GROG02  (n=2380, model=power_law) ...
+2026-06-26 13:14:56,972  [INFO]    alpha_full=0.567  CI=[0.473, 0.622]  SIG  beta=0.02
+2026-06-26 13:14:56,972  [INFO]    alpha_early=0.590  alpha_late=0.416  delta_alpha=-0.174
+2026-06-26 13:14:57,818  [INFO]  [26/50]  2011SZAT01  (n=2470, model=power_law) ...
+2026-06-26 13:20:53,186  [INFO]    alpha_full=0.482  CI=[0.441, 0.677]  n.s.  beta=-0.04
+2026-06-26 13:20:53,186  [INFO]    alpha_early=0.484  alpha_late=0.561  delta_alpha=0.077
+2026-06-26 13:20:54,109  [INFO]  [27/50]  2011WELC01  (n=2616, model=power_law) ...
+2026-06-26 13:27:29,456  [INFO]    alpha_full=0.497  CI=[0.456, 0.606]  n.s.  beta=-0.01
+2026-06-26 13:27:29,457  [INFO]    alpha_early=0.470  alpha_late=0.587  delta_alpha=0.117
+2026-06-26 13:27:30,417  [INFO]  [28/50]  2012CANT02  (n=2949, model=power_law) ...
+2026-06-26 13:34:44,050  [INFO]    alpha_full=0.628  CI=[0.522, 0.675]  SIG  beta=0.08
+2026-06-26 13:34:44,050  [INFO]    alpha_early=0.616  alpha_late=0.480  delta_alpha=-0.136
+2026-06-26 13:34:45,474  [INFO]  [29/50]  2012ICKL01  (n=2699, model=hybrid) ...
+2026-06-26 13:41:46,768  [INFO]    alpha_full=0.550  CI=[0.443, 0.614]  SIG  beta=-0.01
+2026-06-26 13:41:46,768  [INFO]    alpha_early=0.439  alpha_late=0.576  delta_alpha=0.137
+2026-06-26 13:41:47,984  [INFO]  [30/50]  2012MAHV01  (n=3473, model=power_law) ...
+2026-06-26 13:51:51,427  [INFO]    alpha_full=0.682  CI=[0.620, 0.816]  SIG  beta=0.03
+2026-06-26 13:51:51,427  [INFO]    alpha_early=0.781  alpha_late=0.532  delta_alpha=-0.249
+2026-06-26 13:51:52,718  [INFO]  [31/50]  2012PARK03  (n=3107, model=hybrid) ...
+2026-06-26 14:00:31,367  [INFO]    alpha_full=0.619  CI=[0.500, 0.746]  SIG  beta=0.15
+2026-06-26 14:00:31,367  [INFO]    alpha_early=0.567  alpha_late=0.603  delta_alpha=0.036
+2026-06-26 14:00:32,552  [INFO]  [32/50]  2012REYE04  (n=1699, model=power_law) ...
+2026-06-26 14:07:28,180  [INFO]    alpha_full=0.571  CI=[0.492, 0.601]  SIG  beta=0.01
+2026-06-26 14:07:28,180  [INFO]    alpha_early=0.538  alpha_late=0.543  delta_alpha=0.005
+2026-06-26 14:07:30,692  [INFO]  [33/50]  2013BURL01  (n=2847, model=hybrid) ...
+2026-06-26 14:25:42,517  [INFO]    alpha_full=0.506  CI=[0.462, 0.623]  n.s.  beta=-0.07
+2026-06-26 14:25:42,518  [INFO]    alpha_early=0.517  alpha_late=0.468  delta_alpha=-0.049
+2026-06-26 14:25:44,596  [INFO]  [34/50]  2013DICK01  (n=1952, model=exponential) ...
+2026-06-26 14:39:58,521  [INFO]    alpha_full=0.570  CI=[0.505, 0.651]  SIG  beta=0.05
+2026-06-26 14:39:58,522  [INFO]    alpha_early=0.628  alpha_late=0.501  delta_alpha=-0.126
+2026-06-26 14:40:01,059  [INFO]  [35/50]  2013MART03  (n=1872, model=hybrid) ...
+2026-06-26 14:44:04,581  [INFO]    alpha_full=0.704  CI=[0.525, 0.751]  SIG  beta=0.09
+2026-06-26 14:44:04,581  [INFO]    alpha_early=0.720  alpha_late=0.479  delta_alpha=-0.241
+2026-06-26 14:44:05,154  [INFO]  [36/50]  2013PAPA01  (n=1763, model=power_law) ...
+2026-06-26 14:47:08,275  [INFO]    alpha_full=0.650  CI=[0.558, 0.728]  SIG  beta=0.15
+2026-06-26 14:47:08,275  [INFO]    alpha_early=0.678  alpha_late=0.547  delta_alpha=-0.131
+2026-06-26 14:47:08,893  [INFO]  [37/50]  2013ROGA02  (n=3136, model=power_law) ...
+2026-06-26 14:51:56,480  [INFO]    alpha_full=0.568  CI=[0.510, 0.644]  SIG  beta=-0.05
+2026-06-26 14:51:56,480  [INFO]    alpha_early=0.625  alpha_late=0.469  delta_alpha=-0.157
+2026-06-26 14:51:57,066  [INFO]  [38/50]  2013TOKA01  (n=2450, model=power_law) ...
+2026-06-26 14:55:54,723  [INFO]    alpha_full=0.561  CI=[0.509, 0.666]  SIG  beta=0.04
+2026-06-26 14:55:54,723  [INFO]    alpha_early=0.512  alpha_late=0.570  delta_alpha=0.059
+2026-06-26 14:55:55,333  [INFO]  [39/50]  2013WALL03  (n=3512, model=hybrid) ...
+2026-06-26 15:01:16,771  [INFO]    alpha_full=0.464  CI=[0.417, 0.492]  n.s.  beta=-0.01
+2026-06-26 15:01:16,772  [INFO]    alpha_early=0.468  alpha_late=0.494  delta_alpha=0.025
+2026-06-26 15:01:17,397  [INFO]  [40/50]  2014GOSL01  (n=2411, model=power_law) ...
+2026-06-26 15:05:16,797  [INFO]    alpha_full=0.574  CI=[0.523, 0.620]  SIG  beta=0.06
+2026-06-26 15:05:16,798  [INFO]    alpha_early=0.573  alpha_late=0.559  delta_alpha=-0.015
+2026-06-26 15:05:17,464  [INFO]  [41/50]  2014JIME05  (n=2703, model=power_law) ...
+2026-06-26 15:09:44,828  [INFO]    alpha_full=0.554  CI=[0.492, 0.601]  SIG  beta=0.03
+2026-06-26 15:09:44,829  [INFO]    alpha_early=0.521  alpha_late=0.571  delta_alpha=0.049
+2026-06-26 15:09:45,404  [INFO]  [42/50]  2014PETE03  (n=2771, model=hybrid) ...
+2026-06-26 15:14:28,950  [INFO]    alpha_full=0.575  CI=[0.499, 0.649]  SIG  beta=0.01
+2026-06-26 15:14:28,950  [INFO]    alpha_early=0.515  alpha_late=0.538  delta_alpha=0.023
+2026-06-26 15:14:29,714  [INFO]  [43/50]  2014SEBA01  (n=2964, model=hybrid) ...
+2026-06-26 15:19:32,843  [INFO]    alpha_full=0.570  CI=[0.477, 0.643]  SIG  beta=0.04
+2026-06-26 15:19:32,844  [INFO]    alpha_early=0.543  alpha_late=0.556  delta_alpha=0.013
+2026-06-26 15:19:33,502  [INFO]  [44/50]  2014ZAKR01  (n=3240, model=power_law) ...
+2026-06-26 15:25:06,441  [INFO]    alpha_full=0.559  CI=[0.507, 0.652]  SIG  beta=-0.04
+2026-06-26 15:25:06,442  [INFO]    alpha_early=0.587  alpha_late=0.446  delta_alpha=-0.141
+2026-06-26 15:25:07,196  [INFO]  [45/50]  2015KUCA01  (n=3040, model=hybrid) ...
+2026-06-26 15:30:27,272  [INFO]    alpha_full=0.600  CI=[0.524, 0.624]  SIG  beta=0.01
+2026-06-26 15:30:27,273  [INFO]    alpha_early=0.570  alpha_late=0.591  delta_alpha=0.021
+2026-06-26 15:30:27,968  [INFO]  [46/50]  2015NICH04  (n=2111, model=power_law) ...
+2026-06-26 15:34:22,861  [INFO]    alpha_full=0.615  CI=[0.523, 0.677]  SIG  beta=0.06
+2026-06-26 15:34:22,862  [INFO]    alpha_early=0.558  alpha_late=0.609  delta_alpha=0.052
+2026-06-26 15:34:23,571  [INFO]  [47/50]  2015SANC18  (n=2069, model=exponential) ...
+2026-06-26 15:38:17,533  [INFO]    alpha_full=0.558  CI=[0.467, 0.605]  SIG  beta=0.06
+2026-06-26 15:38:17,533  [INFO]    alpha_early=0.558  alpha_late=0.488  delta_alpha=-0.070
+2026-06-26 15:38:18,266  [INFO]  [48/50]  2016KELL12  (n=2774, model=hybrid) ...
+2026-06-26 15:43:22,037  [INFO]    alpha_full=0.575  CI=[0.514, 0.629]  SIG  beta=0.02
+2026-06-26 15:43:22,037  [INFO]    alpha_early=0.525  alpha_late=0.523  delta_alpha=-0.002
+2026-06-26 15:43:22,734  [INFO]  [49/50]  2017GARR05  (n=3933, model=hybrid) ...
+2026-06-26 15:49:50,511  [INFO]    alpha_full=0.562  CI=[0.499, 0.617]  SIG  beta=0.01
+2026-06-26 15:49:50,511  [INFO]    alpha_early=0.528  alpha_late=0.501  delta_alpha=-0.027
+2026-06-26 15:49:51,222  [INFO]  [50/50]  2020DWOR01  (n=2055, model=power_law) ...
+2026-06-26 15:53:42,465  [INFO]    alpha_full=0.560  CI=[0.469, 0.662]  SIG  beta=0.03
+2026-06-26 15:53:42,465  [INFO]    alpha_early=0.575  alpha_late=0.527  delta_alpha=-0.049
+2026-06-26 15:53:43,103  [INFO]  
+Results saved: output\rq3\rq3_results.csv
+2026-06-26 15:53:43,106  [INFO]  Phase results saved: output\rq3\rq3_phase_results.csv
+2026-06-26 15:53:43,107  [INFO]  
+============================================================
+2026-06-26 15:53:43,107  [INFO]  RQ3 - RESULTS SUMMARY
+2026-06-26 15:53:43,107  [INFO]  ============================================================
+2026-06-26 15:53:43,107  [INFO]  Solvers analysed: 50  (skipped: 0)
+2026-06-26 15:53:43,107  [INFO]  alpha computed:       50/50
+2026-06-26 15:53:43,107  [INFO]  Phase split:      50/50 solvers
+2026-06-26 15:53:43,108  [INFO]  
+-- Full-career alpha --
+2026-06-26 15:53:43,108  [INFO]    median = 0.5705
+2026-06-26 15:53:43,108  [INFO]    mean   = 0.5787
+2026-06-26 15:53:43,108  [INFO]    std    = 0.0724
+2026-06-26 15:53:43,108  [INFO]    range  = [0.3575, 0.8481]
+2026-06-26 15:53:43,108  [INFO]    alpha > 0.5:  45/50
+2026-06-26 15:53:43,109  [INFO]    alpha > 0.75: 1/50
+2026-06-26 15:53:43,109  [INFO]    |alpha-0.5|>0.1: 18/50
+2026-06-26 15:53:43,109  [INFO]  
+-- Surrogate significance --
+2026-06-26 15:53:43,109  [INFO]    Significant (p<0.05): 37/50 (74.0%)
+2026-06-26 15:53:43,109  [INFO]  
+-- PSD beta --
+2026-06-26 15:53:43,109  [INFO]    median = 0.0270
+2026-06-26 15:53:43,110  [INFO]    beta > 0 (1/f-like): 38/50
+2026-06-26 15:53:43,110  [INFO]  
+-- Early vs Late --
+2026-06-26 15:53:43,110  [INFO]    n pairs = 50
+2026-06-26 15:53:43,110  [INFO]    median delta_alpha = -0.0177
+2026-06-26 15:53:43,110  [INFO]    mean delta_alpha   = -0.0183
+2026-06-26 15:53:43,110  [INFO]    delta_alpha > 0 (late > early): 23/50
+2026-06-26 15:53:43,111  [INFO]    Wilcoxon signed-rank: W=512.0, p=0.2297
+2026-06-26 15:53:43,111  [INFO]  
+-- KPI Evaluation --
+2026-06-26 15:53:43,111  [INFO]    Baseline: alpha=0.5 (white noise)
+2026-06-26 15:53:43,111  [INFO]    Criterion: scaling exponent reported with CI; deviation from 0.5 assessed
+2026-06-26 15:53:43,112  [INFO]    CIs available: 50/50
+2026-06-26 15:53:43,112  [INFO]    KPI status: PASS (50/50 = 100% have CIs, target >=80%)
+2026-06-26 15:53:43,116  [INFO]  Text summary saved: output\rq3\rq3_summary.txt
+2026-06-26 15:53:45,220  [INFO]  
+All outputs written to C:\Users\z004mcpx\Documents\GitHub\The-Dynamics-of-Mastery\output\rq3
+2026-06-26 15:53:45,220  [INFO]  Done.

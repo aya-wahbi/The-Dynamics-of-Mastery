@@ -1,0 +1,331 @@
+2026-06-24 09:21:24,666  [INFO]  ============================================================
+2026-06-24 09:21:24,666  [INFO]  RQ2 — Distributional Evolution  |  The Dynamics of Mastery
+2026-06-24 09:21:24,666  [INFO]    v2.0  |  bootstrap=500  |  min_phase_solves=30
+2026-06-24 09:21:24,666  [INFO]    shape_threshold=20%  |  scale_threshold=20%
+2026-06-24 09:21:24,667  [INFO]  ============================================================
+2026-06-24 09:21:24,667  [INFO]  TSV files found in data: ['WCA_export_championships.tsv', 'WCA_export_competitions.tsv', 'WCA_export_continents.tsv', 'WCA_export_countries.tsv', 'WCA_export_eligible_country_iso2s_for_championship.tsv', 'WCA_export_events.tsv', 'WCA_export_formats.tsv', 'WCA_export_persons.tsv', 'WCA_export_ranks_average.tsv', 'WCA_export_ranks_single.tsv', 'WCA_export_result_attempts.tsv', 'WCA_export_results.tsv', 'WCA_export_round_types.tsv', 'WCA_export_scrambles.tsv']
+2026-06-24 09:21:24,668  [INFO]  Loading results from WCA_export_results.tsv ...
+2026-06-24 09:21:54,028  [INFO]    results columns: ['id', 'pos', 'best', 'average', 'competition_id', 'round_type_id', 'event_id', 'person_name', 'person_id', 'format_id', 'regional_single_record', 'regional_average_record', 'person_country_id']
+2026-06-24 09:21:54,028  [INFO]    results shape:   (6654183, 13)
+2026-06-24 09:21:54,825  [INFO]    3x3x3 results: 1,801,014
+2026-06-24 09:22:43,240  [INFO]    final solves DataFrame: (8800344, 6)
+2026-06-24 09:22:43,378  [INFO]  Loading RQ1 cohort from output\rq1\cohort_info.csv ...
+2026-06-24 09:22:43,705  [INFO]    Loaded 50 solvers from RQ1 cohort.
+2026-06-24 09:22:43,775  [INFO]  
+Analysis cohort: 50 solvers
+2026-06-24 09:22:43,777  [INFO]    Solves — median 2692, range [1699,4264]
+2026-06-24 09:22:43,799  [INFO]  [1/50]  Analysing solver 2017GARR05 (quartile) ...
+2026-06-24 09:24:44,325  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:24:44,326  [INFO]    Shape shift: False  Scale shift: True  Norm-KS: stat=0.0420 p=0.3408 rej=False
+2026-06-24 09:24:44,326  [INFO]    Skewness: 2.543 -> 2.765  (Δ=0.222, rel=8.7%)
+2026-06-24 09:24:44,326  [INFO]    Variance: 4.43 -> 1.62  (rel=-63.4%)
+2026-06-24 09:24:44,327  [INFO]  [2/50]  Analysing solver 2013WALL03 (quartile) ...
+2026-06-24 09:26:39,418  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:26:39,421  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0615 p=0.0722 rej=False
+2026-06-24 09:26:39,421  [INFO]    Skewness: 1.489 -> 2.579  (Δ=1.091, rel=73.2%)
+2026-06-24 09:26:39,421  [INFO]    Variance: 6.47 -> 2.59  (rel=-60.0%)
+2026-06-24 09:26:39,421  [INFO]  [3/50]  Analysing solver 2009LIUE01 (quartile) ...
+2026-06-24 09:28:00,343  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:28:00,344  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1142 p=0.0000 rej=True
+2026-06-24 09:28:00,344  [INFO]    Skewness: 3.746 -> 0.881  (Δ=-2.865, rel=-76.5%)
+2026-06-24 09:28:00,344  [INFO]    Variance: 17.96 -> 2.29  (rel=-87.2%)
+2026-06-24 09:28:00,345  [INFO]  [4/50]  Analysing solver 2012MAHV01 (quartile) ...
+2026-06-24 09:29:57,756  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:29:57,756  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1588 p=0.0000 rej=True
+2026-06-24 09:29:57,757  [INFO]    Skewness: 3.771 -> 1.562  (Δ=-2.209, rel=-58.6%)
+2026-06-24 09:29:57,757  [INFO]    Variance: 15.82 -> 1.91  (rel=-87.9%)
+2026-06-24 09:29:57,758  [INFO]  [5/50]  Analysing solver 2014ZAKR01 (quartile) ...
+2026-06-24 09:31:44,133  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:31:44,134  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0469 p=0.3349 rej=False
+2026-06-24 09:31:44,135  [INFO]    Skewness: 2.095 -> 2.442  (Δ=0.347, rel=16.6%)
+2026-06-24 09:31:44,135  [INFO]    Variance: 5.01 -> 2.51  (rel=-49.9%)
+2026-06-24 09:31:44,135  [INFO]  [6/50]  Analysing solver 2012PARK03 (quartile) ...
+2026-06-24 09:33:26,111  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:33:26,114  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1359 p=0.0000 rej=True
+2026-06-24 09:33:26,114  [INFO]    Skewness: 3.321 -> 1.345  (Δ=-1.976, rel=-59.5%)
+2026-06-24 09:33:26,114  [INFO]    Variance: 9.66 -> 0.56  (rel=-94.2%)
+2026-06-24 09:33:26,114  [INFO]  [7/50]  Analysing solver 2015KUCA01 (quartile) ...
+2026-06-24 09:35:08,480  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:35:08,481  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0461 p=0.3961 rej=False
+2026-06-24 09:35:08,481  [INFO]    Skewness: 1.789 -> 1.258  (Δ=-0.531, rel=-29.7%)
+2026-06-24 09:35:08,482  [INFO]    Variance: 8.82 -> 1.77  (rel=-80.0%)
+2026-06-24 09:35:08,482  [INFO]  [8/50]  Analysing solver 2014SEBA01 (quartile) ...
+2026-06-24 09:36:56,630  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:36:56,630  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0931 p=0.0032 rej=True
+2026-06-24 09:36:56,630  [INFO]    Skewness: 4.952 -> 1.065  (Δ=-3.887, rel=-78.5%)
+2026-06-24 09:36:56,630  [INFO]    Variance: 8.20 -> 0.97  (rel=-88.1%)
+2026-06-24 09:36:56,631  [INFO]  [9/50]  Analysing solver 2013BURL01 (quartile) ...
+2026-06-24 09:38:46,262  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:38:46,263  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.2457 p=0.0000 rej=True
+2026-06-24 09:38:46,263  [INFO]    Skewness: 9.485 -> 1.663  (Δ=-7.823, rel=-82.5%)
+2026-06-24 09:38:46,264  [INFO]    Variance: 37.92 -> 2.25  (rel=-94.1%)
+2026-06-24 09:38:46,265  [INFO]  [10/50]  Analysing solver 2010WEYE02 (quartile) ...
+2026-06-24 09:40:10,217  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:40:10,218  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0940 p=0.0033 rej=True
+2026-06-24 09:40:10,218  [INFO]    Skewness: 2.735 -> 2.127  (Δ=-0.608, rel=-22.2%)
+2026-06-24 09:40:10,219  [INFO]    Variance: 7.82 -> 0.88  (rel=-88.7%)
+2026-06-24 09:40:10,219  [INFO]  [11/50]  Analysing solver 2010HULL01 (quartile) ...
+2026-06-24 09:40:49,284  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:40:49,284  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0689 p=0.0342 rej=True
+2026-06-24 09:40:49,284  [INFO]    Skewness: 2.997 -> 1.699  (Δ=-1.298, rel=-43.3%)
+2026-06-24 09:40:49,284  [INFO]    Variance: 5.72 -> 1.94  (rel=-66.1%)
+2026-06-24 09:40:49,284  [INFO]  [12/50]  Analysing solver 2008BARA01 (quartile) ...
+2026-06-24 09:41:10,931  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:41:10,931  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0725 p=0.0369 rej=True
+2026-06-24 09:41:10,931  [INFO]    Skewness: 1.174 -> 2.257  (Δ=1.082, rel=92.2%)
+2026-06-24 09:41:10,931  [INFO]    Variance: 6.32 -> 1.98  (rel=-68.7%)
+2026-06-24 09:41:10,931  [INFO]  [13/50]  Analysing solver 2010THOM03 (quartile) ...
+2026-06-24 09:41:32,079  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:41:32,080  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0885 p=0.0076 rej=True
+2026-06-24 09:41:32,080  [INFO]    Skewness: 3.714 -> 1.022  (Δ=-2.692, rel=-72.5%)
+2026-06-24 09:41:32,080  [INFO]    Variance: 10.71 -> 2.27  (rel=-78.8%)
+2026-06-24 09:41:32,080  [INFO]  [14/50]  Analysing solver 2016KELL12 (quartile) ...
+2026-06-24 09:41:53,350  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:41:53,351  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0732 p=0.0442 rej=True
+2026-06-24 09:41:53,351  [INFO]    Skewness: 3.572 -> 2.379  (Δ=-1.193, rel=-33.4%)
+2026-06-24 09:41:53,351  [INFO]    Variance: 15.14 -> 2.74  (rel=-81.9%)
+2026-06-24 09:41:53,351  [INFO]  [15/50]  Analysing solver 2014PETE03 (quartile) ...
+2026-06-24 09:42:14,336  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:42:14,336  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0793 p=0.0234 rej=True
+2026-06-24 09:42:14,336  [INFO]    Skewness: 4.885 -> 1.122  (Δ=-3.763, rel=-77.0%)
+2026-06-24 09:42:14,337  [INFO]    Variance: 10.56 -> 2.76  (rel=-73.8%)
+2026-06-24 09:42:14,337  [INFO]  [16/50]  Analysing solver 2011WELC01 (quartile) ...
+2026-06-24 09:42:34,682  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:42:34,682  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1346 p=0.0000 rej=True
+2026-06-24 09:42:34,682  [INFO]    Skewness: 8.192 -> 1.174  (Δ=-7.018, rel=-85.7%)
+2026-06-24 09:42:34,683  [INFO]    Variance: 17.24 -> 2.46  (rel=-85.7%)
+2026-06-24 09:42:34,683  [INFO]  [17/50]  Analysing solver 2014GOSL01 (quartile) ...
+2026-06-24 09:42:55,473  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:42:55,473  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0428 p=0.6128 rej=False
+2026-06-24 09:42:55,473  [INFO]    Skewness: 1.955 -> 1.007  (Δ=-0.948, rel=-48.5%)
+2026-06-24 09:42:55,474  [INFO]    Variance: 4.72 -> 2.08  (rel=-55.9%)
+2026-06-24 09:42:55,474  [INFO]  [18/50]  Analysing solver 2011GROG02 (quartile) ...
+2026-06-24 09:43:15,511  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:43:15,512  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0387 p=0.7661 rej=False
+2026-06-24 09:43:15,512  [INFO]    Skewness: 1.470 -> 2.289  (Δ=0.819, rel=55.7%)
+2026-06-24 09:43:15,512  [INFO]    Variance: 4.17 -> 2.40  (rel=-42.4%)
+2026-06-24 09:43:15,512  [INFO]  [19/50]  Analysing solver 2006HALC01 (quartile) ...
+2026-06-24 09:43:34,432  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:43:34,432  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0637 p=0.2017 rej=False
+2026-06-24 09:43:34,432  [INFO]    Skewness: 2.736 -> 1.003  (Δ=-1.733, rel=-63.3%)
+2026-06-24 09:43:34,432  [INFO]    Variance: 7.33 -> 2.21  (rel=-69.9%)
+2026-06-24 09:43:34,432  [INFO]  [20/50]  Analysing solver 2005AKKE01 (quartile) ...
+2026-06-24 09:43:54,173  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:43:54,173  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.2127 p=0.0000 rej=True
+2026-06-24 09:43:54,173  [INFO]    Skewness: 5.932 -> 1.191  (Δ=-4.741, rel=-79.9%)
+2026-06-24 09:43:54,174  [INFO]    Variance: 31.08 -> 2.18  (rel=-93.0%)
+2026-06-24 09:43:54,174  [INFO]  [21/50]  Analysing solver 2009PROV01 (quartile) ...
+2026-06-24 09:44:19,868  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:44:19,869  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0883 p=0.0013 rej=True
+2026-06-24 09:44:19,869  [INFO]    Skewness: 2.992 -> 2.095  (Δ=-0.897, rel=-30.0%)
+2026-06-24 09:44:19,869  [INFO]    Variance: 16.94 -> 3.21  (rel=-81.0%)
+2026-06-24 09:44:19,870  [INFO]  [22/50]  Analysing solver 2012CANT02 (quartile) ...
+2026-06-24 09:44:42,106  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:44:42,106  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0794 p=0.0173 rej=True
+2026-06-24 09:44:42,107  [INFO]    Skewness: 2.114 -> 1.029  (Δ=-1.085, rel=-51.3%)
+2026-06-24 09:44:42,107  [INFO]    Variance: 10.45 -> 2.10  (rel=-79.9%)
+2026-06-24 09:44:42,107  [INFO]  [23/50]  Analysing solver 2010RONK01 (quartile) ...
+2026-06-24 09:45:05,451  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:45:05,452  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.2188 p=0.0000 rej=True
+2026-06-24 09:45:05,452  [INFO]    Skewness: 13.960 -> 4.073  (Δ=-9.886, rel=-70.8%)
+2026-06-24 09:45:05,452  [INFO]    Variance: 51.30 -> 4.28  (rel=-91.7%)
+2026-06-24 09:45:05,452  [INFO]  [24/50]  Analysing solver 2012ICKL01 (quartile) ...
+2026-06-24 09:45:27,081  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:45:27,081  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0723 p=0.0531 rej=False
+2026-06-24 09:45:27,081  [INFO]    Skewness: 2.906 -> 1.297  (Δ=-1.609, rel=-55.4%)
+2026-06-24 09:45:27,081  [INFO]    Variance: 8.82 -> 1.93  (rel=-78.2%)
+2026-06-24 09:45:27,081  [INFO]  [25/50]  Analysing solver 2009HILD01 (quartile) ...
+2026-06-24 09:45:50,617  [INFO]    AIC: exgaussian -> lognormal  LL: exgaussian -> lognormal  ExG fits: 4/4
+2026-06-24 09:45:50,617  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0796 p=0.0318 rej=True
+2026-06-24 09:45:50,617  [INFO]    Skewness: 1.722 -> 0.518  (Δ=-1.204, rel=-69.9%)
+2026-06-24 09:45:50,618  [INFO]    Variance: 10.48 -> 2.81  (rel=-73.2%)
+2026-06-24 09:45:50,618  [INFO]  [26/50]  Analysing solver 2011SZAT01 (quartile) ...
+2026-06-24 09:46:41,516  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:46:41,516  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.3042 p=0.0000 rej=True
+2026-06-24 09:46:41,517  [INFO]    Skewness: 13.362 -> 3.204  (Δ=-10.158, rel=-76.0%)
+2026-06-24 09:46:41,517  [INFO]    Variance: 85.17 -> 3.98  (rel=-95.3%)
+2026-06-24 09:46:41,518  [INFO]  [27/50]  Analysing solver 2010BENT01 (quartile) ...
+2026-06-24 09:48:13,852  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:48:13,853  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0891 p=0.0135 rej=True
+2026-06-24 09:48:13,854  [INFO]    Skewness: 2.707 -> 0.924  (Δ=-1.782, rel=-65.8%)
+2026-06-24 09:48:13,854  [INFO]    Variance: 22.10 -> 2.24  (rel=-89.9%)
+2026-06-24 09:48:13,855  [INFO]  [28/50]  Analysing solver 2013TOKA01 (quartile) ...
+2026-06-24 09:49:50,573  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:49:50,574  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0765 p=0.0503 rej=False
+2026-06-24 09:49:50,574  [INFO]    Skewness: 3.717 -> 1.457  (Δ=-2.260, rel=-60.8%)
+2026-06-24 09:49:50,575  [INFO]    Variance: 8.55 -> 3.73  (rel=-56.4%)
+2026-06-24 09:49:50,575  [INFO]  [29/50]  Analysing solver 2007GOUL01 (quartile) ...
+2026-06-24 09:51:20,872  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:51:20,876  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0433 p=0.6030 rej=False
+2026-06-24 09:51:20,876  [INFO]    Skewness: 1.109 -> 1.242  (Δ=0.133, rel=12.0%)
+2026-06-24 09:51:20,876  [INFO]    Variance: 8.97 -> 2.58  (rel=-71.3%)
+2026-06-24 09:51:20,877  [INFO]  [30/50]  Analysing solver 2005REYN01 (quartile) ...
+2026-06-24 09:52:47,591  [INFO]    AIC: exgaussian -> lognormal  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:52:47,592  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1175 p=0.0005 rej=True
+2026-06-24 09:52:47,593  [INFO]    Skewness: 3.339 -> 0.589  (Δ=-2.750, rel=-82.4%)
+2026-06-24 09:52:47,593  [INFO]    Variance: 19.15 -> 2.76  (rel=-85.6%)
+2026-06-24 09:52:47,593  [INFO]  [31/50]  Analysing solver 2010ROSE03 (quartile) ...
+2026-06-24 09:54:49,206  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:54:49,207  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0767 p=0.0072 rej=True
+2026-06-24 09:54:49,207  [INFO]    Skewness: 1.907 -> 5.508  (Δ=3.601, rel=188.9%)
+2026-06-24 09:54:49,208  [INFO]    Variance: 9.69 -> 5.62  (rel=-42.0%)
+2026-06-24 09:54:49,208  [INFO]  [32/50]  Analysing solver 2013ROGA02 (quartile) ...
+2026-06-24 09:56:40,712  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:56:40,713  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0587 p=0.1345 rej=False
+2026-06-24 09:56:40,713  [INFO]    Skewness: 1.371 -> 2.729  (Δ=1.358, rel=99.0%)
+2026-06-24 09:56:40,714  [INFO]    Variance: 7.06 -> 4.02  (rel=-43.0%)
+2026-06-24 09:56:40,714  [INFO]  [33/50]  Analysing solver 2008AURO01 (quartile) ...
+2026-06-24 09:58:21,943  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:58:21,944  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1671 p=0.0000 rej=True
+2026-06-24 09:58:21,944  [INFO]    Skewness: 9.103 -> 1.549  (Δ=-7.554, rel=-83.0%)
+2026-06-24 09:58:21,944  [INFO]    Variance: 33.88 -> 6.44  (rel=-81.0%)
+2026-06-24 09:58:21,944  [INFO]  [34/50]  Analysing solver 2014JIME05 (quartile) ...
+2026-06-24 09:59:53,726  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 09:59:53,726  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0455 p=0.4619 rej=False
+2026-06-24 09:59:53,727  [INFO]    Skewness: 1.658 -> 1.121  (Δ=-0.537, rel=-32.4%)
+2026-06-24 09:59:53,727  [INFO]    Variance: 5.84 -> 4.28  (rel=-26.8%)
+2026-06-24 09:59:53,728  [INFO]  [35/50]  Analysing solver 2010AMBR01 (quartile) ...
+2026-06-24 10:01:01,180  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:01:01,180  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0532 p=0.3620 rej=False
+2026-06-24 10:01:01,180  [INFO]    Skewness: 4.203 -> 2.673  (Δ=-1.530, rel=-36.4%)
+2026-06-24 10:01:01,180  [INFO]    Variance: 11.66 -> 4.32  (rel=-62.9%)
+2026-06-24 10:01:01,180  [INFO]  [36/50]  Analysing solver 2009ZHEN11 (quartile) ...
+2026-06-24 10:02:21,061  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:02:21,061  [INFO]    Shape shift: False  Scale shift: True  Norm-KS: stat=0.0377 p=0.8069 rej=False
+2026-06-24 10:02:21,062  [INFO]    Skewness: 2.074 -> 2.078  (Δ=0.004, rel=0.2%)
+2026-06-24 10:02:21,062  [INFO]    Variance: 11.75 -> 8.29  (rel=-29.4%)
+2026-06-24 10:02:21,063  [INFO]  [37/50]  Analysing solver 2008VIRO01 (quartile) ...
+2026-06-24 10:03:47,159  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:03:47,161  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1584 p=0.0000 rej=True
+2026-06-24 10:03:47,161  [INFO]    Skewness: 8.878 -> 2.021  (Δ=-6.857, rel=-77.2%)
+2026-06-24 10:03:47,162  [INFO]    Variance: 21.23 -> 3.77  (rel=-82.2%)
+2026-06-24 10:03:47,162  [INFO]  [38/50]  Analysing solver 2009ROTA01 (quartile) ...
+2026-06-24 10:05:13,031  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:05:13,031  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.2610 p=0.0000 rej=True
+2026-06-24 10:05:13,032  [INFO]    Skewness: 13.058 -> 1.457  (Δ=-11.601, rel=-88.8%)
+2026-06-24 10:05:13,032  [INFO]    Variance: 86.23 -> 3.76  (rel=-95.6%)
+2026-06-24 10:05:13,032  [INFO]  [39/50]  Analysing solver 2015SANC18 (quartile) ...
+2026-06-24 10:06:35,793  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:06:35,794  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0265 p=0.9898 rej=False
+2026-06-24 10:06:35,794  [INFO]    Skewness: 1.411 -> 1.054  (Δ=-0.357, rel=-25.3%)
+2026-06-24 10:06:35,794  [INFO]    Variance: 6.33 -> 2.69  (rel=-57.6%)
+2026-06-24 10:06:35,794  [INFO]  [40/50]  Analysing solver 2020DWOR01 (quartile) ...
+2026-06-24 10:08:04,333  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:08:04,335  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0654 p=0.2065 rej=False
+2026-06-24 10:08:04,335  [INFO]    Skewness: 2.465 -> 2.207  (Δ=-0.259, rel=-10.5%)
+2026-06-24 10:08:04,335  [INFO]    Variance: 12.03 -> 4.01  (rel=-66.7%)
+2026-06-24 10:08:04,335  [INFO]  [41/50]  Analysing solver 2011EDUA01 (quartile) ...
+2026-06-24 10:10:09,572  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:10:09,574  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.3687 p=0.0000 rej=True
+2026-06-24 10:10:09,574  [INFO]    Skewness: 19.769 -> 2.006  (Δ=-17.763, rel=-89.9%)
+2026-06-24 10:10:09,574  [INFO]    Variance: 162.03 -> 4.67  (rel=-97.1%)
+2026-06-24 10:10:09,575  [INFO]  [42/50]  Analysing solver 2003BRUC01 (quartile) ...
+2026-06-24 10:11:54,031  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:11:54,032  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0236 p=0.9867 rej=False
+2026-06-24 10:11:54,032  [INFO]    Skewness: 3.239 -> 2.035  (Δ=-1.204, rel=-37.2%)
+2026-06-24 10:11:54,033  [INFO]    Variance: 11.43 -> 8.44  (rel=-26.1%)
+2026-06-24 10:11:54,033  [INFO]  [43/50]  Analysing solver 2010GRAC02 (quartile) ...
+2026-06-24 10:13:16,259  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:13:16,259  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0742 p=0.0448 rej=True
+2026-06-24 10:13:16,260  [INFO]    Skewness: 3.442 -> 1.801  (Δ=-1.640, rel=-47.7%)
+2026-06-24 10:13:16,260  [INFO]    Variance: 62.75 -> 10.77  (rel=-82.8%)
+2026-06-24 10:13:16,260  [INFO]  [44/50]  Analysing solver 2003DENN01 (quartile) ...
+2026-06-24 10:13:50,302  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:13:50,303  [INFO]    Shape shift: True  Scale shift: False  Norm-KS: stat=0.0483 p=0.4726 rej=False
+2026-06-24 10:13:50,303  [INFO]    Skewness: 2.936 -> 2.297  (Δ=-0.639, rel=-21.8%)
+2026-06-24 10:13:50,303  [INFO]    Variance: 31.33 -> 25.36  (rel=-19.1%)
+2026-06-24 10:13:50,303  [INFO]  [45/50]  Analysing solver 2015NICH04 (quartile) ...
+2026-06-24 10:14:08,839  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:14:08,839  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1022 p=0.0071 rej=True
+2026-06-24 10:14:08,839  [INFO]    Skewness: 3.341 -> 2.161  (Δ=-1.180, rel=-35.3%)
+2026-06-24 10:14:08,839  [INFO]    Variance: 37.73 -> 9.79  (rel=-74.0%)
+2026-06-24 10:14:08,840  [INFO]  [46/50]  Analysing solver 2013DICK01 (quartile) ...
+2026-06-24 10:14:27,124  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:14:27,124  [INFO]    Shape shift: False  Scale shift: True  Norm-KS: stat=0.0369 p=0.8947 rej=False
+2026-06-24 10:14:27,124  [INFO]    Skewness: 1.942 -> 2.020  (Δ=0.078, rel=4.0%)
+2026-06-24 10:14:27,124  [INFO]    Variance: 12.11 -> 7.66  (rel=-36.8%)
+2026-06-24 10:14:27,124  [INFO]  [47/50]  Analysing solver 2013MART03 (quartile) ...
+2026-06-24 10:14:43,895  [INFO]    AIC: lognormal -> lognormal  LL: lognormal -> exgaussian  ExG fits: 4/4
+2026-06-24 10:14:43,895  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0534 p=0.5170 rej=False
+2026-06-24 10:14:43,895  [INFO]    Skewness: 0.649 -> 0.517  (Δ=-0.132, rel=-20.3%)
+2026-06-24 10:14:43,895  [INFO]    Variance: 60.00 -> 10.49  (rel=-82.5%)
+2026-06-24 10:14:43,895  [INFO]  [48/50]  Analysing solver 2007OEYM01 (quartile) ...
+2026-06-24 10:15:01,008  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:15:01,008  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.1021 p=0.0162 rej=True
+2026-06-24 10:15:01,008  [INFO]    Skewness: 2.990 -> 1.334  (Δ=-1.656, rel=-55.4%)
+2026-06-24 10:15:01,008  [INFO]    Variance: 142.07 -> 21.18  (rel=-85.1%)
+2026-06-24 10:15:01,008  [INFO]  [49/50]  Analysing solver 2013PAPA01 (quartile) ...
+2026-06-24 10:15:18,186  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:15:18,187  [INFO]    Shape shift: True  Scale shift: True  Norm-KS: stat=0.0469 p=0.6879 rej=False
+2026-06-24 10:15:18,187  [INFO]    Skewness: 1.922 -> 1.920  (Δ=-0.002, rel=-0.1%)
+2026-06-24 10:15:18,187  [INFO]    Variance: 11.19 -> 5.25  (rel=-53.1%)
+2026-06-24 10:15:18,187  [INFO]  [50/50]  Analysing solver 2012REYE04 (quartile) ...
+2026-06-24 10:15:34,909  [INFO]    AIC: exgaussian -> exgaussian  LL: exgaussian -> exgaussian  ExG fits: 4/4
+2026-06-24 10:15:34,910  [INFO]    Shape shift: False  Scale shift: False  Norm-KS: stat=0.0432 p=0.8010 rej=False
+2026-06-24 10:15:34,910  [INFO]    Skewness: 1.059 -> 1.178  (Δ=0.119, rel=11.2%)
+2026-06-24 10:15:34,910  [INFO]    Variance: 4.98 -> 4.45  (rel=-10.6%)
+2026-06-24 10:15:34,910  [INFO]  
+--- Robustness: tercile split ---
+2026-06-24 10:50:46,047  [INFO]    tercile: 50 solvers, shift=48 shape=48 norm-KS=28
+2026-06-24 10:50:46,048  [INFO]  
+--- Robustness: quintile split ---
+2026-06-24 11:17:06,750  [INFO]    quintile: 50 solvers, shift=49 shape=49 norm-KS=23
+2026-06-24 11:17:06,933  [INFO]  
+Generating summary plots ...
+2026-06-24 11:17:11,431  [INFO]  
+============================================================
+2026-06-24 11:17:11,431  [INFO]  RQ2 — RESULTS SUMMARY (v2.0)
+2026-06-24 11:17:11,432  [INFO]  ============================================================
+2026-06-24 11:17:11,433  [INFO]  Solvers analysed: 50
+2026-06-24 11:17:11,433  [INFO]  
+--- Shift detection (shape OR norm-KS OR family) ---
+2026-06-24 11:17:11,433  [INFO]    Shift detected:     46/50 (92.0%)  [target ≥ 50%]
+2026-06-24 11:17:11,434  [INFO]    Family changed:     2/50 (4.0%)
+2026-06-24 11:17:11,434  [INFO]    LL-family changed:  2/50 (4.0%)
+2026-06-24 11:17:11,434  [INFO]    Shape shift:        46/50 (92.0%)
+2026-06-24 11:17:11,435  [INFO]    Scale shift:        48/50 (96.0%)
+2026-06-24 11:17:11,435  [INFO]    Norm-KS reject:     28/50 (56.0%)
+2026-06-24 11:17:11,435  [INFO]  
+KPI: PASS (92.0% vs 50%)
+2026-06-24 11:17:11,435  [INFO]  
+-- AIC-preferred distribution: first phase --
+2026-06-24 11:17:11,436  [INFO]    exgaussian       49 (98.0%)
+2026-06-24 11:17:11,436  [INFO]    lognormal         1 (2.0%)
+2026-06-24 11:17:11,436  [INFO]  -- AIC-preferred distribution: last phase --
+2026-06-24 11:17:11,436  [INFO]    exgaussian       47 (94.0%)
+2026-06-24 11:17:11,437  [INFO]    lognormal         3 (6.0%)
+2026-06-24 11:17:11,437  [INFO]  -- LL-preferred (no penalty): first phase --
+2026-06-24 11:17:11,437  [INFO]    exgaussian       49 (98.0%)
+2026-06-24 11:17:11,437  [INFO]    lognormal         1 (2.0%)
+2026-06-24 11:17:11,437  [INFO]  -- LL-preferred (no penalty): last phase --
+2026-06-24 11:17:11,438  [INFO]    exgaussian       49 (98.0%)
+2026-06-24 11:17:11,438  [INFO]    lognormal         1 (2.0%)
+2026-06-24 11:17:11,438  [INFO]  
+-- Ex-Gaussian fit success: 200/200 phases (100.0%) --
+2026-06-24 11:17:11,438  [INFO]  
+-- Feature shift ranking (median |rel change| %) --
+2026-06-24 11:17:11,441  [INFO]    excess_kurtosis              81.7% [SHAPE]
+2026-06-24 11:17:11,441  [INFO]    var                          76.1% [SCALE]
+2026-06-24 11:17:11,441  [INFO]    skewness                     55.6% [SHAPE]
+2026-06-24 11:17:11,441  [INFO]    std                          51.2% [SCALE]
+2026-06-24 11:17:11,442  [INFO]    iqr                          37.7% [SCALE]
+2026-06-24 11:17:11,442  [INFO]    cv                           36.2% [SHAPE]
+2026-06-24 11:17:11,442  [INFO]    mean                         21.1% [SCALE]
+2026-06-24 11:17:11,442  [INFO]    tail_weight_upper            15.1% [SHAPE]
+2026-06-24 11:17:11,442  [INFO]    p90_p10_ratio                10.9% [SCALE]
+2026-06-24 11:17:11,443  [INFO]  
+-- Bootstrap KS GoF (% phases NOT rejected at α=0.05) --
+2026-06-24 11:17:11,443  [INFO]    gaussian        1/200 (0.5%)
+2026-06-24 11:17:11,443  [INFO]    lognormal       19/200 (9.5%)
+2026-06-24 11:17:11,444  [INFO]    exgaussian      131/200 (65.5%)
+2026-06-24 11:17:11,444  [INFO]  
+-- Normalised KS test (Q1 vs Q4, z-scored) --
+2026-06-24 11:17:11,444  [INFO]    Significant (p<0.05): 28/50 (56.0%)
+2026-06-24 11:17:11,445  [INFO]    p-value: median=0.0356 mean=0.2209
+2026-06-24 11:17:11,445  [INFO]  
+-- Robustness: shift-detection agreement --
+2026-06-24 11:17:11,446  [INFO]    tercile     shift=48/50  shape=48  norm-KS=28  agrees=48/50 (96%)
+2026-06-24 11:17:11,447  [INFO]    quintile    shift=49/50  shape=49  norm-KS=23  agrees=47/50 (94%)
+2026-06-24 11:17:11,466  [INFO]  
+All outputs written to C:\Users\z004mcpx\Documents\GitHub\The-Dynamics-of-Mastery\output\rq2
+2026-06-24 11:17:11,467  [INFO]  Done.

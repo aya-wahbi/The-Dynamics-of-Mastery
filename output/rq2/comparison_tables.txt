@@ -1,0 +1,2100 @@
+
+============================================================
+Solver: 2017GARR05  |  Shift: False  |  Shape: False  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=983)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4256.2    350.5      -2126.1   0.1052   0.0000    OK
+  lognormal           3970.7     64.9      -1983.3   0.0540   0.0000    OK
+  exgaussian          3905.8      0.0      -1949.9   0.0204   0.2740    OK
+  Features: mean=8.53s  std=2.11  skew=2.543  kurt=18.991  cv=0.247
+  Ex-Gaussian: μ=6.64  σ=0.79  τ=1.90  τ_frac=0.705
+  Lognormal:   s=0.2188  μ_log=2.1184  dist_skew=0.675
+
+  Phase: Q2_mid_early  (n=983)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3237.8    389.2      -1616.9   0.1249   0.0000    OK
+  lognormal           2980.8    132.2      -1488.4   0.0862   0.0000    OK
+  exgaussian          2848.6      0.0      -1421.3   0.0253   0.0460    OK
+  Features: mean=6.49s  std=1.25  skew=2.366  kurt=13.968  cv=0.193
+  Ex-Gaussian: μ=5.40  σ=0.47  τ=1.09  τ_frac=0.697
+  Lognormal:   s=0.1722  μ_log=1.8541  dist_skew=0.526
+
+  Phase: Q3_mid_late  (n=983)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3489.6    493.0      -1742.8   0.1348   0.0000    OK
+  lognormal           3132.4    135.8      -1564.2   0.0803   0.0000    OK
+  exgaussian          2996.6      0.0      -1495.3   0.0376   0.0000    OK
+  Features: mean=6.39s  std=1.43  skew=3.185  kurt=21.614  cv=0.223
+  Ex-Gaussian: μ=5.25  σ=0.55  τ=1.14  τ_frac=0.675
+  Lognormal:   s=0.1897  μ_log=1.8347  dist_skew=0.581
+
+  Phase: Q4_late  (n=984)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3272.0    412.1      -1634.0   0.1167   0.0000    OK
+  lognormal           2975.6    115.7      -1485.8   0.0682   0.0000    OK
+  exgaussian          2859.9      0.0      -1427.0   0.0289   0.0100    OK
+  Features: mean=6.15s  std=1.27  skew=2.765  kurt=18.880  cv=0.207
+  Ex-Gaussian: μ=5.06  σ=0.49  τ=1.09  τ_frac=0.691
+  Lognormal:   s=0.1812  μ_log=1.7990  dist_skew=0.554
+
+
+============================================================
+Solver: 2013WALL03  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=878)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4134.6    273.6      -2065.3   0.1087   0.0000    OK
+  lognormal           3931.1     70.0      -1963.6   0.0609   0.0000    OK
+  exgaussian          3861.1      0.0      -1927.5   0.0276   0.0500    OK
+  Features: mean=10.54s  std=2.54  skew=1.489  kurt=3.597  cv=0.241
+  Ex-Gaussian: μ=8.04  σ=0.84  τ=2.49  τ_frac=0.748
+  Lognormal:   s=0.2205  μ_log=2.3294  dist_skew=0.681
+
+  Phase: Q2_mid_early  (n=878)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3684.7    573.9      -1840.3   0.1200   0.0000    OK
+  lognormal           3215.6    104.8      -1605.8   0.0572   0.0000    OK
+  exgaussian          3110.8      0.0      -1552.4   0.0245   0.0900    OK
+  Features: mean=8.82s  std=1.97  skew=7.356  kurt=118.257  cv=0.223
+  Ex-Gaussian: μ=7.38  σ=0.71  τ=1.44  τ_frac=0.669
+  Lognormal:   s=0.1737  μ_log=2.1602  dist_skew=0.531
+
+  Phase: Q3_mid_late  (n=878)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3174.9    170.1      -1585.4   0.0890   0.0000    OK
+  lognormal           3043.5     38.7      -1519.8   0.0552   0.0000    OK
+  exgaussian          3004.8      0.0      -1499.4   0.0200   0.3700    OK
+  Features: mean=8.41s  std=1.47  skew=1.353  kurt=4.022  cv=0.175
+  Ex-Gaussian: μ=7.16  σ=0.76  τ=1.25  τ_frac=0.622
+  Lognormal:   s=0.1647  μ_log=2.1155  dist_skew=0.502
+
+  Phase: Q4_late  (n=878)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3330.0    376.0      -1663.0   0.1048   0.0000    OK
+  lognormal           3073.2    119.2      -1534.6   0.0691   0.0000    OK
+  exgaussian          2954.0      0.0      -1474.0   0.0199   0.3780    OK
+  Features: mean=8.20s  std=1.61  skew=2.579  kurt=13.963  cv=0.196
+  Ex-Gaussian: μ=6.82  σ=0.59  τ=1.38  τ_frac=0.699
+  Lognormal:   s=0.1721  μ_log=2.0885  dist_skew=0.525
+
+
+============================================================
+Solver: 2009LIUE01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=876)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            5018.9    698.3      -2507.4   0.1530   0.0000    OK
+  lognormal           4490.4    169.8      -2243.2   0.0836   0.0000    OK
+  exgaussian          4320.6      0.0      -2157.3   0.0454   0.0000    OK
+  Features: mean=12.97s  std=4.24  skew=3.746  kurt=21.652  cv=0.327
+  Ex-Gaussian: μ=9.65  σ=1.03  τ=3.32  τ_frac=0.763
+  Lognormal:   s=0.2504  μ_log=2.5265  dist_skew=0.780
+
+  Phase: Q2_mid_early  (n=876)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3374.8     60.8      -1685.4   0.0489   0.0000    OK
+  lognormal           3321.2      7.1      -1658.6   0.0217   0.4380    OK
+  exgaussian          3314.1      0.0      -1654.0   0.0141   0.9180    OK
+  Features: mean=10.05s  std=1.66  skew=0.772  kurt=2.209  cv=0.165
+  Ex-Gaussian: μ=8.90  σ=1.19  τ=1.14  τ_frac=0.491
+  Lognormal:   s=0.1621  μ_log=2.2941  dist_skew=0.494
+
+  Phase: Q3_mid_late  (n=876)  AIC-Pref: lognormal  LL-Pref: lognormal
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3267.5     52.1      -1631.8   0.0471   0.0000    OK
+  lognormal           3215.4      0.0      -1605.7   0.0267   0.1680    OK
+  exgaussian          3220.6      5.1      -1607.3   0.0296   0.0220    OK
+  Features: mean=9.49s  std=1.56  skew=0.628  kurt=0.719  cv=0.164
+  Ex-Gaussian: μ=8.34  σ=1.08  τ=1.15  τ_frac=0.514
+  Lognormal:   s=0.1615  μ_log=2.2372  dist_skew=0.492
+
+  Phase: Q4_late  (n=876)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3216.5     81.5      -1606.3   0.0580   0.0000    OK
+  lognormal           3150.4     15.4      -1573.2   0.0295   0.0660    OK
+  exgaussian          3135.0      0.0      -1564.5   0.0189   0.5220    OK
+  Features: mean=9.08s  std=1.51  skew=0.881  kurt=2.436  cv=0.167
+  Ex-Gaussian: μ=7.99  σ=1.03  τ=1.09  τ_frac=0.513
+  Lognormal:   s=0.1627  μ_log=2.1929  dist_skew=0.496
+
+
+============================================================
+Solver: 2012MAHV01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=868)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4862.9    929.4      -2429.4   0.2148   0.0000    OK
+  lognormal           4241.9    308.4      -2119.0   0.1530   0.0000    OK
+  exgaussian          3933.5      0.0      -1963.7   0.0932   0.0000    OK
+  Features: mean=10.80s  std=3.98  skew=3.771  kurt=20.519  cv=0.368
+  Ex-Gaussian: μ=7.87  σ=0.64  τ=2.93  τ_frac=0.822
+  Lognormal:   s=0.2689  μ_log=2.3359  dist_skew=0.842
+
+  Phase: Q2_mid_early  (n=868)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2993.6    197.9      -1494.8   0.0940   0.0000    OK
+  lognormal           2859.2     63.5      -1427.6   0.0635   0.0000    OK
+  exgaussian          2795.7      0.0      -1394.8   0.0196   0.4060    OK
+  Features: mean=8.57s  std=1.35  skew=1.449  kurt=4.306  cv=0.158
+  Ex-Gaussian: μ=7.39  σ=0.65  τ=1.18  τ_frac=0.644
+  Lognormal:   s=0.1480  μ_log=2.1365  dist_skew=0.450
+
+  Phase: Q3_mid_late  (n=868)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3046.0    227.4      -1521.0   0.0950   0.0000    OK
+  lognormal           2898.6     80.0      -1447.3   0.0618   0.0000    OK
+  exgaussian          2818.7      0.0      -1406.3   0.0281   0.0240    OK
+  Features: mean=8.39s  std=1.40  skew=1.512  kurt=4.357  cv=0.167
+  Ex-Gaussian: μ=7.16  σ=0.63  τ=1.23  τ_frac=0.660
+  Lognormal:   s=0.1548  μ_log=2.1141  dist_skew=0.471
+
+  Phase: Q4_late  (n=869)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3032.3    225.6      -1514.2   0.0941   0.0000    OK
+  lognormal           2881.0     74.2      -1438.5   0.0599   0.0000    OK
+  exgaussian          2806.8      0.0      -1400.4   0.0212   0.3180    OK
+  Features: mean=8.23s  std=1.38  skew=1.562  kurt=5.068  cv=0.168
+  Ex-Gaussian: μ=6.99  σ=0.61  τ=1.23  τ_frac=0.669
+  Lognormal:   s=0.1559  μ_log=2.0947  dist_skew=0.475
+
+
+============================================================
+Solver: 2014ZAKR01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=810)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3607.7    310.6      -1801.8   0.1052   0.0000    OK
+  lognormal           3389.5     92.5      -1692.7   0.0661   0.0000    OK
+  exgaussian          3297.0      0.0      -1645.5   0.0190   0.5440    OK
+  Features: mean=10.61s  std=2.24  skew=2.095  kurt=8.345  cv=0.211
+  Ex-Gaussian: μ=8.61  σ=0.82  τ=1.99  τ_frac=0.707
+  Lognormal:   s=0.1879  μ_log=2.3426  dist_skew=0.576
+
+  Phase: Q2_mid_early  (n=810)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2995.8    248.7      -1495.9   0.1092   0.0000    OK
+  lognormal           2831.3     84.2      -1413.7   0.0737   0.0000    OK
+  exgaussian          2747.1      0.0      -1370.6   0.0230   0.2320    OK
+  Features: mean=9.08s  std=1.53  skew=1.850  kurt=6.890  cv=0.169
+  Ex-Gaussian: μ=7.79  σ=0.70  τ=1.29  τ_frac=0.647
+  Lognormal:   s=0.1546  μ_log=2.1935  dist_skew=0.470
+
+  Phase: Q3_mid_late  (n=810)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3096.2    274.5      -1546.1   0.1000   0.0000    OK
+  lognormal           2900.1     78.3      -1448.0   0.0603   0.0000    OK
+  exgaussian          2821.7      0.0      -1407.9   0.0134   0.9680    OK
+  Features: mean=9.07s  std=1.63  skew=2.408  kurt=14.255  cv=0.180
+  Ex-Gaussian: μ=7.70  σ=0.71  τ=1.37  τ_frac=0.658
+  Lognormal:   s=0.1616  μ_log=2.1914  dist_skew=0.492
+
+  Phase: Q4_late  (n=810)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3048.3    260.0      -1522.2   0.1016   0.0000    OK
+  lognormal           2859.6     71.3      -1427.8   0.0611   0.0000    OK
+  exgaussian          2788.3      0.0      -1391.2   0.0283   0.0400    OK
+  Features: mean=9.00s  std=1.59  skew=2.442  kurt=14.947  cv=0.176
+  Ex-Gaussian: μ=7.78  σ=0.81  τ=1.22  τ_frac=0.601
+  Lognormal:   s=0.1588  μ_log=2.1839  dist_skew=0.484
+
+
+============================================================
+Solver: 2012PARK03  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=776)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3965.0    661.9      -1980.5   0.1748   0.0000    OK
+  lognormal           3517.8    214.7      -1756.9   0.1191   0.0000    OK
+  exgaussian          3303.1      0.0      -1648.5   0.0527   0.0000    OK
+  Features: mean=8.59s  std=3.11  skew=3.321  kurt=20.659  cv=0.362
+  Ex-Gaussian: μ=5.96  σ=0.47  τ=2.63  τ_frac=0.848
+  Lognormal:   s=0.2839  μ_log=2.1042  dist_skew=0.893
+
+  Phase: Q2_mid_early  (n=777)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1870.5     14.6       -933.3   0.0392   0.0080    OK
+  lognormal           1862.2      6.3       -929.1   0.0302   0.0920    OK
+  exgaussian          1856.0      0.0       -925.0   0.0239   0.2440    OK
+  Features: mean=6.36s  std=0.80  skew=0.336  kurt=0.763  cv=0.126
+  Ex-Gaussian: μ=5.91  σ=0.66  τ=0.45  τ_frac=0.405
+  Lognormal:   s=0.1267  μ_log=1.8427  dist_skew=0.384
+
+  Phase: Q3_mid_late  (n=777)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1714.4     58.3       -855.2   0.0647   0.0000    OK
+  lognormal           1673.5     17.4       -834.7   0.0395   0.0040    OK
+  exgaussian          1656.1      0.0       -825.0   0.0216   0.3660    OK
+  Features: mean=5.74s  std=0.73  skew=0.718  kurt=1.502  cv=0.127
+  Ex-Gaussian: μ=5.21  σ=0.50  τ=0.53  τ_frac=0.516
+  Lognormal:   s=0.1243  μ_log=1.7403  dist_skew=0.376
+
+  Phase: Q4_late  (n=777)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1753.6    131.4       -874.8   0.0784   0.0000    OK
+  lognormal           1664.2     42.0       -830.1   0.0509   0.0000    OK
+  exgaussian          1622.2      0.0       -808.1   0.0215   0.3460    OK
+  Features: mean=5.75s  std=0.75  skew=1.345  kurt=4.835  cv=0.130
+  Ex-Gaussian: μ=5.17  σ=0.44  τ=0.59  τ_frac=0.572
+  Lognormal:   s=0.1234  μ_log=1.7416  dist_skew=0.374
+
+
+============================================================
+Solver: 2015KUCA01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=760)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3814.6    268.1      -1905.3   0.0993   0.0000    OK
+  lognormal           3600.4     53.9      -1798.2   0.0540   0.0000    OK
+  exgaussian          3546.5      0.0      -1770.2   0.0308   0.0680    OK
+  Features: mean=10.87s  std=2.97  skew=1.789  kurt=6.234  cv=0.273
+  Ex-Gaussian: μ=7.99  σ=0.93  τ=2.88  τ_frac=0.755
+  Lognormal:   s=0.2448  μ_log=2.3545  dist_skew=0.761
+
+  Phase: Q2_mid_early  (n=760)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2776.5    201.6      -1386.2   0.0866   0.0000    OK
+  lognormal           2618.5     43.6      -1307.2   0.0474   0.0000    OK
+  exgaussian          2574.9      0.0      -1284.5   0.0251   0.1320    OK
+  Features: mean=8.28s  std=1.50  skew=2.152  kurt=13.507  cv=0.181
+  Ex-Gaussian: μ=7.04  σ=0.74  τ=1.24  τ_frac=0.625
+  Lognormal:   s=0.1657  μ_log=2.0989  dist_skew=0.505
+
+  Phase: Q3_mid_late  (n=760)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2717.8    216.2      -1356.9   0.0877   0.0000    OK
+  lognormal           2541.4     39.7      -1268.7   0.0466   0.0000    OK
+  exgaussian          2501.6      0.0      -1247.8   0.0165   0.8460    OK
+  Features: mean=7.97s  std=1.44  skew=2.802  kurt=25.310  cv=0.181
+  Ex-Gaussian: μ=6.81  σ=0.72  τ=1.16  τ_frac=0.617
+  Lognormal:   s=0.1635  μ_log=2.0614  dist_skew=0.498
+
+  Phase: Q4_late  (n=760)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2592.4    142.2      -1294.2   0.0884   0.0000    OK
+  lognormal           2485.0     34.8      -1240.5   0.0533   0.0000    OK
+  exgaussian          2450.2      0.0      -1222.1   0.0176   0.7440    OK
+  Features: mean=7.78s  std=1.33  skew=1.258  kurt=3.171  cv=0.171
+  Ex-Gaussian: μ=6.65  σ=0.69  τ=1.13  τ_frac=0.621
+  Lognormal:   s=0.1612  μ_log=2.0386  dist_skew=0.491
+
+
+============================================================
+Solver: 2014SEBA01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=741)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3664.9    546.0      -1830.4   0.1453   0.0000    OK
+  lognormal           3221.1    102.2      -1608.5   0.0712   0.0000    OK
+  exgaussian          3118.9      0.0      -1556.4   0.0366   0.0060    OK
+  Features: mean=10.10s  std=2.86  skew=4.952  kurt=40.590  cv=0.283
+  Ex-Gaussian: μ=8.03  σ=0.95  τ=2.07  τ_frac=0.686
+  Lognormal:   s=0.2157  μ_log=2.2858  dist_skew=0.665
+
+  Phase: Q2_mid_early  (n=741)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2447.0    138.2      -1221.5   0.0834   0.0000    OK
+  lognormal           2347.2     38.4      -1171.6   0.0520   0.0000    OK
+  exgaussian          2308.8      0.0      -1151.4   0.0209   0.4500    OK
+  Features: mean=7.82s  std=1.26  skew=1.362  kurt=4.545  cv=0.161
+  Ex-Gaussian: μ=6.81  σ=0.70  τ=1.01  τ_frac=0.590
+  Lognormal:   s=0.1523  μ_log=2.0443  dist_skew=0.463
+
+  Phase: Q3_mid_late  (n=741)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2261.7    130.2      -1128.8   0.0849   0.0000    OK
+  lognormal           2173.0     41.6      -1084.5   0.0600   0.0000    OK
+  exgaussian          2131.5      0.0      -1062.7   0.0332   0.0120    OK
+  Features: mean=7.25s  std=1.11  skew=1.095  kurt=1.826  cv=0.153
+  Ex-Gaussian: μ=6.30  σ=0.59  τ=0.95  τ_frac=0.617
+  Lognormal:   s=0.1459  μ_log=1.9698  dist_skew=0.443
+
+  Phase: Q4_late  (n=741)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2086.2    120.9      -1041.1   0.0967   0.0000    OK
+  lognormal           2006.1     40.8      -1001.1   0.0670   0.0000    OK
+  exgaussian          1965.3      0.0       -979.7   0.0301   0.0180    OK
+  Features: mean=6.84s  std=0.99  skew=1.065  kurt=1.908  cv=0.144
+  Ex-Gaussian: μ=6.03  σ=0.55  τ=0.81  τ_frac=0.594
+  Lognormal:   s=0.1379  μ_log=1.9133  dist_skew=0.418
+
+
+============================================================
+Solver: 2013BURL01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=711)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4605.6   1130.3      -2300.8   0.2383   0.0000    OK
+  lognormal           3679.1    203.8      -1837.5   0.1232   0.0000    OK
+  exgaussian          3475.3      0.0      -1734.6   0.0818   0.0000    OK
+  Features: mean=11.26s  std=6.16  skew=9.485  kurt=142.998  cv=0.547
+  Ex-Gaussian: μ=7.77  σ=0.77  τ=3.49  τ_frac=0.820
+  Lognormal:   s=0.3029  μ_log=2.3597  dist_skew=0.960
+
+  Phase: Q2_mid_early  (n=712)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2496.4    146.9      -1246.2   0.0784   0.0000    OK
+  lognormal           2383.2     33.7      -1189.6   0.0450   0.0000    OK
+  exgaussian          2349.5      0.0      -1171.8   0.0219   0.3780    OK
+  Features: mean=8.42s  std=1.39  skew=1.625  kurt=7.178  cv=0.166
+  Ex-Gaussian: μ=7.29  σ=0.75  τ=1.13  τ_frac=0.601
+  Lognormal:   s=0.1547  μ_log=2.1183  dist_skew=0.471
+
+  Phase: Q3_mid_late  (n=712)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2485.5    138.2      -1240.7   0.1029   0.0000    OK
+  lognormal           2380.7     33.4      -1188.4   0.0685   0.0000    OK
+  exgaussian          2347.3      0.0      -1170.7   0.0291   0.0520    OK
+  Features: mean=8.03s  std=1.38  skew=1.405  kurt=4.967  cv=0.172
+  Ex-Gaussian: μ=6.87  σ=0.73  τ=1.16  τ_frac=0.616
+  Lognormal:   s=0.1620  μ_log=2.0701  dist_skew=0.494
+
+  Phase: Q4_late  (n=712)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2600.7    232.6      -1298.3   0.1093   0.0000    OK
+  lognormal           2449.3     81.2      -1222.6   0.0761   0.0000    OK
+  exgaussian          2368.1      0.0      -1181.1   0.0181   0.7320    OK
+  Features: mean=7.86s  std=1.50  skew=1.663  kurt=4.821  cv=0.191
+  Ex-Gaussian: μ=6.48  σ=0.56  τ=1.38  τ_frac=0.712
+  Lognormal:   s=0.1742  μ_log=2.0460  dist_skew=0.532
+
+
+============================================================
+Solver: 2010WEYE02  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=709)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3473.7    479.5      -1734.8   0.1642   0.0000    OK
+  lognormal           3146.6    152.4      -1571.3   0.1046   0.0000    OK
+  exgaussian          2994.2      0.0      -1494.1   0.0449   0.0020    OK
+  Features: mean=9.67s  std=2.80  skew=2.735  kurt=11.478  cv=0.289
+  Ex-Gaussian: μ=7.30  σ=0.68  τ=2.37  τ_frac=0.776
+  Lognormal:   s=0.2368  μ_log=2.2378  dist_skew=0.734
+
+  Phase: Q2_mid_early  (n=710)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2165.8    152.7      -1080.9   0.0806   0.0000    OK
+  lognormal           2058.4     45.2      -1027.2   0.0504   0.0000    OK
+  exgaussian          2013.2      0.0      -1003.6   0.0179   0.7560    OK
+  Features: mean=7.54s  std=1.11  skew=1.640  kurt=7.075  cv=0.147
+  Ex-Gaussian: μ=6.65  σ=0.61  τ=0.88  τ_frac=0.592
+  Lognormal:   s=0.1377  μ_log=2.0102  dist_skew=0.418
+
+  Phase: Q3_mid_late  (n=709)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2109.6    151.1      -1052.8   0.0987   0.0000    OK
+  lognormal           2011.5     53.0      -1003.8   0.0697   0.0000    OK
+  exgaussian          1958.5      0.0       -976.2   0.0294   0.0600    OK
+  Features: mean=7.18s  std=1.07  skew=1.371  kurt=3.869  cv=0.149
+  Ex-Gaussian: μ=6.28  σ=0.55  τ=0.90  τ_frac=0.621
+  Lognormal:   s=0.1402  μ_log=1.9615  dist_skew=0.425
+
+  Phase: Q4_late  (n=710)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1930.4    159.8       -963.2   0.0783   0.0000    OK
+  lognormal           1817.3     46.6       -906.6   0.0484   0.0000    OK
+  exgaussian          1770.6      0.0       -882.3   0.0252   0.1840    OK
+  Features: mean=6.98s  std=0.94  skew=2.127  kurt=14.956  cv=0.135
+  Ex-Gaussian: μ=6.28  σ=0.55  τ=0.70  τ_frac=0.558
+  Lognormal:   s=0.1253  μ_log=1.9351  dist_skew=0.379
+
+
+============================================================
+Solver: 2010HULL01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=856)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3925.3    541.8      -1960.6   0.1434   0.0000    OK
+  lognormal           3576.2    192.7      -1786.1   0.0967   0.0000    OK
+  exgaussian          3383.5      0.0      -1688.8   0.0325   0.0180    OK
+  Features: mean=10.68s  std=2.39  skew=2.997  kurt=13.806  cv=0.224
+  Ex-Gaussian: μ=8.74  σ=0.72  τ=1.94  τ_frac=0.729
+  Lognormal:   s=0.1861  μ_log=2.3490  dist_skew=0.570
+
+  Phase: Q2_mid_early  (n=856)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2981.0    106.7      -1488.5   0.0825   0.0000    OK
+  lognormal           2898.5     24.3      -1447.3   0.0538   0.0000    OK
+  exgaussian          2874.3      0.0      -1434.1   0.0232   0.1760    OK
+  Features: mean=9.47s  std=1.38  skew=1.003  kurt=2.297  cv=0.146
+  Ex-Gaussian: μ=8.36  σ=0.82  τ=1.11  τ_frac=0.574
+  Lognormal:   s=0.1400  μ_log=2.2379  dist_skew=0.425
+
+  Phase: Q3_mid_late  (n=856)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2925.0    157.3      -1460.5   0.0881   0.0000    OK
+  lognormal           2814.9     47.2      -1405.5   0.0576   0.0000    OK
+  exgaussian          2767.7      0.0      -1380.9   0.0179   0.5600    OK
+  Features: mean=9.10s  std=1.33  skew=1.338  kurt=4.234  cv=0.147
+  Ex-Gaussian: μ=8.01  σ=0.73  τ=1.09  τ_frac=0.598
+  Lognormal:   s=0.1387  μ_log=2.1983  dist_skew=0.421
+
+  Phase: Q4_late  (n=856)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2999.2    235.4      -1497.6   0.1009   0.0000    OK
+  lognormal           2848.1     84.3      -1422.1   0.0682   0.0000    OK
+  exgaussian          2763.8      0.0      -1378.9   0.0299   0.0200    OK
+  Features: mean=9.02s  std=1.39  skew=1.699  kurt=5.716  cv=0.154
+  Ex-Gaussian: μ=7.86  σ=0.67  τ=1.17  τ_frac=0.636
+  Lognormal:   s=0.1427  μ_log=2.1892  dist_skew=0.433
+
+
+============================================================
+Solver: 2008BARA01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=750)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3514.8    145.3      -1755.4   0.0899   0.0000    OK
+  lognormal           3400.7     31.2      -1698.3   0.0509   0.0000    OK
+  exgaussian          3369.5      0.0      -1681.8   0.0304   0.0260    OK
+  Features: mean=12.93s  std=2.51  skew=1.174  kurt=2.403  cv=0.195
+  Ex-Gaussian: μ=10.59  σ=1.13  τ=2.34  τ_frac=0.674
+  Lognormal:   s=0.1833  μ_log=2.5422  dist_skew=0.561
+
+  Phase: Q2_mid_early  (n=750)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2643.8     67.5      -1319.9   0.0466   0.0000    OK
+  lognormal           2597.0     20.7      -1296.5   0.0310   0.1120    OK
+  exgaussian          2576.3      0.0      -1285.2   0.0199   0.5500    OK
+  Features: mean=10.94s  std=1.41  skew=1.013  kurt=5.140  cv=0.129
+  Ex-Gaussian: μ=10.05  σ=1.04  τ=0.89  τ_frac=0.463
+  Lognormal:   s=0.1256  μ_log=2.3844  dist_skew=0.380
+
+  Phase: Q3_mid_late  (n=750)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2529.4     75.3      -1262.7   0.0561   0.0000    OK
+  lognormal           2475.2     21.0      -1235.6   0.0355   0.0180    OK
+  exgaussian          2454.1      0.0      -1224.1   0.0162   0.8480    OK
+  Features: mean=10.40s  std=1.30  skew=0.942  kurt=2.854  cv=0.125
+  Ex-Gaussian: μ=9.48  σ=0.89  τ=0.92  τ_frac=0.508
+  Lognormal:   s=0.1217  μ_log=2.3345  dist_skew=0.368
+
+  Phase: Q4_late  (n=751)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2647.3    199.8      -1321.6   0.0989   0.0000    OK
+  lognormal           2511.8     64.3      -1253.9   0.0664   0.0000    OK
+  exgaussian          2447.5      0.0      -1220.7   0.0311   0.0200    OK
+  Features: mean=10.07s  std=1.41  skew=2.257  kurt=14.452  cv=0.140
+  Ex-Gaussian: μ=9.02  σ=0.78  τ=1.05  τ_frac=0.573
+  Lognormal:   s=0.1287  μ_log=2.3009  dist_skew=0.390
+
+
+============================================================
+Solver: 2010THOM03  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=712)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3711.9    433.0      -1854.0   0.1366   0.0000    OK
+  lognormal           3376.2     97.2      -1686.1   0.0757   0.0000    OK
+  exgaussian          3278.9      0.0      -1636.5   0.0241   0.2620    OK
+  Features: mean=11.21s  std=3.27  skew=3.714  kurt=30.802  cv=0.292
+  Ex-Gaussian: μ=8.44  σ=0.92  τ=2.77  τ_frac=0.751
+  Lognormal:   s=0.2378  μ_log=2.3856  dist_skew=0.738
+
+  Phase: Q2_mid_early  (n=712)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2951.0    330.1      -1473.5   0.0971   0.0000    OK
+  lognormal           2682.3     61.3      -1339.1   0.0445   0.0020    OK
+  exgaussian          2620.9      0.0      -1307.5   0.0231   0.2720    OK
+  Features: mean=9.17s  std=1.92  skew=4.184  kurt=37.820  cv=0.209
+  Ex-Gaussian: μ=7.83  σ=0.93  τ=1.34  τ_frac=0.590
+  Lognormal:   s=0.1759  μ_log=2.1996  dist_skew=0.537
+
+  Phase: Q3_mid_late  (n=712)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2773.3    154.1      -1384.6   0.0751   0.0000    OK
+  lognormal           2647.4     28.3      -1321.7   0.0381   0.0200    OK
+  exgaussian          2619.2      0.0      -1306.6   0.0225   0.3440    OK
+  Features: mean=9.23s  std=1.69  skew=1.676  kurt=7.477  cv=0.183
+  Ex-Gaussian: μ=7.81  σ=0.87  τ=1.42  τ_frac=0.620
+  Lognormal:   s=0.1703  μ_log=2.2078  dist_skew=0.520
+
+  Phase: Q4_late  (n=712)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2608.4    106.6      -1302.2   0.0804   0.0000    OK
+  lognormal           2526.8     25.0      -1261.4   0.0477   0.0020    OK
+  exgaussian          2501.8      0.0      -1247.9   0.0218   0.3660    OK
+  Features: mean=9.05s  std=1.51  skew=1.022  kurt=1.783  cv=0.167
+  Ex-Gaussian: μ=7.74  σ=0.79  τ=1.32  τ_frac=0.623
+  Lognormal:   s=0.1593  μ_log=2.1898  dist_skew=0.485
+
+
+============================================================
+Solver: 2016KELL12  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=693)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3853.0    443.0      -1924.5   0.1354   0.0000    OK
+  lognormal           3491.5     81.5      -1743.8   0.0601   0.0000    OK
+  exgaussian          3410.0      0.0      -1702.0   0.0335   0.0460    OK
+  Features: mean=12.02s  std=3.89  skew=3.572  kurt=24.174  cv=0.324
+  Ex-Gaussian: μ=8.76  σ=1.07  τ=3.26  τ_frac=0.753
+  Lognormal:   s=0.2589  μ_log=2.4486  dist_skew=0.808
+
+  Phase: Q2_mid_early  (n=694)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2663.6    119.4      -1329.8   0.0866   0.0000    OK
+  lognormal           2571.5     27.3      -1283.8   0.0498   0.0000    OK
+  exgaussian          2544.2      0.0      -1269.1   0.0159   0.9080    OK
+  Features: mean=9.10s  std=1.65  skew=1.171  kurt=2.823  cv=0.181
+  Ex-Gaussian: μ=7.70  σ=0.88  τ=1.39  τ_frac=0.613
+  Lognormal:   s=0.1717  μ_log=2.1927  dist_skew=0.524
+
+  Phase: Q3_mid_late  (n=693)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2629.7     94.0      -1312.9   0.0784   0.0000    OK
+  lognormal           2551.4     15.7      -1273.7   0.0432   0.0020    OK
+  exgaussian          2535.7      0.0      -1264.9   0.0207   0.4920    OK
+  Features: mean=8.87s  std=1.61  skew=0.996  kurt=1.832  cv=0.181
+  Ex-Gaussian: μ=7.54  σ=0.92  τ=1.33  τ_frac=0.591
+  Lognormal:   s=0.1740  μ_log=2.1676  dist_skew=0.531
+
+  Phase: Q4_late  (n=694)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2672.1    206.5      -1334.0   0.1006   0.0000    OK
+  lognormal           2513.3     47.7      -1254.7   0.0654   0.0000    OK
+  exgaussian          2465.6      0.0      -1229.8   0.0240   0.2880    OK
+  Features: mean=8.89s  std=1.66  skew=2.379  kurt=16.442  cv=0.186
+  Ex-Gaussian: μ=7.47  σ=0.74  τ=1.42  τ_frac=0.657
+  Lognormal:   s=0.1684  μ_log=2.1706  dist_skew=0.514
+
+
+============================================================
+Solver: 2014PETE03  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=692)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3597.7    410.8      -1796.8   0.1171   0.0000    OK
+  lognormal           3263.5     76.5      -1629.7   0.0569   0.0000    OK
+  exgaussian          3186.9      0.0      -1590.5   0.0318   0.0220    OK
+  Features: mean=12.92s  std=3.25  skew=4.885  kurt=52.624  cv=0.252
+  Ex-Gaussian: μ=10.41  σ=1.17  τ=2.51  τ_frac=0.683
+  Lognormal:   s=0.2020  μ_log=2.5358  dist_skew=0.621
+
+  Phase: Q2_mid_early  (n=693)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2988.7    316.1      -1492.3   0.1194   0.0000    OK
+  lognormal           2753.7     81.2      -1374.9   0.0745   0.0000    OK
+  exgaussian          2672.6      0.0      -1333.3   0.0316   0.0260    OK
+  Features: mean=10.79s  std=2.09  skew=3.501  kurt=26.867  cv=0.193
+  Ex-Gaussian: μ=9.22  σ=0.93  τ=1.57  τ_frac=0.627
+  Lognormal:   s=0.1655  μ_log=2.3638  dist_skew=0.505
+
+  Phase: Q3_mid_late  (n=693)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3149.0    425.9      -1572.5   0.1452   0.0000    OK
+  lognormal           2849.0    125.9      -1422.5   0.0958   0.0000    OK
+  exgaussian          2723.1      0.0      -1358.5   0.0364   0.0060    OK
+  Features: mean=10.83s  std=2.34  skew=4.306  kurt=39.318  cv=0.216
+  Ex-Gaussian: μ=8.99  σ=0.77  τ=1.84  τ_frac=0.704
+  Lognormal:   s=0.1771  μ_log=2.3650  dist_skew=0.541
+
+  Phase: Q4_late  (n=693)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2674.1    120.7      -1335.0   0.0965   0.0000    OK
+  lognormal           2587.0     33.6      -1291.5   0.0653   0.0000    OK
+  exgaussian          2553.4      0.0      -1273.7   0.0249   0.1820    OK
+  Features: mean=10.17s  std=1.66  skew=1.122  kurt=2.120  cv=0.163
+  Ex-Gaussian: μ=8.75  σ=0.87  τ=1.42  τ_frac=0.619
+  Lognormal:   s=0.1553  μ_log=2.3071  dist_skew=0.473
+
+
+============================================================
+Solver: 2011WELC01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=654)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3720.9    587.6      -1858.5   0.1651   0.0000    OK
+  lognormal           3227.2     93.8      -1611.6   0.0788   0.0000    OK
+  exgaussian          3133.4      0.0      -1563.7   0.0430   0.0020    OK
+  Features: mean=13.48s  std=4.15  skew=8.192  kurt=122.744  cv=0.308
+  Ex-Gaussian: μ=10.64  σ=1.20  τ=2.83  τ_frac=0.702
+  Lognormal:   s=0.2170  μ_log=2.5732  dist_skew=0.669
+
+  Phase: Q2_mid_early  (n=654)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2626.0    127.2      -1311.0   0.0844   0.0000    OK
+  lognormal           2526.6     27.7      -1261.3   0.0526   0.0000    OK
+  exgaussian          2498.9      0.0      -1246.4   0.0198   0.5860    OK
+  Features: mean=11.01s  std=1.80  skew=1.590  kurt=7.256  cv=0.163
+  Ex-Gaussian: μ=9.54  σ=0.98  τ=1.47  τ_frac=0.600
+  Lognormal:   s=0.1531  μ_log=2.3864  dist_skew=0.466
+
+  Phase: Q3_mid_late  (n=654)  AIC-Pref: lognormal  LL-Pref: lognormal
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2448.3     36.4      -1222.2   0.0520   0.0000    OK
+  lognormal           2412.0      0.0      -1204.0   0.0234   0.5520    OK
+  exgaussian          2414.6      2.6      -1204.3   0.0213   0.5060    OK
+  Features: mean=10.71s  std=1.57  skew=0.612  kurt=0.588  cv=0.147
+  Ex-Gaussian: μ=9.54  σ=1.09  τ=1.16  τ_frac=0.517
+  Lognormal:   s=0.1439  μ_log=2.3604  dist_skew=0.437
+
+  Phase: Q4_late  (n=654)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2446.8     92.7      -1221.4   0.0703   0.0000    OK
+  lognormal           2373.6     19.5      -1184.8   0.0403   0.0180    OK
+  exgaussian          2354.0      0.0      -1174.0   0.0221   0.4220    OK
+  Features: mean=10.52s  std=1.57  skew=1.174  kurt=3.628  cv=0.149
+  Ex-Gaussian: μ=9.26  σ=0.92  τ=1.26  τ_frac=0.578
+  Lognormal:   s=0.1422  μ_log=2.3433  dist_skew=0.432
+
+
+============================================================
+Solver: 2014GOSL01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=602)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2645.1    187.6      -1320.6   0.0890   0.0000    OK
+  lognormal           2516.4     58.9      -1256.2   0.0509   0.0000    OK
+  exgaussian          2457.5      0.0      -1225.8   0.0247   0.3460    OK
+  Features: mean=12.60s  std=2.17  skew=1.955  kurt=7.807  cv=0.172
+  Ex-Gaussian: μ=10.79  σ=1.00  τ=1.82  τ_frac=0.646
+  Lognormal:   s=0.1567  μ_log=2.5211  dist_skew=0.477
+
+  Phase: Q2_mid_early  (n=603)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2289.8    143.1      -1142.9   0.0856   0.0000    OK
+  lognormal           2187.4     40.7      -1091.7   0.0539   0.0000    OK
+  exgaussian          2146.7      0.0      -1070.3   0.0245   0.3340    OK
+  Features: mean=11.29s  std=1.61  skew=2.059  kurt=12.914  cv=0.143
+  Ex-Gaussian: μ=10.00  σ=0.86  τ=1.29  τ_frac=0.600
+  Lognormal:   s=0.1323  μ_log=2.4145  dist_skew=0.401
+
+  Phase: Q3_mid_late  (n=603)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2302.9    186.7      -1149.4   0.1069   0.0000    OK
+  lognormal           2180.6     64.4      -1088.3   0.0719   0.0000    OK
+  exgaussian          2116.2      0.0      -1055.1   0.0332   0.0320    OK
+  Features: mean=10.98s  std=1.63  skew=2.245  kurt=11.971  cv=0.148
+  Ex-Gaussian: μ=9.74  σ=0.85  τ=1.24  τ_frac=0.594
+  Lognormal:   s=0.1352  μ_log=2.3867  dist_skew=0.410
+
+  Phase: Q4_late  (n=603)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2155.9     82.5      -1076.0   0.0795   0.0000    OK
+  lognormal           2100.0     26.6      -1048.0   0.0527   0.0000    OK
+  exgaussian          2073.4      0.0      -1033.7   0.0200   0.6900    OK
+  Features: mean=11.07s  std=1.44  skew=1.007  kurt=1.908  cv=0.130
+  Ex-Gaussian: μ=9.90  σ=0.85  τ=1.16  τ_frac=0.579
+  Lognormal:   s=0.1253  μ_log=2.3958  dist_skew=0.379
+
+
+============================================================
+Solver: 2011GROG02  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=595)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2541.0    151.9      -1268.5   0.1016   0.0000    OK
+  lognormal           2435.0     46.0      -1215.5   0.0648   0.0000    OK
+  exgaussian          2389.0      0.0      -1191.5   0.0238   0.3840    OK
+  Features: mean=11.17s  std=2.04  skew=1.470  kurt=3.753  cv=0.183
+  Ex-Gaussian: μ=9.42  σ=0.96  τ=1.75  τ_frac=0.646
+  Lognormal:   s=0.1695  μ_log=2.3987  dist_skew=0.517
+
+  Phase: Q2_mid_early  (n=595)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2160.7    128.1      -1078.4   0.0688   0.0000    OK
+  lognormal           2063.3     30.8      -1029.7   0.0366   0.0500    OK
+  exgaussian          2032.6      0.0      -1013.3   0.0326   0.0360    OK
+  Features: mean=9.93s  std=1.48  skew=1.917  kurt=11.104  cv=0.149
+  Ex-Gaussian: μ=8.80  σ=0.85  τ=1.13  τ_frac=0.571
+  Lognormal:   s=0.1389  μ_log=2.2855  dist_skew=0.421
+
+  Phase: Q3_mid_late  (n=595)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2165.0    137.8      -1080.5   0.0782   0.0000    OK
+  lognormal           2069.8     42.6      -1032.9   0.0510   0.0000    OK
+  exgaussian          2027.2      0.0      -1010.6   0.0200   0.7220    OK
+  Features: mean=9.75s  std=1.49  skew=1.641  kurt=6.248  cv=0.153
+  Ex-Gaussian: μ=8.55  σ=0.80  τ=1.19  τ_frac=0.600
+  Lognormal:   s=0.1424  μ_log=2.2664  dist_skew=0.432
+
+  Phase: Q4_late  (n=595)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2213.2    174.9      -1104.6   0.0962   0.0000    OK
+  lognormal           2088.0     49.7      -1042.0   0.0603   0.0000    OK
+  exgaussian          2038.3      0.0      -1016.2   0.0178   0.8760    OK
+  Features: mean=9.63s  std=1.55  skew=2.289  kurt=13.418  cv=0.161
+  Ex-Gaussian: μ=8.39  σ=0.78  τ=1.23  τ_frac=0.614
+  Lognormal:   s=0.1464  μ_log=2.2534  dist_skew=0.445
+
+
+============================================================
+Solver: 2006HALC01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=565)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2731.6    214.8      -1363.8   0.1101   0.0000    OK
+  lognormal           2566.3     49.5      -1281.2   0.0670   0.0000    OK
+  exgaussian          2516.8      0.0      -1255.4   0.0234   0.4360    OK
+  Features: mean=12.96s  std=2.71  skew=2.736  kurt=18.348  cv=0.209
+  Ex-Gaussian: μ=10.71  σ=1.14  τ=2.26  τ_frac=0.665
+  Lognormal:   s=0.1835  μ_log=2.5442  dist_skew=0.561
+
+  Phase: Q2_mid_early  (n=565)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3124.4    810.0      -1560.2   0.2040   0.0000    OK
+  lognormal           2408.6     94.3      -1202.3   0.0859   0.0000    OK
+  exgaussian          2314.4      0.0      -1154.2   0.0502   0.0000    OK
+  Features: mean=11.53s  std=3.83  skew=15.435  kurt=310.927  cv=0.332
+  Ex-Gaussian: μ=9.71  σ=1.00  τ=1.82  τ_frac=0.645
+  Lognormal:   s=0.1801  μ_log=2.4233  dist_skew=0.551
+
+  Phase: Q3_mid_late  (n=565)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2113.8     70.7      -1054.9   0.0696   0.0000    OK
+  lognormal           2056.5     13.5      -1026.3   0.0399   0.0320    OK
+  exgaussian          2043.1      0.0      -1018.5   0.0330   0.0600    OK
+  Features: mean=10.60s  std=1.57  skew=1.093  kurt=3.285  cv=0.148
+  Ex-Gaussian: μ=9.36  σ=0.95  τ=1.24  τ_frac=0.564
+  Lognormal:   s=0.1419  μ_log=2.3504  dist_skew=0.431
+
+  Phase: Q4_late  (n=565)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2053.8     72.7      -1024.9   0.0702   0.0000    OK
+  lognormal           1996.7     15.6       -996.3   0.0425   0.0140    OK
+  exgaussian          1981.1      0.0       -987.5   0.0276   0.2220    OK
+  Features: mean=10.26s  std=1.49  skew=1.003  kurt=1.978  cv=0.145
+  Ex-Gaussian: μ=9.00  σ=0.83  τ=1.27  τ_frac=0.605
+  Lognormal:   s=0.1389  μ_log=2.3189  dist_skew=0.421
+
+
+============================================================
+Solver: 2005AKKE01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=563)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3535.4    764.7      -1765.7   0.2318   0.0000    OK
+  lognormal           2978.9    208.2      -1487.4   0.1412   0.0000    OK
+  exgaussian          2770.7      0.0      -1382.4   0.0874   0.0000    OK
+  Features: mean=13.90s  std=5.57  skew=5.932  kurt=48.808  cv=0.401
+  Ex-Gaussian: μ=10.47  σ=0.88  τ=3.44  τ_frac=0.797
+  Lognormal:   s=0.2548  μ_log=2.5905  dist_skew=0.794
+
+  Phase: Q2_mid_early  (n=564)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2640.9    306.5      -1318.4   0.1341   0.0000    OK
+  lognormal           2429.4     95.1      -1212.7   0.0796   0.0000    OK
+  exgaussian          2334.4      0.0      -1164.2   0.0395   0.0080    OK
+  Features: mean=11.35s  std=2.51  skew=2.860  kurt=13.179  cv=0.221
+  Ex-Gaussian: μ=9.36  σ=0.91  τ=1.99  τ_frac=0.686
+  Lognormal:   s=0.1866  μ_log=2.4099  dist_skew=0.571
+
+  Phase: Q3_mid_late  (n=563)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2609.5    397.9      -1302.8   0.1346   0.0000    OK
+  lognormal           2305.4     93.8      -1150.7   0.0766   0.0000    OK
+  exgaussian          2211.7      0.0      -1102.8   0.0343   0.0400    OK
+  Features: mean=10.48s  std=2.45  skew=5.577  kurt=60.343  cv=0.234
+  Ex-Gaussian: μ=8.70  σ=0.83  τ=1.78  τ_frac=0.681
+  Lognormal:   s=0.1817  μ_log=2.3306  dist_skew=0.556
+
+  Phase: Q4_late  (n=564)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2044.3     86.0      -1020.1   0.0738   0.0000    OK
+  lognormal           1976.1     17.8       -986.0   0.0418   0.0100    OK
+  exgaussian          1958.3      0.0       -976.1   0.0281   0.1880    OK
+  Features: mean=9.54s  std=1.48  skew=1.191  kurt=3.303  cv=0.155
+  Ex-Gaussian: μ=8.33  σ=0.84  τ=1.21  τ_frac=0.590
+  Lognormal:   s=0.1473  μ_log=2.2447  dist_skew=0.448
+
+
+============================================================
+Solver: 2009PROV01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=940)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            5330.7    673.5      -2663.3   0.1620   0.0000    OK
+  lognormal           4882.2    225.0      -2439.1   0.1008   0.0000    OK
+  exgaussian          4657.2      0.0      -2325.6   0.0461   0.0000    OK
+  Features: mean=15.22s  std=4.12  skew=2.992  kurt=12.928  cv=0.270
+  Ex-Gaussian: μ=11.87  σ=1.05  τ=3.35  τ_frac=0.761
+  Lognormal:   s=0.2188  μ_log=2.6954  dist_skew=0.675
+
+  Phase: Q2_mid_early  (n=940)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4015.6    278.0      -2005.8   0.0848   0.0000    OK
+  lognormal           3816.7     79.0      -1906.4   0.0496   0.0000    OK
+  exgaussian          3737.7      0.0      -1865.8   0.0260   0.0400    OK
+  Features: mean=12.79s  std=2.05  skew=2.343  kurt=13.523  cv=0.160
+  Ex-Gaussian: μ=11.28  σ=1.12  τ=1.51  τ_frac=0.574
+  Lognormal:   s=0.1454  μ_log=2.5373  dist_skew=0.442
+
+  Phase: Q3_mid_late  (n=940)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3525.6     95.3      -1760.8   0.0695   0.0000    OK
+  lognormal           3449.2     18.9      -1722.6   0.0423   0.0000    OK
+  exgaussian          3430.3      0.0      -1712.2   0.0187   0.4140    OK
+  Features: mean=11.71s  std=1.58  skew=0.959  kurt=2.736  cv=0.135
+  Ex-Gaussian: μ=10.53  σ=1.03  τ=1.18  τ_frac=0.533
+  Lognormal:   s=0.1302  μ_log=2.4519  dist_skew=0.395
+
+  Phase: Q4_late  (n=940)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3767.6    267.5      -1881.8   0.0888   0.0000    OK
+  lognormal           3581.3     81.2      -1788.7   0.0539   0.0000    OK
+  exgaussian          3500.1      0.0      -1747.0   0.0268   0.0260    OK
+  Features: mean=11.45s  std=1.79  skew=2.095  kurt=10.706  cv=0.156
+  Ex-Gaussian: μ=10.03  σ=0.91  τ=1.42  τ_frac=0.609
+  Lognormal:   s=0.1432  μ_log=2.4275  dist_skew=0.435
+
+
+============================================================
+Solver: 2012CANT02  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=737)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3824.2    361.7      -1910.1   0.1383   0.0000    OK
+  lognormal           3585.7    123.2      -1790.9   0.0927   0.0000    OK
+  exgaussian          3462.5      0.0      -1728.3   0.0260   0.1780    OK
+  Features: mean=13.23s  std=3.23  skew=2.114  kurt=7.425  cv=0.244
+  Ex-Gaussian: μ=10.30  σ=0.94  τ=2.93  τ_frac=0.758
+  Lognormal:   s=0.2129  μ_log=2.5579  dist_skew=0.656
+
+  Phase: Q2_mid_early  (n=737)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2752.2     75.1      -1374.1   0.0585   0.0000    OK
+  lognormal           2689.1     12.0      -1342.6   0.0352   0.0340    OK
+  exgaussian          2677.1      0.0      -1335.6   0.0219   0.3880    OK
+  Features: mean=11.10s  std=1.56  skew=0.995  kurt=3.215  cv=0.141
+  Ex-Gaussian: μ=9.91  σ=1.01  τ=1.19  τ_frac=0.541
+  Lognormal:   s=0.1360  μ_log=2.3979  dist_skew=0.412
+
+  Phase: Q3_mid_late  (n=737)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2605.1    118.3      -1300.6   0.0768   0.0000    OK
+  lognormal           2528.0     41.2      -1262.0   0.0542   0.0000    OK
+  exgaussian          2486.8      0.0      -1240.4   0.0238   0.2220    OK
+  Features: mean=10.55s  std=1.41  skew=1.082  kurt=2.078  cv=0.134
+  Ex-Gaussian: μ=9.36  σ=0.77  τ=1.19  τ_frac=0.606
+  Lognormal:   s=0.1282  μ_log=2.3478  dist_skew=0.388
+
+  Phase: Q4_late  (n=738)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2644.7    105.2      -1320.4   0.0783   0.0000    OK
+  lognormal           2571.6     32.0      -1283.8   0.0502   0.0000    OK
+  exgaussian          2539.6      0.0      -1266.8   0.0199   0.5200    OK
+  Features: mean=10.45s  std=1.45  skew=1.029  kurt=2.086  cv=0.139
+  Ex-Gaussian: μ=9.24  σ=0.82  τ=1.21  τ_frac=0.597
+  Lognormal:   s=0.1331  μ_log=2.3376  dist_skew=0.403
+
+
+============================================================
+Solver: 2010RONK01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=730)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4949.2   1129.9      -2472.6   0.2311   0.0000    OK
+  lognormal           3969.6    150.3      -1982.8   0.0846   0.0000    OK
+  exgaussian          3819.4      0.0      -1906.7   0.0420   0.0080    OK
+  Features: mean=14.44s  std=7.16  skew=13.960  kurt=282.887  cv=0.496
+  Ex-Gaussian: μ=10.25  σ=0.87  τ=4.19  τ_frac=0.828
+  Lognormal:   s=0.2653  μ_log=2.6241  dist_skew=0.830
+
+  Phase: Q2_mid_early  (n=731)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2889.3    138.7      -1442.6   0.0894   0.0000    OK
+  lognormal           2792.1     41.5      -1394.0   0.0576   0.0000    OK
+  exgaussian          2750.6      0.0      -1372.3   0.0231   0.2740    OK
+  Features: mean=11.48s  std=1.74  skew=1.411  kurt=4.992  cv=0.152
+  Ex-Gaussian: μ=10.11  σ=0.99  τ=1.37  τ_frac=0.581
+  Lognormal:   s=0.1434  μ_log=2.4304  dist_skew=0.435
+
+  Phase: Q3_mid_late  (n=730)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2920.0    172.3      -1458.0   0.0956   0.0000    OK
+  lognormal           2801.3     53.7      -1398.7   0.0618   0.0000    OK
+  exgaussian          2747.7      0.0      -1370.8   0.0259   0.1220    OK
+  Features: mean=11.01s  std=1.78  skew=1.547  kurt=5.096  cv=0.162
+  Ex-Gaussian: μ=9.55  σ=0.92  τ=1.47  τ_frac=0.615
+  Lognormal:   s=0.1511  μ_log=2.3871  dist_skew=0.459
+
+  Phase: Q4_late  (n=731)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3139.8    315.3      -1567.9   0.1025   0.0000    OK
+  lognormal           2894.7     70.2      -1445.4   0.0566   0.0000    OK
+  exgaussian          2824.5      0.0      -1409.2   0.0259   0.1500    OK
+  Features: mean=11.13s  std=2.07  skew=4.073  kurt=42.351  cv=0.186
+  Ex-Gaussian: μ=9.52  σ=0.91  τ=1.61  τ_frac=0.638
+  Lognormal:   s=0.1592  μ_log=2.3957  dist_skew=0.485
+
+
+============================================================
+Solver: 2012ICKL01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=674)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3383.3    362.6      -1689.7   0.1306   0.0000    OK
+  lognormal           3129.5    108.7      -1562.7   0.0788   0.0000    OK
+  exgaussian          3020.8      0.0      -1507.4   0.0239   0.3180    OK
+  Features: mean=12.67s  std=2.97  skew=2.906  kurt=16.176  cv=0.234
+  Ex-Gaussian: μ=10.18  σ=0.97  τ=2.50  τ_frac=0.721
+  Lognormal:   s=0.1982  μ_log=2.5180  dist_skew=0.609
+
+  Phase: Q2_mid_early  (n=675)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2554.0    162.9      -1275.0   0.0915   0.0000    OK
+  lognormal           2444.1     53.0      -1220.1   0.0592   0.0000    OK
+  exgaussian          2391.1      0.0      -1192.6   0.0163   0.9060    OK
+  Features: mean=10.91s  std=1.60  skew=1.678  kurt=6.267  cv=0.147
+  Ex-Gaussian: μ=9.60  σ=0.83  τ=1.31  τ_frac=0.613
+  Lognormal:   s=0.1365  μ_log=2.3800  dist_skew=0.414
+
+  Phase: Q3_mid_late  (n=675)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2347.2     81.2      -1171.6   0.0743   0.0000    OK
+  lognormal           2288.4     22.4      -1142.2   0.0499   0.0000    OK
+  exgaussian          2266.0      0.0      -1130.0   0.0168   0.8620    OK
+  Features: mean=10.26s  std=1.37  skew=0.904  kurt=1.334  cv=0.134
+  Ex-Gaussian: μ=9.11  σ=0.79  τ=1.15  τ_frac=0.591
+  Lognormal:   s=0.1292  μ_log=2.3195  dist_skew=0.391
+
+  Phase: Q4_late  (n=675)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2361.3    109.3      -1178.7   0.0813   0.0000    OK
+  lognormal           2284.1     32.0      -1140.1   0.0551   0.0000    OK
+  exgaussian          2252.1      0.0      -1123.0   0.0198   0.6200    OK
+  Features: mean=10.26s  std=1.39  skew=1.297  kurt=4.790  cv=0.135
+  Ex-Gaussian: μ=9.13  σ=0.78  τ=1.13  τ_frac=0.591
+  Lognormal:   s=0.1287  μ_log=2.3199  dist_skew=0.390
+
+
+============================================================
+Solver: 2009HILD01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → lognormal  |  LL: exgaussian → lognormal
+============================================================
+
+  Phase: Q1_early  (n=653)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3390.4    216.2      -1693.2   0.1147   0.0000    OK
+  lognormal           3232.4     58.2      -1614.2   0.0674   0.0000    OK
+  exgaussian          3174.3      0.0      -1584.1   0.0239   0.3020    OK
+  Features: mean=14.61s  std=3.24  skew=1.722  kurt=4.903  cv=0.222
+  Ex-Gaussian: μ=11.78  σ=1.34  τ=2.83  τ_frac=0.680
+  Lognormal:   s=0.2004  μ_log=2.6604  dist_skew=0.616
+
+  Phase: Q2_mid_early  (n=653)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2611.9    117.6      -1304.0   0.0799   0.0000    OK
+  lognormal           2531.5     37.1      -1263.7   0.0514   0.0000    OK
+  exgaussian          2494.3      0.0      -1244.2   0.0183   0.7680    OK
+  Features: mean=12.34s  std=1.78  skew=1.266  kurt=3.472  cv=0.145
+  Ex-Gaussian: μ=10.89  σ=1.00  τ=1.44  τ_frac=0.592
+  Lognormal:   s=0.1371  μ_log=2.5031  dist_skew=0.416
+
+  Phase: Q3_mid_late  (n=653)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2573.7     33.9      -1284.8   0.0471   0.0000    OK
+  lognormal           2541.6      1.8      -1268.8   0.0236   0.5300    OK
+  exgaussian          2539.7      0.0      -1266.9   0.0218   0.5040    OK
+  Features: mean=12.24s  std=1.73  skew=0.612  kurt=0.909  cv=0.142
+  Ex-Gaussian: μ=11.02  σ=1.25  τ=1.21  τ_frac=0.493
+  Lognormal:   s=0.1394  μ_log=2.4946  dist_skew=0.423
+
+  Phase: Q4_late  (n=653)  AIC-Pref: lognormal  LL-Pref: lognormal
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2530.5     27.8      -1263.2   0.0603   0.0000    OK
+  lognormal           2502.6      0.0      -1249.3   0.0339   0.0880    OK
+  exgaussian          2506.6      4.0      -1250.3   0.0286   0.0880    OK
+  Features: mean=11.82s  std=1.68  skew=0.518  kurt=0.367  cv=0.142
+  Ex-Gaussian: μ=10.64  σ=1.21  τ=1.19  τ_frac=0.495
+  Lognormal:   s=0.1400  μ_log=2.4603  dist_skew=0.425
+
+
+============================================================
+Solver: 2011SZAT01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=617)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4496.3   1382.4      -2246.1   0.2983   0.0000    OK
+  lognormal           3367.8    253.9      -1681.9   0.1578   0.0000    OK
+  exgaussian          3113.9      0.0      -1554.0   0.1179   0.0000    OK
+  Features: mean=14.07s  std=9.23  skew=13.362  kurt=236.217  cv=0.656
+  Ex-Gaussian: μ=10.22  σ=0.76  τ=3.85  τ_frac=0.836
+  Lognormal:   s=0.2788  μ_log=2.5844  dist_skew=0.876
+
+  Phase: Q2_mid_early  (n=618)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2491.6    108.8      -1243.8   0.0749   0.0000    OK
+  lognormal           2412.8     30.0      -1204.4   0.0439   0.0060    OK
+  exgaussian          2382.8      0.0      -1188.4   0.0149   0.9780    OK
+  Features: mean=11.74s  std=1.81  skew=1.245  kurt=3.183  cv=0.154
+  Ex-Gaussian: μ=10.27  σ=1.02  τ=1.46  τ_frac=0.590
+  Lognormal:   s=0.1463  μ_log=2.4517  dist_skew=0.445
+
+  Phase: Q3_mid_late  (n=617)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2489.9    146.1      -1243.0   0.0834   0.0000    OK
+  lognormal           2382.2     38.4      -1189.1   0.0484   0.0040    OK
+  exgaussian          2343.8      0.0      -1168.9   0.0199   0.7020    OK
+  Features: mean=11.36s  std=1.82  skew=1.852  kurt=9.627  cv=0.160
+  Ex-Gaussian: μ=9.86  σ=0.93  τ=1.50  τ_frac=0.617
+  Lognormal:   s=0.1480  μ_log=2.4189  dist_skew=0.450
+
+  Phase: Q4_late  (n=618)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2611.2    216.4      -1303.6   0.1048   0.0000    OK
+  lognormal           2443.8     49.0      -1219.9   0.0637   0.0000    OK
+  exgaussian          2394.8      0.0      -1194.4   0.0220   0.5500    OK
+  Features: mean=10.99s  std=2.00  skew=3.204  kurt=28.889  cv=0.182
+  Ex-Gaussian: μ=9.42  σ=0.95  τ=1.57  τ_frac=0.622
+  Lognormal:   s=0.1606  μ_log=2.3836  dist_skew=0.489
+
+
+============================================================
+Solver: 2010BENT01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=616)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3658.0    355.5      -1827.0   0.1417   0.0000    OK
+  lognormal           3410.3    107.7      -1703.1   0.0924   0.0000    OK
+  exgaussian          3302.5      0.0      -1648.3   0.0268   0.2740    OK
+  Features: mean=17.04s  std=4.70  skew=2.707  kurt=14.480  cv=0.276
+  Ex-Gaussian: μ=12.88  σ=1.23  τ=4.16  τ_frac=0.772
+  Lognormal:   s=0.2322  μ_log=2.8059  dist_skew=0.719
+
+  Phase: Q2_mid_early  (n=617)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2523.9    105.3      -1259.9   0.0807   0.0000    OK
+  lognormal           2449.4     30.7      -1222.7   0.0540   0.0000    OK
+  exgaussian          2418.6      0.0      -1206.3   0.0213   0.5780    OK
+  Features: mean=12.92s  std=1.87  skew=1.265  kurt=3.895  cv=0.144
+  Ex-Gaussian: μ=11.36  σ=1.02  τ=1.56  τ_frac=0.604
+  Lognormal:   s=0.1372  μ_log=2.5488  dist_skew=0.416
+
+  Phase: Q3_mid_late  (n=616)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2277.7     52.9      -1136.8   0.0611   0.0000    OK
+  lognormal           2238.2     13.5      -1117.1   0.0353   0.0660    OK
+  exgaussian          2224.7      0.0      -1109.4   0.0202   0.6760    OK
+  Features: mean=11.91s  std=1.53  skew=0.774  kurt=1.386  cv=0.129
+  Ex-Gaussian: μ=10.76  σ=1.01  τ=1.15  τ_frac=0.531
+  Lognormal:   s=0.1256  μ_log=2.4695  dist_skew=0.380
+
+  Phase: Q4_late  (n=617)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2252.0     62.8      -1124.0   0.0663   0.0000    OK
+  lognormal           2204.5     15.3      -1100.3   0.0402   0.0160    OK
+  exgaussian          2189.2      0.0      -1091.6   0.0199   0.7080    OK
+  Features: mean=11.59s  std=1.50  skew=0.924  kurt=2.360  cv=0.129
+  Ex-Gaussian: μ=10.46  σ=0.97  τ=1.13  τ_frac=0.536
+  Lognormal:   s=0.1252  μ_log=2.4420  dist_skew=0.379
+
+
+============================================================
+Solver: 2013TOKA01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=612)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3053.4    358.3      -1524.7   0.1148   0.0000    OK
+  lognormal           2776.7     81.6      -1386.3   0.0599   0.0000    OK
+  exgaussian          2695.1      0.0      -1344.5   0.0319   0.0420    OK
+  Features: mean=11.87s  std=2.92  skew=3.717  kurt=24.390  cv=0.246
+  Ex-Gaussian: μ=9.56  σ=1.02  τ=2.30  τ_frac=0.694
+  Lognormal:   s=0.2009  μ_log=2.4513  dist_skew=0.617
+
+  Phase: Q2_mid_early  (n=613)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2954.9    654.6      -1475.5   0.1759   0.0000    OK
+  lognormal           2426.1    125.9      -1211.1   0.1091   0.0000    OK
+  exgaussian          2300.3      0.0      -1147.1   0.0581   0.0000    OK
+  Features: mean=10.33s  std=2.69  skew=11.025  kurt=193.848  cv=0.260
+  Ex-Gaussian: μ=8.72  σ=0.78  τ=1.61  τ_frac=0.673
+  Lognormal:   s=0.1720  μ_log=2.3169  dist_skew=0.525
+
+  Phase: Q3_mid_late  (n=612)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2638.4    274.0      -1317.2   0.1292   0.0000    OK
+  lognormal           2446.5     82.1      -1221.2   0.0905   0.0000    OK
+  exgaussian          2364.4      0.0      -1179.2   0.0367   0.0100    OK
+  Features: mean=10.53s  std=2.08  skew=2.978  kurt=19.946  cv=0.198
+  Ex-Gaussian: μ=8.83  σ=0.83  τ=1.70  τ_frac=0.673
+  Lognormal:   s=0.1717  μ_log=2.3386  dist_skew=0.524
+
+  Phase: Q4_late  (n=613)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2549.2    147.9      -1272.6   0.1009   0.0000    OK
+  lognormal           2442.1     40.9      -1219.0   0.0674   0.0000    OK
+  exgaussian          2401.2      0.0      -1197.6   0.0261   0.2400    OK
+  Features: mean=10.64s  std=1.93  skew=1.457  kurt=4.003  cv=0.182
+  Ex-Gaussian: μ=8.89  σ=0.85  τ=1.75  τ_frac=0.673
+  Lognormal:   s=0.1687  μ_log=2.3495  dist_skew=0.515
+
+
+============================================================
+Solver: 2007GOUL01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=605)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3047.5    103.2      -1521.8   0.0760   0.0000    OK
+  lognormal           2957.7     13.4      -1476.9   0.0383   0.0280    OK
+  exgaussian          2944.3      0.0      -1469.2   0.0308   0.0700    OK
+  Features: mean=14.74s  std=3.00  skew=1.109  kurt=1.897  cv=0.203
+  Ex-Gaussian: μ=12.03  σ=1.46  τ=2.71  τ_frac=0.649
+  Lognormal:   s=0.1922  μ_log=2.6713  dist_skew=0.589
+
+  Phase: Q2_mid_early  (n=606)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2639.1    263.2      -1317.5   0.1049   0.0000    OK
+  lognormal           2447.9     72.0      -1221.9   0.0596   0.0000    OK
+  exgaussian          2375.9      0.0      -1184.9   0.0204   0.6400    OK
+  Features: mean=12.47s  std=2.13  skew=3.568  kurt=27.313  cv=0.171
+  Ex-Gaussian: μ=10.87  σ=0.98  τ=1.60  τ_frac=0.621
+  Lognormal:   s=0.1474  μ_log=2.5118  dist_skew=0.448
+
+  Phase: Q3_mid_late  (n=605)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2917.8    248.8      -1456.9   0.1481   0.0000    OK
+  lognormal           2754.6     85.7      -1375.3   0.1048   0.0000    OK
+  exgaussian          2668.9      0.0      -1331.5   0.0466   0.0020    OK
+  Features: mean=12.54s  std=2.69  skew=1.957  kurt=6.463  cv=0.215
+  Ex-Gaussian: μ=10.20  σ=0.99  τ=2.34  τ_frac=0.703
+  Lognormal:   s=0.1910  μ_log=2.5097  dist_skew=0.585
+
+  Phase: Q4_late  (n=606)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2296.6     82.1      -1146.3   0.0801   0.0000    OK
+  lognormal           2233.4     18.9      -1114.7   0.0518   0.0000    OK
+  exgaussian          2214.5      0.0      -1104.2   0.0282   0.1560    OK
+  Features: mean=11.41s  std=1.61  skew=1.242  kurt=4.915  cv=0.141
+  Ex-Gaussian: μ=10.20  σ=1.01  τ=1.21  τ_frac=0.544
+  Lognormal:   s=0.1347  μ_log=2.4253  dist_skew=0.408
+
+
+============================================================
+Solver: 2005REYN01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → lognormal  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=604)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3500.3    383.3      -1748.1   0.1445   0.0000    OK
+  lognormal           3227.9    110.9      -1611.9   0.0833   0.0000    OK
+  exgaussian          3117.0      0.0      -1555.5   0.0450   0.0020    OK
+  Features: mean=17.01s  std=4.38  skew=3.339  kurt=20.639  cv=0.257
+  Ex-Gaussian: μ=13.48  σ=1.32  τ=3.54  τ_frac=0.728
+  Lognormal:   s=0.2102  μ_log=2.8094  dist_skew=0.647
+
+  Phase: Q2_mid_early  (n=604)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2425.5    103.1      -1210.7   0.0688   0.0000    OK
+  lognormal           2347.6     25.1      -1171.8   0.0431   0.0120    OK
+  exgaussian          2322.4      0.0      -1158.2   0.0242   0.3540    OK
+  Features: mean=13.53s  std=1.80  skew=1.724  kurt=11.069  cv=0.133
+  Ex-Gaussian: μ=12.14  σ=1.07  τ=1.39  τ_frac=0.566
+  Lognormal:   s=0.1254  μ_log=2.5971  dist_skew=0.380
+
+  Phase: Q3_mid_late  (n=604)  AIC-Pref: lognormal  LL-Pref: lognormal
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2369.1     20.5      -1182.6   0.0376   0.0440    OK
+  lognormal           2348.6      0.0      -1172.3   0.0239   0.5620    OK
+  exgaussian          2353.2      4.6      -1173.6   0.0203   0.6980    OK
+  Features: mean=13.29s  std=1.72  skew=0.460  kurt=0.372  cv=0.129
+  Ex-Gaussian: μ=12.20  σ=1.34  τ=1.09  τ_frac=0.448
+  Lognormal:   s=0.1279  μ_log=2.5787  dist_skew=0.387
+
+  Phase: Q4_late  (n=604)  AIC-Pref: lognormal  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2331.0     26.4      -1163.5   0.0407   0.0100    OK
+  lognormal           2304.7      0.0      -1150.3   0.0221   0.6920    OK
+  exgaussian          2306.5      1.9      -1150.3   0.0278   0.1840    OK
+  Features: mean=12.75s  std=1.66  skew=0.589  kurt=1.198  cv=0.130
+  Ex-Gaussian: μ=11.65  σ=1.25  τ=1.10  τ_frac=0.468
+  Lognormal:   s=0.1285  μ_log=2.5375  dist_skew=0.389
+
+
+============================================================
+Solver: 2010ROSE03  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=944)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4825.8    332.6      -2410.9   0.1008   0.0000    OK
+  lognormal           4606.1    112.9      -2301.1   0.0654   0.0000    OK
+  exgaussian          4493.2      0.0      -2243.6   0.0172   0.6140    OK
+  Features: mean=16.58s  std=3.11  skew=1.907  kurt=6.777  cv=0.188
+  Ex-Gaussian: μ=13.77  σ=1.17  τ=2.81  τ_frac=0.705
+  Lognormal:   s=0.1696  μ_log=2.7928  dist_skew=0.518
+
+  Phase: Q2_mid_early  (n=945)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4173.8    294.7      -2084.9   0.0975   0.0000    OK
+  lognormal           3982.1    102.9      -1989.1   0.0633   0.0000    OK
+  exgaussian          3879.2      0.0      -1936.6   0.0254   0.0380    OK
+  Features: mean=15.20s  std=2.20  skew=2.289  kurt=12.872  cv=0.145
+  Ex-Gaussian: μ=13.48  σ=1.11  τ=1.72  τ_frac=0.607
+  Lognormal:   s=0.1318  μ_log=2.7122  dist_skew=0.400
+
+  Phase: Q3_mid_late  (n=945)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4263.3    381.1      -2129.7   0.1169   0.0000    OK
+  lognormal           4029.6    147.3      -2012.8   0.0797   0.0000    OK
+  exgaussian          3882.3      0.0      -1938.1   0.0309   0.0040    OK
+  Features: mean=15.01s  std=2.31  skew=2.509  kurt=12.111  cv=0.154
+  Ex-Gaussian: μ=13.21  σ=1.04  τ=1.80  τ_frac=0.633
+  Lognormal:   s=0.1370  μ_log=2.6986  dist_skew=0.416
+
+  Phase: Q4_late  (n=945)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4316.4    513.6      -2156.2   0.1319   0.0000    OK
+  lognormal           3950.4    147.6      -1973.2   0.0821   0.0000    OK
+  exgaussian          3802.8      0.0      -1898.4   0.0412   0.0000    OK
+  Features: mean=14.53s  std=2.37  skew=5.508  kurt=72.760  cv=0.163
+  Ex-Gaussian: μ=12.88  σ=1.06  τ=1.65  τ_frac=0.608
+  Lognormal:   s=0.1357  μ_log=2.6663  dist_skew=0.412
+
+
+============================================================
+Solver: 2013ROGA02  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=784)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3760.1    189.4      -1878.1   0.1024   0.0000    OK
+  lognormal           3627.9     57.2      -1811.9   0.0688   0.0000    OK
+  exgaussian          3570.7      0.0      -1782.4   0.0244   0.1760    OK
+  Features: mean=14.51s  std=2.66  skew=1.371  kurt=3.367  cv=0.183
+  Ex-Gaussian: μ=12.10  σ=1.17  τ=2.40  τ_frac=0.672
+  Lognormal:   s=0.1708  μ_log=2.6594  dist_skew=0.521
+
+  Phase: Q2_mid_early  (n=784)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3314.5    239.1      -1655.2   0.0912   0.0000    OK
+  lognormal           3149.7     74.4      -1572.9   0.0541   0.0000    OK
+  exgaussian          3075.3      0.0      -1534.7   0.0226   0.2640    OK
+  Features: mean=12.39s  std=2.00  skew=2.120  kurt=10.073  cv=0.161
+  Ex-Gaussian: μ=10.78  σ=0.98  τ=1.60  τ_frac=0.620
+  Lognormal:   s=0.1469  μ_log=2.5052  dist_skew=0.446
+
+  Phase: Q3_mid_late  (n=784)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3119.4    169.4      -1557.7   0.0882   0.0000    OK
+  lognormal           3003.3     53.3      -1499.7   0.0580   0.0000    OK
+  exgaussian          2950.0      0.0      -1472.0   0.0167   0.7740    OK
+  Features: mean=11.74s  std=1.77  skew=1.510  kurt=5.299  cv=0.150
+  Ex-Gaussian: μ=10.26  σ=0.91  τ=1.48  τ_frac=0.618
+  Lognormal:   s=0.1411  μ_log=2.4524  dist_skew=0.428
+
+  Phase: Q4_late  (n=784)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3319.6    303.2      -1657.8   0.1139   0.0000    OK
+  lognormal           3114.9     98.5      -1555.4   0.0729   0.0000    OK
+  exgaussian          3016.3      0.0      -1505.2   0.0227   0.2760    OK
+  Features: mean=11.70s  std=2.01  skew=2.729  kurt=18.538  cv=0.171
+  Ex-Gaussian: μ=10.04  σ=0.84  τ=1.66  τ_frac=0.664
+  Lognormal:   s=0.1522  μ_log=2.4475  dist_skew=0.463
+
+
+============================================================
+Solver: 2008AURO01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=699)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4449.2    731.5      -2222.6   0.1755   0.0000    OK
+  lognormal           3843.6    126.0      -1919.8   0.0934   0.0000    OK
+  exgaussian          3717.6      0.0      -1855.8   0.0442   0.0000    OK
+  Features: mean=17.55s  std=5.82  skew=9.103  kurt=139.178  cv=0.332
+  Ex-Gaussian: μ=13.66  σ=1.37  τ=3.89  τ_frac=0.739
+  Lognormal:   s=0.2213  μ_log=2.8356  dist_skew=0.683
+
+  Phase: Q2_mid_early  (n=699)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3420.2    358.5      -1708.1   0.1327   0.0000    OK
+  lognormal           3167.5    105.8      -1581.8   0.0873   0.0000    OK
+  exgaussian          3061.7      0.0      -1527.9   0.0402   0.0000    OK
+  Features: mean=15.15s  std=2.79  skew=4.222  kurt=42.308  cv=0.184
+  Ex-Gaussian: μ=13.09  σ=1.19  τ=2.05  τ_frac=0.633
+  Lognormal:   s=0.1556  μ_log=2.7047  dist_skew=0.473
+
+  Phase: Q3_mid_late  (n=699)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3544.1    518.1      -1770.0   0.1429   0.0000    OK
+  lognormal           3114.2     88.3      -1555.1   0.0667   0.0000    OK
+  exgaussian          3025.9      0.0      -1510.0   0.0448   0.0000    OK
+  Features: mean=13.98s  std=3.05  skew=8.728  kurt=144.354  cv=0.218
+  Ex-Gaussian: μ=12.06  σ=1.24  τ=1.92  τ_frac=0.608
+  Lognormal:   s=0.1625  μ_log=2.6226  dist_skew=0.495
+
+  Phase: Q4_late  (n=700)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3293.5    153.4      -1644.7   0.0806   0.0000    OK
+  lognormal           3174.5     34.4      -1585.2   0.0450   0.0020    OK
+  exgaussian          3140.1      0.0      -1567.0   0.0289   0.0700    OK
+  Features: mean=14.53s  std=2.54  skew=1.549  kurt=5.526  cv=0.175
+  Ex-Gaussian: μ=12.34  σ=1.25  τ=2.19  τ_frac=0.637
+  Lognormal:   s=0.1626  μ_log=2.6624  dist_skew=0.495
+
+
+============================================================
+Solver: 2014JIME05  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=675)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3110.0    145.7      -1553.0   0.0999   0.0000    OK
+  lognormal           3003.5     39.2      -1499.7   0.0664   0.0000    OK
+  exgaussian          2964.2      0.0      -1479.1   0.0366   0.0060    OK
+  Features: mean=15.34s  std=2.42  skew=1.658  kurt=7.440  cv=0.158
+  Ex-Gaussian: μ=13.41  σ=1.31  τ=1.94  τ_frac=0.596
+  Lognormal:   s=0.1471  μ_log=2.7195  dist_skew=0.447
+
+  Phase: Q2_mid_early  (n=676)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2956.9     95.2      -1476.4   0.0651   0.0000    OK
+  lognormal           2882.4     20.7      -1439.2   0.0367   0.0360    OK
+  exgaussian          2861.7      0.0      -1427.9   0.0150   0.9440    OK
+  Features: mean=14.10s  std=2.15  skew=1.221  kurt=4.516  cv=0.153
+  Ex-Gaussian: μ=12.45  σ=1.32  τ=1.65  τ_frac=0.555
+  Lognormal:   s=0.1458  μ_log=2.6353  dist_skew=0.443
+
+  Phase: Q3_mid_late  (n=676)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2953.8    128.7      -1474.9   0.0823   0.0000    OK
+  lognormal           2860.4     35.3      -1428.2   0.0518   0.0000    OK
+  exgaussian          2825.1      0.0      -1409.6   0.0252   0.1820    OK
+  Features: mean=14.00s  std=2.15  skew=1.465  kurt=5.605  cv=0.153
+  Ex-Gaussian: μ=12.32  σ=1.23  τ=1.68  τ_frac=0.577
+  Lognormal:   s=0.1445  μ_log=2.6281  dist_skew=0.439
+
+  Phase: Q4_late  (n=676)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2903.5     92.8      -1449.8   0.0736   0.0000    OK
+  lognormal           2832.8     22.1      -1414.4   0.0435   0.0020    OK
+  exgaussian          2810.7      0.0      -1402.4   0.0226   0.3760    OK
+  Features: mean=14.03s  std=2.07  skew=1.121  kurt=3.106  cv=0.147
+  Ex-Gaussian: μ=12.47  σ=1.30  τ=1.55  τ_frac=0.544
+  Lognormal:   s=0.1412  μ_log=2.6307  dist_skew=0.429
+
+
+============================================================
+Solver: 2010AMBR01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=601)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3184.6    358.1      -1590.3   0.1365   0.0000    OK
+  lognormal           2910.3     83.8      -1453.2   0.0820   0.0000    OK
+  exgaussian          2826.6      0.0      -1410.3   0.0344   0.0180    OK
+  Features: mean=14.18s  std=3.41  skew=4.203  kurt=36.301  cv=0.241
+  Ex-Gaussian: μ=11.59  σ=1.26  τ=2.59  τ_frac=0.673
+  Lognormal:   s=0.1957  μ_log=2.6304  dist_skew=0.600
+
+  Phase: Q2_mid_early  (n=601)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2610.1    181.0      -1303.1   0.0880   0.0000    OK
+  lognormal           2473.9     44.7      -1234.9   0.0523   0.0000    OK
+  exgaussian          2429.2      0.0      -1211.6   0.0216   0.5840    OK
+  Features: mean=12.17s  std=2.12  skew=2.329  kurt=13.576  cv=0.174
+  Ex-Gaussian: μ=10.50  σ=1.07  τ=1.67  τ_frac=0.610
+  Lognormal:   s=0.1573  μ_log=2.4855  dist_skew=0.479
+
+  Phase: Q3_mid_late  (n=601)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2623.6    224.6      -1309.8   0.1014   0.0000    OK
+  lognormal           2457.1     58.2      -1226.6   0.0617   0.0000    OK
+  exgaussian          2398.9      0.0      -1196.5   0.0204   0.6640    OK
+  Features: mean=11.76s  std=2.14  skew=2.867  kurt=19.318  cv=0.182
+  Ex-Gaussian: μ=10.06  σ=0.98  τ=1.70  τ_frac=0.634
+  Lognormal:   s=0.1606  μ_log=2.4509  dist_skew=0.489
+
+  Phase: Q4_late  (n=601)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2588.0    218.3      -1292.0   0.0976   0.0000    OK
+  lognormal           2432.5     62.9      -1214.3   0.0628   0.0000    OK
+  exgaussian          2369.7      0.0      -1181.8   0.0199   0.7140    OK
+  Features: mean=11.78s  std=2.08  skew=2.673  kurt=17.407  cv=0.176
+  Ex-Gaussian: μ=10.06  σ=0.91  τ=1.72  τ_frac=0.654
+  Lognormal:   s=0.1570  μ_log=2.4531  dist_skew=0.478
+
+
+============================================================
+Solver: 2009ZHEN11  |  Shift: False  |  Shape: False  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=549)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2913.7    192.0      -1454.8   0.1116   0.0000    OK
+  lognormal           2779.1     57.4      -1387.5   0.0681   0.0000    OK
+  exgaussian          2721.7      0.0      -1357.8   0.0320   0.0960    OK
+  Features: mean=17.81s  std=3.43  skew=2.074  kurt=8.248  cv=0.192
+  Ex-Gaussian: μ=15.04  σ=1.57  τ=2.77  τ_frac=0.638
+  Lognormal:   s=0.1728  μ_log=2.8639  dist_skew=0.528
+
+  Phase: Q2_mid_early  (n=549)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2558.8    110.7      -1277.4   0.0820   0.0000    OK
+  lognormal           2480.1     32.0      -1238.0   0.0484   0.0000    OK
+  exgaussian          2448.1      0.0      -1221.1   0.0176   0.9040    OK
+  Features: mean=15.49s  std=2.48  skew=1.375  kurt=3.850  cv=0.160
+  Ex-Gaussian: μ=13.49  σ=1.36  τ=2.00  τ_frac=0.595
+  Lognormal:   s=0.1508  μ_log=2.7282  dist_skew=0.458
+
+  Phase: Q3_mid_late  (n=549)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2609.1    239.2      -1302.6   0.1366   0.0000    OK
+  lognormal           2458.2     88.2      -1227.1   0.0976   0.0000    OK
+  exgaussian          2369.9      0.0      -1182.0   0.0417   0.0120    OK
+  Features: mean=14.50s  std=2.60  skew=2.367  kurt=9.740  cv=0.179
+  Ex-Gaussian: μ=12.38  σ=1.05  τ=2.11  τ_frac=0.668
+  Lognormal:   s=0.1581  μ_log=2.6605  dist_skew=0.481
+
+  Phase: Q4_late  (n=550)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2727.3    224.6      -1361.7   0.1140   0.0000    OK
+  lognormal           2583.5     80.8      -1289.8   0.0737   0.0000    OK
+  exgaussian          2502.7      0.0      -1248.4   0.0223   0.5840    OK
+  Features: mean=15.11s  std=2.88  skew=2.078  kurt=7.248  cv=0.191
+  Ex-Gaussian: μ=12.59  σ=1.05  τ=2.52  τ_frac=0.706
+  Lognormal:   s=0.1696  μ_log=2.7002  dist_skew=0.518
+
+
+============================================================
+Solver: 2008VIRO01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=529)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3120.5    640.4      -1558.3   0.2102   0.0000    OK
+  lognormal           2657.3    177.1      -1326.6   0.1247   0.0000    OK
+  exgaussian          2480.1      0.0      -1237.1   0.0690   0.0000    OK
+  Features: mean=15.98s  std=4.61  skew=8.878  kurt=128.045  cv=0.288
+  Ex-Gaussian: μ=13.12  σ=0.98  τ=2.86  τ_frac=0.745
+  Lognormal:   s=0.1901  μ_log=2.7490  dist_skew=0.583
+
+  Phase: Q2_mid_early  (n=530)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2115.2     66.2      -1055.6   0.0873   0.0000    OK
+  lognormal           2070.4     21.4      -1033.2   0.0604   0.0000    OK
+  exgaussian          2049.0      0.0      -1021.5   0.0357   0.0380    OK
+  Features: mean=13.35s  std=1.77  skew=1.027  kurt=2.896  cv=0.133
+  Ex-Gaussian: μ=12.05  σ=1.15  τ=1.30  τ_frac=0.531
+  Lognormal:   s=0.1284  μ_log=2.5831  dist_skew=0.389
+
+  Phase: Q3_mid_late  (n=529)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2565.9    516.6      -1280.9   0.1635   0.0000    OK
+  lognormal           2136.6     87.3      -1066.3   0.0724   0.0000    OK
+  exgaussian          2049.2      0.0      -1021.6   0.0394   0.0080    OK
+  Features: mean=12.75s  std=2.73  skew=11.720  kurt=209.593  cv=0.214
+  Ex-Gaussian: μ=11.23  σ=0.99  τ=1.52  τ_frac=0.606
+  Lognormal:   s=0.1442  μ_log=2.5330  dist_skew=0.438
+
+  Phase: Q4_late  (n=530)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2210.4    148.7      -1103.2   0.1031   0.0000    OK
+  lognormal           2106.7     45.0      -1051.4   0.0670   0.0000    OK
+  exgaussian          2061.7      0.0      -1027.8   0.0268   0.2400    OK
+  Features: mean=12.16s  std=1.94  skew=2.021  kurt=9.901  cv=0.160
+  Ex-Gaussian: μ=10.59  σ=0.96  τ=1.58  τ_frac=0.621
+  Lognormal:   s=0.1462  μ_log=2.4872  dist_skew=0.444
+
+
+============================================================
+Solver: 2009ROTA01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=520)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3796.3    971.1      -1896.2   0.2563   0.0000    OK
+  lognormal           2987.2    162.0      -1491.6   0.1205   0.0000    OK
+  exgaussian          2825.2      0.0      -1409.6   0.0744   0.0000    OK
+  Features: mean=16.50s  std=9.29  skew=13.058  kurt=230.079  cv=0.563
+  Ex-Gaussian: μ=11.93  σ=1.00  τ=4.58  τ_frac=0.821
+  Lognormal:   s=0.2720  μ_log=2.7516  dist_skew=0.853
+
+  Phase: Q2_mid_early  (n=521)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2201.0    135.9      -1098.5   0.0940   0.0000    OK
+  lognormal           2109.4     44.2      -1052.7   0.0599   0.0000    OK
+  exgaussian          2065.2      0.0      -1029.6   0.0234   0.5420    OK
+  Features: mean=12.73s  std=1.99  skew=1.761  kurt=6.830  cv=0.157
+  Ex-Gaussian: μ=11.12  σ=1.02  τ=1.60  τ_frac=0.610
+  Lognormal:   s=0.1450  μ_log=2.5328  dist_skew=0.440
+
+  Phase: Q3_mid_late  (n=521)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2302.4    210.5      -1149.2   0.1426   0.0000    OK
+  lognormal           2165.0     73.1      -1080.5   0.0998   0.0000    OK
+  exgaussian          2091.9      0.0      -1042.9   0.0564   0.0000    OK
+  Features: mean=12.35s  std=2.20  skew=2.411  kurt=11.009  cv=0.178
+  Ex-Gaussian: μ=10.65  σ=1.00  τ=1.70  τ_frac=0.628
+  Lognormal:   s=0.1580  μ_log=2.5004  dist_skew=0.481
+
+  Phase: Q4_late  (n=521)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2171.4    126.0      -1083.7   0.0996   0.0000    OK
+  lognormal           2086.2     40.8      -1041.1   0.0700   0.0000    OK
+  exgaussian          2045.4      0.0      -1019.7   0.0227   0.6120    OK
+  Features: mean=11.91s  std=1.94  skew=1.457  kurt=3.904  cv=0.163
+  Ex-Gaussian: μ=10.21  σ=0.90  τ=1.70  τ_frac=0.653
+  Lognormal:   s=0.1517  μ_log=2.4651  dist_skew=0.461
+
+
+============================================================
+Solver: 2015SANC18  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=517)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2424.3     99.4      -1210.1   0.0754   0.0000    OK
+  lognormal           2342.8     17.9      -1169.4   0.0401   0.0540    OK
+  exgaussian          2324.9      0.0      -1159.4   0.0213   0.7240    OK
+  Features: mean=13.12s  std=2.52  skew=1.411  kurt=4.620  cv=0.192
+  Ex-Gaussian: μ=11.06  σ=1.37  τ=2.06  τ_frac=0.601
+  Lognormal:   s=0.1800  μ_log=2.5576  dist_skew=0.550
+
+  Phase: Q2_mid_early  (n=517)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2085.4     93.3      -1040.7   0.0842   0.0000    OK
+  lognormal           2011.7     19.6      -1003.8   0.0506   0.0040    OK
+  exgaussian          1992.1      0.0       -993.0   0.0205   0.7800    OK
+  Features: mean=11.14s  std=1.81  skew=1.550  kurt=7.203  cv=0.163
+  Ex-Gaussian: μ=9.72  σ=1.05  τ=1.42  τ_frac=0.574
+  Lognormal:   s=0.1532  μ_log=2.3984  dist_skew=0.466
+
+  Phase: Q3_mid_late  (n=517)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1955.7    103.5       -975.8   0.0870   0.0000    OK
+  lognormal           1881.3     29.1       -938.7   0.0565   0.0020    OK
+  exgaussian          1852.2      0.0       -923.1   0.0336   0.0900    OK
+  Features: mean=10.61s  std=1.60  skew=1.662  kurt=7.662  cv=0.151
+  Ex-Gaussian: μ=9.47  σ=0.99  τ=1.14  τ_frac=0.537
+  Lognormal:   s=0.1416  μ_log=2.3516  dist_skew=0.430
+
+  Phase: Q4_late  (n=518)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1985.0     69.9       -990.5   0.0645   0.0000    OK
+  lognormal           1929.7     14.6       -962.9   0.0335   0.1760    OK
+  exgaussian          1915.1      0.0       -954.6   0.0253   0.4420    OK
+  Features: mean=10.73s  std=1.64  skew=1.054  kurt=2.294  cv=0.153
+  Ex-Gaussian: μ=9.40  σ=0.96  τ=1.33  τ_frac=0.581
+  Lognormal:   s=0.1463  μ_log=2.3620  dist_skew=0.444
+
+
+============================================================
+Solver: 2020DWOR01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=513)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2735.0    252.1      -1365.5   0.1241   0.0000    OK
+  lognormal           2555.4     72.5      -1275.7   0.0709   0.0000    OK
+  exgaussian          2482.9      0.0      -1238.5   0.0381   0.0220    OK
+  Features: mean=14.78s  std=3.47  skew=2.465  kurt=9.728  cv=0.235
+  Ex-Gaussian: μ=11.83  σ=1.19  τ=2.95  τ_frac=0.713
+  Lognormal:   s=0.2012  μ_log=2.6711  dist_skew=0.618
+
+  Phase: Q2_mid_early  (n=514)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2504.1    262.6      -1250.1   0.1107   0.0000    OK
+  lognormal           2315.6     74.1      -1155.8   0.0653   0.0000    OK
+  exgaussian          2241.6      0.0      -1117.8   0.0326   0.1040    OK
+  Features: mean=13.36s  std=2.76  skew=3.314  kurt=21.066  cv=0.206
+  Ex-Gaussian: μ=11.19  σ=1.07  τ=2.17  τ_frac=0.670
+  Lognormal:   s=0.1745  μ_log=2.5757  dist_skew=0.533
+
+  Phase: Q3_mid_late  (n=514)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2152.7    107.7      -1074.3   0.0883   0.0000    OK
+  lognormal           2074.6     29.5      -1035.3   0.0556   0.0000    OK
+  exgaussian          2045.0      0.0      -1019.5   0.0245   0.4840    OK
+  Features: mean=12.81s  std=1.96  skew=1.601  kurt=6.804  cv=0.153
+  Ex-Gaussian: μ=11.23  σ=1.06  τ=1.58  τ_frac=0.597
+  Lognormal:   s=0.1430  μ_log=2.5399  dist_skew=0.434
+
+  Phase: Q4_late  (n=514)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2175.8    107.5      -1085.9   0.0679   0.0000    OK
+  lognormal           2088.3     20.1      -1042.2   0.0327   0.1900    OK
+  exgaussian          2068.2      0.0      -1031.1   0.0225   0.6580    OK
+  Features: mean=12.13s  std=2.00  skew=2.207  kurt=16.846  cv=0.165
+  Ex-Gaussian: μ=10.70  σ=1.23  τ=1.43  τ_frac=0.536
+  Lognormal:   s=0.1534  μ_log=2.4832  dist_skew=0.467
+
+
+============================================================
+Solver: 2011EDUA01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=1066)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            8451.7   3022.5      -4223.9   0.3370   0.0000    OK
+  lognormal           5742.3    313.1      -2869.2   0.1383   0.0000    OK
+  exgaussian          5429.2      0.0      -2711.6   0.1174   0.0000    OK
+  Features: mean=15.51s  std=12.73  skew=19.769  kurt=463.558  cv=0.820
+  Ex-Gaussian: μ=11.79  σ=0.99  τ=3.73  τ_frac=0.790
+  Lognormal:   s=0.2430  μ_log=2.6873  dist_skew=0.755
+
+  Phase: Q2_mid_early  (n=1066)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4677.9    252.4      -2336.9   0.0775   0.0000    OK
+  lognormal           4499.0     73.4      -2247.5   0.0483   0.0000    OK
+  exgaussian          4425.5      0.0      -2209.8   0.0199   0.2200    OK
+  Features: mean=13.23s  std=2.17  skew=1.630  kurt=5.866  cv=0.164
+  Ex-Gaussian: μ=11.49  σ=1.16  τ=1.73  τ_frac=0.600
+  Lognormal:   s=0.1525  μ_log=2.5700  dist_skew=0.464
+
+  Phase: Q3_mid_late  (n=1066)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4633.0    279.0      -2314.5   0.0797   0.0000    OK
+  lognormal           4435.2     81.2      -2215.6   0.0485   0.0000    OK
+  exgaussian          4354.0      0.0      -2174.0   0.0187   0.3120    OK
+  Features: mean=12.98s  std=2.12  skew=1.856  kurt=8.240  cv=0.163
+  Ex-Gaussian: μ=11.25  σ=1.07  τ=1.74  τ_frac=0.619
+  Lognormal:   s=0.1507  μ_log=2.5519  dist_skew=0.458
+
+  Phase: Q4_late  (n=1066)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4671.1    275.1      -2333.6   0.0806   0.0000    OK
+  lognormal           4466.6     70.7      -2231.3   0.0471   0.0000    OK
+  exgaussian          4396.0      0.0      -2195.0   0.0168   0.5200    OK
+  Features: mean=13.06s  std=2.16  skew=2.006  kurt=10.935  cv=0.165
+  Ex-Gaussian: μ=11.31  σ=1.11  τ=1.75  τ_frac=0.612
+  Lognormal:   s=0.1521  μ_log=2.5577  dist_skew=0.462
+
+
+============================================================
+Solver: 2003BRUC01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=695)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3668.3    278.7      -1832.2   0.0972   0.0000    OK
+  lognormal           3450.1     60.4      -1723.0   0.0496   0.0000    OK
+  exgaussian          3389.6      0.0      -1691.8   0.0274   0.1180    OK
+  Features: mean=16.61s  std=3.38  skew=3.239  kurt=25.273  cv=0.204
+  Ex-Gaussian: μ=13.96  σ=1.53  τ=2.65  τ_frac=0.633
+  Lognormal:   s=0.1768  μ_log=2.7930  dist_skew=0.540
+
+  Phase: Q2_mid_early  (n=696)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3772.6    506.4      -1884.3   0.1499   0.0000    OK
+  lognormal           3402.4    136.2      -1699.2   0.0909   0.0000    OK
+  exgaussian          3266.2      0.0      -1630.1   0.0416   0.0000    OK
+  Features: mean=15.48s  std=3.63  skew=4.922  kurt=44.127  cv=0.234
+  Ex-Gaussian: μ=12.93  σ=1.26  τ=2.56  τ_frac=0.669
+  Lognormal:   s=0.1830  μ_log=2.7207  dist_skew=0.560
+
+  Phase: Q3_mid_late  (n=695)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4386.2   1020.8      -2191.1   0.2176   0.0000    OK
+  lognormal           3500.6    135.2      -1748.3   0.0983   0.0000    OK
+  exgaussian          3365.4      0.0      -1679.7   0.0630   0.0000    OK
+  Features: mean=15.51s  std=5.67  skew=14.874  kurt=303.397  cv=0.365
+  Ex-Gaussian: μ=12.69  σ=1.30  τ=2.82  τ_frac=0.684
+  Lognormal:   s=0.1981  μ_log=2.7155  dist_skew=0.608
+
+  Phase: Q4_late  (n=696)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3463.1    229.6      -1729.5   0.1050   0.0000    OK
+  lognormal           3305.5     72.0      -1650.7   0.0657   0.0000    OK
+  exgaussian          3233.4      0.0      -1613.7   0.0310   0.0240    OK
+  Features: mean=15.50s  std=2.91  skew=2.035  kurt=8.496  cv=0.187
+  Ex-Gaussian: μ=13.18  σ=1.38  τ=2.32  τ_frac=0.627
+  Lognormal:   s=0.1698  μ_log=2.7257  dist_skew=0.518
+
+
+============================================================
+Solver: 2010GRAC02  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=671)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            4684.6    439.6      -2340.3   0.1455   0.0000    OK
+  lognormal           4348.9    103.9      -2172.4   0.0770   0.0000    OK
+  exgaussian          4245.0      0.0      -2119.5   0.0516   0.0000    OK
+  Features: mean=28.20s  std=7.92  skew=3.442  kurt=19.210  cv=0.281
+  Ex-Gaussian: μ=22.10  σ=2.60  τ=6.10  τ_frac=0.701
+  Lognormal:   s=0.2249  μ_log=3.3107  dist_skew=0.695
+
+  Phase: Q2_mid_early  (n=672)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3734.3    187.8      -1865.1   0.0801   0.0000    OK
+  lognormal           3595.8     49.3      -1795.9   0.0555   0.0000    OK
+  exgaussian          3546.5      0.0      -1770.3   0.0312   0.0400    OK
+  Features: mean=20.63s  std=3.89  skew=1.797  kurt=7.371  cv=0.188
+  Ex-Gaussian: μ=17.22  σ=1.71  τ=3.42  τ_frac=0.666
+  Lognormal:   s=0.1724  μ_log=3.0113  dist_skew=0.526
+
+  Phase: Q3_mid_late  (n=671)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3600.5    218.1      -1798.2   0.1073   0.0000    OK
+  lognormal           3444.0     61.7      -1720.0   0.0696   0.0000    OK
+  exgaussian          3382.3      0.0      -1688.2   0.0210   0.5180    OK
+  Features: mean=18.61s  std=3.53  skew=2.070  kurt=9.651  cv=0.190
+  Ex-Gaussian: μ=15.64  σ=1.57  τ=2.97  τ_frac=0.654
+  Lognormal:   s=0.1714  μ_log=2.9081  dist_skew=0.523
+
+  Phase: Q4_late  (n=672)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3507.5    171.8      -1751.7   0.0836   0.0000    OK
+  lognormal           3378.1     42.5      -1687.1   0.0471   0.0040    OK
+  exgaussian          3335.7      0.0      -1664.8   0.0176   0.8220    OK
+  Features: mean=18.37s  std=3.28  skew=1.801  kurt=7.712  cv=0.179
+  Ex-Gaussian: μ=15.66  σ=1.65  τ=2.70  τ_frac=0.621
+  Lognormal:   s=0.1645  μ_log=2.8965  dist_skew=0.501
+
+
+============================================================
+Solver: 2003DENN01  |  Shift: True  |  Shape: True  Scale: False  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=591)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3716.0    377.7      -1856.0   0.1607   0.0000    OK
+  lognormal           3470.8    132.5      -1733.4   0.1067   0.0000    OK
+  exgaussian          3338.3      0.0      -1666.1   0.0438   0.0020    OK
+  Features: mean=21.96s  std=5.60  skew=2.936  kurt=16.368  cv=0.255
+  Ex-Gaussian: μ=17.20  σ=1.44  τ=4.77  τ_frac=0.768
+  Lognormal:   s=0.2122  μ_log=3.0645  dist_skew=0.654
+
+  Phase: Q2_mid_early  (n=591)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3288.7    277.4      -1642.4   0.1445   0.0000    OK
+  lognormal           3119.4    108.1      -1557.7   0.1000   0.0000    OK
+  exgaussian          3011.3      0.0      -1502.6   0.0432   0.0060    OK
+  Features: mean=19.92s  std=3.90  skew=2.227  kurt=7.979  cv=0.196
+  Ex-Gaussian: μ=16.64  σ=1.40  τ=3.29  τ_frac=0.701
+  Lognormal:   s=0.1722  μ_log=2.9759  dist_skew=0.526
+
+  Phase: Q3_mid_late  (n=591)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3552.4    433.6      -1774.2   0.1606   0.0000    OK
+  lognormal           3275.4    156.6      -1635.7   0.1053   0.0000    OK
+  exgaussian          3118.8      0.0      -1556.4   0.0503   0.0000    OK
+  Features: mean=20.79s  std=4.87  skew=3.412  kurt=17.810  cv=0.234
+  Ex-Gaussian: μ=17.03  σ=1.38  τ=3.77  τ_frac=0.731
+  Lognormal:   s=0.1891  μ_log=3.0143  dist_skew=0.579
+
+  Phase: Q4_late  (n=592)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3597.1    278.2      -1796.6   0.1372   0.0000    OK
+  lognormal           3412.7     93.8      -1704.4   0.0875   0.0000    OK
+  exgaussian          3318.9      0.0      -1656.4   0.0400   0.0120    OK
+  Features: mean=23.09s  std=5.04  skew=2.297  kurt=9.192  cv=0.218
+  Ex-Gaussian: μ=18.81  σ=1.78  τ=4.28  τ_frac=0.706
+  Lognormal:   s=0.1902  μ_log=3.1199  dist_skew=0.583
+
+
+============================================================
+Solver: 2015NICH04  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=527)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3411.8    391.1      -1703.9   0.1611   0.0000    OK
+  lognormal           3150.4    129.7      -1573.2   0.1066   0.0000    OK
+  exgaussian          3020.7      0.0      -1507.3   0.0414   0.0220    OK
+  Features: mean=22.84s  std=6.14  skew=3.341  kurt=18.086  cv=0.269
+  Ex-Gaussian: μ=17.89  σ=1.53  τ=4.94  τ_frac=0.764
+  Lognormal:   s=0.2153  μ_log=3.1020  dist_skew=0.664
+
+  Phase: Q2_mid_early  (n=528)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2695.5    131.1      -1345.8   0.0865   0.0000    OK
+  lognormal           2603.9     39.5      -1300.0   0.0561   0.0000    OK
+  exgaussian          2564.4      0.0      -1279.2   0.0304   0.1160    OK
+  Features: mean=19.64s  std=3.10  skew=1.752  kurt=7.531  cv=0.158
+  Ex-Gaussian: μ=17.09  σ=1.57  τ=2.55  τ_frac=0.620
+  Lognormal:   s=0.1461  μ_log=2.9666  dist_skew=0.444
+
+  Phase: Q3_mid_late  (n=528)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2893.2    195.2      -1444.6   0.0978   0.0000    OK
+  lognormal           2758.6     60.7      -1377.3   0.0566   0.0020    OK
+  exgaussian          2698.0      0.0      -1346.0   0.0286   0.1880    OK
+  Features: mean=19.66s  std=3.74  skew=2.373  kurt=12.146  cv=0.190
+  Ex-Gaussian: μ=16.67  σ=1.69  τ=2.99  τ_frac=0.639
+  Lognormal:   s=0.1697  μ_log=2.9634  dist_skew=0.518
+
+  Phase: Q4_late  (n=528)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2706.2    168.6      -1351.1   0.0921   0.0000    OK
+  lognormal           2592.5     54.8      -1294.2   0.0566   0.0000    OK
+  exgaussian          2537.6      0.0      -1265.8   0.0282   0.2180    OK
+  Features: mean=19.27s  std=3.13  skew=2.161  kurt=10.431  cv=0.162
+  Ex-Gaussian: μ=16.76  σ=1.51  τ=2.51  τ_frac=0.624
+  Lognormal:   s=0.1474  μ_log=2.9469  dist_skew=0.448
+
+
+============================================================
+Solver: 2013DICK01  |  Shift: False  |  Shape: False  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=488)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2605.0    178.3      -1300.5   0.1087   0.0000    OK
+  lognormal           2479.4     52.7      -1237.7   0.0656   0.0000    OK
+  exgaussian          2426.7      0.0      -1210.4   0.0251   0.4880    OK
+  Features: mean=16.58s  std=3.48  skew=1.942  kurt=6.708  cv=0.210
+  Ex-Gaussian: μ=13.51  σ=1.34  τ=3.07  τ_frac=0.696
+  Lognormal:   s=0.1879  μ_log=2.7893  dist_skew=0.575
+
+  Phase: Q2_mid_early  (n=488)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2195.9    111.8      -1096.0   0.0940   0.0000    OK
+  lognormal           2120.7     36.6      -1058.4   0.0613   0.0000    OK
+  exgaussian          2084.1      0.0      -1039.1   0.0185   0.9240    OK
+  Features: mean=15.16s  std=2.29  skew=1.541  kurt=5.096  cv=0.151
+  Ex-Gaussian: μ=13.29  σ=1.19  τ=1.87  τ_frac=0.611
+  Lognormal:   s=0.1411  μ_log=2.7083  dist_skew=0.428
+
+  Phase: Q3_mid_late  (n=488)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2379.1    173.6      -1187.6   0.1187   0.0000    OK
+  lognormal           2265.0     59.5      -1130.5   0.0780   0.0000    OK
+  exgaussian          2205.6      0.0      -1099.8   0.0320   0.1140    OK
+  Features: mean=15.42s  std=2.76  skew=2.000  kurt=7.319  cv=0.179
+  Ex-Gaussian: μ=13.07  σ=1.16  τ=2.34  τ_frac=0.669
+  Lognormal:   s=0.1614  μ_log=2.7217  dist_skew=0.492
+
+  Phase: Q4_late  (n=488)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2381.4    161.2      -1188.7   0.0913   0.0000    OK
+  lognormal           2269.8     49.6      -1132.9   0.0541   0.0040    OK
+  exgaussian          2220.2      0.0      -1107.1   0.0294   0.2220    OK
+  Features: mean=15.58s  std=2.77  skew=2.020  kurt=7.801  cv=0.178
+  Ex-Gaussian: μ=13.27  σ=1.23  τ=2.32  τ_frac=0.652
+  Lognormal:   s=0.1604  μ_log=2.7326  dist_skew=0.489
+
+
+============================================================
+Solver: 2013MART03  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: lognormal → lognormal  |  LL: lognormal → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=468)  AIC-Pref: lognormal  LL-Pref: lognormal
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3247.3     45.5      -1621.6   0.0788   0.0000    OK
+  lognormal           3201.7      0.0      -1598.9   0.0418   0.0400    OK
+  exgaussian          3212.9     11.2      -1603.5   0.0432   0.0020    OK
+  Features: mean=32.32s  std=7.75  skew=0.649  kurt=-0.040  cv=0.240
+  Ex-Gaussian: μ=25.02  σ=4.02  τ=7.30  τ_frac=0.645
+  Lognormal:   s=0.2344  μ_log=3.4480  dist_skew=0.726
+
+  Phase: Q2_mid_early  (n=468)  AIC-Pref: lognormal  LL-Pref: lognormal
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2510.6     15.2      -1253.3   0.0293   0.4520    OK
+  lognormal           2495.5      0.0      -1245.7   0.0211   0.9000    OK
+  exgaussian          2500.1      4.6      -1247.0   0.0226   0.7260    OK
+  Features: mean=23.65s  std=3.53  skew=0.435  kurt=0.274  cv=0.149
+  Ex-Gaussian: μ=21.45  σ=2.77  τ=2.20  τ_frac=0.442
+  Lognormal:   s=0.1482  μ_log=3.1524  dist_skew=0.450
+
+  Phase: Q3_mid_late  (n=468)  AIC-Pref: lognormal  LL-Pref: lognormal
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2435.8     16.7      -1215.9   0.0461   0.0120    OK
+  lognormal           2419.1      0.0      -1207.6   0.0175   0.9860    OK
+  exgaussian          2422.8      3.6      -1208.4   0.0203   0.8600    OK
+  Features: mean=21.55s  std=3.26  skew=0.469  kurt=0.343  cv=0.151
+  Ex-Gaussian: μ=19.41  σ=2.48  τ=2.14  τ_frac=0.464
+  Lognormal:   s=0.1499  μ_log=3.0590  dist_skew=0.456
+
+  Phase: Q4_late  (n=468)  AIC-Pref: lognormal  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2431.1     19.1      -1213.6   0.0536   0.0060    OK
+  lognormal           2412.1      0.0      -1204.0   0.0296   0.4360    OK
+  exgaussian          2413.7      1.6      -1203.8   0.0267   0.4640    OK
+  Features: mean=20.59s  std=3.24  skew=0.517  kurt=0.408  cv=0.157
+  Ex-Gaussian: μ=18.32  σ=2.35  τ=2.27  τ_frac=0.491
+  Lognormal:   s=0.1559  μ_log=3.0126  dist_skew=0.474
+
+
+============================================================
+Solver: 2007OEYM01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: True
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=449)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            3502.6    316.5      -1749.3   0.1564   0.0000    OK
+  lognormal           3264.7     78.6      -1630.3   0.0918   0.0000    OK
+  exgaussian          3186.1      0.0      -1590.1   0.0368   0.1220    OK
+  Features: mean=33.78s  std=11.92  skew=2.990  kurt=15.133  cv=0.353
+  Ex-Gaussian: μ=23.52  σ=2.54  τ=10.26  τ_frac=0.802
+  Lognormal:   s=0.2829  μ_log=3.4748  dist_skew=0.890
+
+  Phase: Q2_mid_early  (n=449)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2657.7    164.2      -1326.8   0.1054   0.0000    OK
+  lognormal           2543.8     50.3      -1269.9   0.0642   0.0000    OK
+  exgaussian          2493.5      0.0      -1243.7   0.0270   0.4600    OK
+  Features: mean=26.22s  std=4.65  skew=2.445  kurt=13.429  cv=0.177
+  Ex-Gaussian: μ=22.32  σ=1.97  τ=3.90  τ_frac=0.665
+  Lognormal:   s=0.1582  μ_log=3.2533  dist_skew=0.482
+
+  Phase: Q3_mid_late  (n=449)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2826.7    235.2      -1411.3   0.1391   0.0000    OK
+  lognormal           2661.0     69.5      -1328.5   0.0841   0.0000    OK
+  exgaussian          2591.4      0.0      -1292.7   0.0483   0.0020    OK
+  Features: mean=25.13s  std=5.62  skew=2.881  kurt=14.600  cv=0.223
+  Ex-Gaussian: μ=20.63  σ=2.06  τ=4.50  τ_frac=0.686
+  Lognormal:   s=0.1893  μ_log=3.2044  dist_skew=0.580
+
+  Phase: Q4_late  (n=450)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2653.8     98.2      -1324.9   0.0863   0.0000    OK
+  lognormal           2580.6     24.9      -1288.3   0.0525   0.0100    OK
+  exgaussian          2555.7      0.0      -1274.8   0.0168   0.9800    OK
+  Features: mean=25.01s  std=4.60  skew=1.334  kurt=3.066  cv=0.184
+  Ex-Gaussian: μ=21.05  σ=2.27  τ=3.96  τ_frac=0.636
+  Lognormal:   s=0.1720  μ_log=3.2040  dist_skew=0.525
+
+
+============================================================
+Solver: 2013PAPA01  |  Shift: True  |  Shape: True  Scale: True  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=440)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2314.2    138.6      -1155.1   0.1178   0.0000    OK
+  lognormal           2215.7     40.1      -1105.8   0.0766   0.0000    OK
+  exgaussian          2175.6      0.0      -1084.8   0.0283   0.3460    OK
+  Features: mean=17.45s  std=3.34  skew=1.922  kurt=7.981  cv=0.192
+  Ex-Gaussian: μ=14.59  σ=1.46  τ=2.86  τ_frac=0.662
+  Lognormal:   s=0.1739  μ_log=2.8436  dist_skew=0.531
+
+  Phase: Q2_mid_early  (n=441)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2288.2    197.6      -1142.1   0.1219   0.0000    OK
+  lognormal           2157.0     66.3      -1076.5   0.0821   0.0000    OK
+  exgaussian          2090.6      0.0      -1042.3   0.0335   0.1320    OK
+  Features: mean=16.78s  std=3.23  skew=2.531  kurt=11.437  cv=0.192
+  Ex-Gaussian: μ=14.20  σ=1.32  τ=2.57  τ_frac=0.660
+  Lognormal:   s=0.1682  μ_log=2.8047  dist_skew=0.513
+
+  Phase: Q3_mid_late  (n=441)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1986.3     70.9       -991.1   0.0749   0.0000    OK
+  lognormal           1934.4     19.0       -965.2   0.0446   0.0380    OK
+  exgaussian          1915.4      0.0       -954.7   0.0289   0.3360    OK
+  Features: mean=15.69s  std=2.29  skew=1.211  kurt=3.323  cv=0.146
+  Ex-Gaussian: μ=13.82  σ=1.30  τ=1.87  τ_frac=0.590
+  Lognormal:   s=0.1390  μ_log=2.7432  dist_skew=0.422
+
+  Phase: Q4_late  (n=441)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1985.8    108.6       -990.9   0.0835   0.0000    OK
+  lognormal           1908.6     31.4       -952.3   0.0505   0.0080    OK
+  exgaussian          1877.2      0.0       -935.6   0.0332   0.1260    OK
+  Features: mean=15.40s  std=2.29  skew=1.920  kurt=9.494  cv=0.149
+  Ex-Gaussian: μ=13.55  σ=1.18  τ=1.86  τ_frac=0.611
+  Lognormal:   s=0.1375  μ_log=2.7248  dist_skew=0.417
+
+
+============================================================
+Solver: 2012REYE04  |  Shift: False  |  Shape: False  Scale: False  Norm-KS: False
+AIC: exgaussian → exgaussian  |  LL: exgaussian → exgaussian
+============================================================
+
+  Phase: Q1_early  (n=424)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1886.9     56.9       -941.4   0.0698   0.0000    OK
+  lognormal           1842.1     12.1       -919.1   0.0408   0.0880    OK
+  exgaussian          1830.0      0.0       -912.0   0.0254   0.5780    OK
+  Features: mean=14.98s  std=2.23  skew=1.059  kurt=2.387  cv=0.149
+  Ex-Gaussian: μ=13.14  σ=1.29  τ=1.83  τ_frac=0.588
+  Lognormal:   s=0.1426  μ_log=2.6962  dist_skew=0.433
+
+  Phase: Q2_mid_early  (n=425)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            2022.4    134.7      -1009.2   0.1114   0.0000    OK
+  lognormal           1930.9     43.3       -963.5   0.0718   0.0000    OK
+  exgaussian          1887.7      0.0       -940.8   0.0376   0.0440    OK
+  Features: mean=14.68s  std=2.60  skew=1.866  kurt=6.306  cv=0.177
+  Ex-Gaussian: μ=12.56  σ=1.23  τ=2.12  τ_frac=0.633
+  Lognormal:   s=0.1612  μ_log=2.6728  dist_skew=0.491
+
+  Phase: Q3_mid_late  (n=425)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1857.8     89.1       -926.9   0.1066   0.0000    OK
+  lognormal           1799.4     30.6       -897.7   0.0767   0.0000    OK
+  exgaussian          1768.7      0.0       -881.4   0.0390   0.0420    OK
+  Features: mean=13.96s  std=2.15  skew=1.286  kurt=2.817  cv=0.154
+  Ex-Gaussian: μ=12.18  σ=1.12  τ=1.77  τ_frac=0.612
+  Lognormal:   s=0.1449  μ_log=2.6252  dist_skew=0.440
+
+  Phase: Q4_late  (n=425)  AIC-Pref: exgaussian  LL-Pref: exgaussian
+  Distribution           AIC     ΔAIC           LL  KS-stat     KS-p   fit
+  gaussian            1843.9     69.8       -919.9   0.0908   0.0000    OK
+  lognormal           1793.4     19.4       -894.7   0.0602   0.0000    OK
+  exgaussian          1774.0      0.0       -884.0   0.0233   0.7760    OK
+  Features: mean=14.12s  std=2.11  skew=1.178  kurt=2.813  cv=0.149
+  Ex-Gaussian: μ=12.41  σ=1.19  τ=1.72  τ_frac=0.591
+  Lognormal:   s=0.1421  μ_log=2.6375  dist_skew=0.431
+
